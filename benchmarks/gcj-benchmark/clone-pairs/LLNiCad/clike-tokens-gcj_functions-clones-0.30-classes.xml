@@ -1,0 +1,360 @@
+<clones>
+<systeminfo processor="nicad5" system="clike-tokens-gcj" granularity="functions" threshold="30%" minlines="1" maxlines="2500"/>
+<cloneinfo npcs="646" npairs="661"/>
+<runinfo ncompares="39395" cputime="224312"/>
+<classinfo nclasses="52"/>
+
+<class classid="1" nclones="3" nlines="26" similarity="80">
+<source file="systems/clike-tokens-gcj/alphabet-cake_lemmaa.c.ifdefed" startline="1" endline="26" pcid="2"></source>
+<source file="systems/clike-tokens-gcj/alphabet-cake_Vishu2421.c.ifdefed" startline="1" endline="27" pcid="614"></source>
+<source file="systems/clike-tokens-gcj/alphabet-cake_Aaby.c.ifdefed" startline="1" endline="27" pcid="77"></source>
+</class>
+
+<class classid="2" nclones="4" nlines="59" similarity="75">
+<source file="systems/clike-tokens-gcj/steed-2-cruise-control_mimo31.c.ifdefed" startline="1" endline="59" pcid="8"></source>
+<source file="systems/clike-tokens-gcj/steed-2-cruise-control_piepie01.c.ifdefed" startline="1" endline="61" pcid="301"></source>
+<source file="systems/clike-tokens-gcj/steed-2-cruise-control_topwu.c.ifdefed" startline="8" endline="69" pcid="462"></source>
+<source file="systems/clike-tokens-gcj/steed-2-cruise-control_iSourabh.c.ifdefed" startline="1" endline="64" pcid="15"></source>
+</class>
+
+<class classid="3" nclones="2" nlines="7" similarity="71">
+<source file="systems/clike-tokens-gcj/ample-syrup_soimort.c.ifdefed" startline="1" endline="8" pcid="9"></source>
+<source file="systems/clike-tokens-gcj/ample-syrup_soimort.c.ifdefed" startline="10" endline="16" pcid="10"></source>
+</class>
+
+<class classid="4" nclones="39" nlines="20" similarity="70">
+<source file="systems/clike-tokens-gcj/pony-express_tatuyan.c.ifdefed" startline="1" endline="18" pcid="13"></source>
+<source file="systems/clike-tokens-gcj/tidy-numbers_trainsick.c.ifdefed" startline="51" endline="69" pcid="195"></source>
+<source file="systems/clike-tokens-gcj/bathroom-stalls_stubbscroll.c.ifdefed" startline="195" endline="217" pcid="65"></source>
+<source file="systems/clike-tokens-gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="133" endline="155" pcid="263"></source>
+<source file="systems/clike-tokens-gcj/fresh-chocolate_hidden1.c.ifdefed" startline="73" endline="95" pcid="348"></source>
+<source file="systems/clike-tokens-gcj/standing-ovation_regnarg.c.ifdefed" startline="46" endline="66" pcid="377"></source>
+<source file="systems/clike-tokens-gcj/core-training_stubbscroll.c.ifdefed" startline="70" endline="92" pcid="468"></source>
+<source file="systems/clike-tokens-gcj/bff_stubbscroll.c.ifdefed" startline="152" endline="174" pcid="19"></source>
+<source file="systems/clike-tokens-gcj/parenting-partnering_stubbscroll.c.ifdefed" startline="150" endline="172" pcid="628"></source>
+<source file="systems/clike-tokens-gcj/steed-2-cruise-control_tatuyan.c.ifdefed" startline="11" endline="28" pcid="390"></source>
+<source file="systems/clike-tokens-gcj/counting-sheep_aalapshah12297.c.ifdefed" startline="45" endline="69" pcid="407"></source>
+<source file="systems/clike-tokens-gcj/haircut_xylo.c.ifdefed" startline="102" endline="119" pcid="308"></source>
+<source file="systems/clike-tokens-gcj/senate-evacuation_santosha.c.ifdefed" startline="115" endline="133" pcid="598"></source>
+<source file="systems/clike-tokens-gcj/stable-neigh-bors_stubbscroll.c.ifdefed" startline="181" endline="203" pcid="344"></source>
+<source file="systems/clike-tokens-gcj/fractiles_caf.c.ifdefed" startline="63" endline="80" pcid="625"></source>
+<source file="systems/clike-tokens-gcj/pony-express_stubbscroll.c.ifdefed" startline="177" endline="199" pcid="70"></source>
+<source file="systems/clike-tokens-gcj/ominous-omino_saiz.c.ifdefed" startline="67" endline="85" pcid="541"></source>
+<source file="systems/clike-tokens-gcj/stable-neigh-bors_Rudolph..c.ifdefed" startline="164" endline="183" pcid="92"></source>
+<source file="systems/clike-tokens-gcj/ample-syrup_tatuyan.c.ifdefed" startline="24" endline="41" pcid="311"></source>
+<source file="systems/clike-tokens-gcj/ample-syrup_stubbscroll.c.ifdefed" startline="112" endline="134" pcid="369"></source>
+<source file="systems/clike-tokens-gcj/stable-neigh-bors_ulyr.c.ifdefed" startline="113" endline="130" pcid="142"></source>
+<source file="systems/clike-tokens-gcj/parenting-partnering_tatuyan.c.ifdefed" startline="1" endline="18" pcid="290"></source>
+<source file="systems/clike-tokens-gcj/dijkstra_caf.c.ifdefed" startline="213" endline="230" pcid="258"></source>
+<source file="systems/clike-tokens-gcj/getting-the-digits_Garogolun.c.ifdefed" startline="380" endline="397" pcid="222"></source>
+<source file="systems/clike-tokens-gcj/rank-and-file_caf.c.ifdefed" startline="57" endline="74" pcid="189"></source>
+<source file="systems/clike-tokens-gcj/slides_caf.c.ifdefed" startline="70" endline="87" pcid="374"></source>
+<source file="systems/clike-tokens-gcj/parenting-partnering_Rudolph..c.ifdefed" startline="380" endline="399" pcid="76"></source>
+<source file="systems/clike-tokens-gcj/getting-the-digits_tatuyan.c.ifdefed" startline="1" endline="24" pcid="550"></source>
+<source file="systems/clike-tokens-gcj/revenge-of-the-pancakes_alan790712.c.ifdefed" startline="38" endline="61" pcid="522"></source>
+<source file="systems/clike-tokens-gcj/tidy-numbers_akshay.rajput.c.ifdefed" startline="56" endline="80" pcid="115"></source>
+<source file="systems/clike-tokens-gcj/bff_dooglius.c.ifdefed" startline="1" endline="26" pcid="223"></source>
+<source file="systems/clike-tokens-gcj/revenge-of-the-pancakes_BrainSteel.c.ifdefed" startline="117" endline="140" pcid="33"></source>
+<source file="systems/clike-tokens-gcj/revenge-of-the-pancakes_hobermallow.c.ifdefed" startline="35" endline="58" pcid="386"></source>
+<source file="systems/clike-tokens-gcj/counter-culture_SSVK.c.ifdefed" startline="198" endline="229" pcid="156"></source>
+<source file="systems/clike-tokens-gcj/counter-culture_yhrin.c.ifdefed" startline="151" endline="179" pcid="283"></source>
+<source file="systems/clike-tokens-gcj/counter-culture_Effilry.c.ifdefed" startline="64" endline="89" pcid="84"></source>
+<source file="systems/clike-tokens-gcj/counter-culture_AxiomOfChoice.c.ifdefed" startline="77" endline="101" pcid="306"></source>
+<source file="systems/clike-tokens-gcj/close-match_akdee.c.ifdefed" startline="179" endline="207" pcid="402"></source>
+<source file="systems/clike-tokens-gcj/counting-sheep_Garogolun.c.ifdefed" startline="54" endline="80" pcid="362"></source>
+</class>
+
+<class classid="5" nclones="2" nlines="47" similarity="70">
+<source file="systems/clike-tokens-gcj/ominous-omino_manu4rhyme.c.ifdefed" startline="1" endline="49" pcid="20"></source>
+<source file="systems/clike-tokens-gcj/infinite-house-of-pancakes_maups.c.ifdefed" startline="72" endline="117" pcid="495"></source>
+</class>
+
+<class classid="6" nclones="2" nlines="9" similarity="77">
+<source file="systems/clike-tokens-gcj/ominous-omino_cjoa.c.ifdefed" startline="14" endline="23" pcid="24"></source>
+<source file="systems/clike-tokens-gcj/ominous-omino_cjoa.c.ifdefed" startline="25" endline="34" pcid="25"></source>
+</class>
+
+<class classid="7" nclones="2" nlines="20" similarity="75">
+<source file="systems/clike-tokens-gcj/revenge-of-the-pancakes_BrainSteel.c.ifdefed" startline="59" endline="78" pcid="30"></source>
+<source file="systems/clike-tokens-gcj/revenge-of-the-pancakes_BrainSteel.c.ifdefed" startline="80" endline="99" pcid="31"></source>
+</class>
+
+<class classid="8" nclones="4" nlines="13" similarity="78">
+<source file="systems/clike-tokens-gcj/counter-culture_Jayam.c.ifdefed" startline="1" endline="15" pcid="37"></source>
+<source file="systems/clike-tokens-gcj/code-jam_Sathipandu.c.ifdefed" startline="32" endline="44" pcid="605"></source>
+<source file="systems/clike-tokens-gcj/counter-culture_AxiomOfChoice.c.ifdefed" startline="16" endline="31" pcid="304"></source>
+<source file="systems/clike-tokens-gcj/counter-culture_Effilry.c.ifdefed" startline="1" endline="15" pcid="82"></source>
+</class>
+
+<class classid="9" nclones="2" nlines="16" similarity="70">
+<source file="systems/clike-tokens-gcj/getting-the-digits_supremeedible.c.ifdefed" startline="1" endline="18" pcid="41"></source>
+<source file="systems/clike-tokens-gcj/counter-culture_yhrin.c.ifdefed" startline="21" endline="35" pcid="280"></source>
+</class>
+
+<class classid="10" nclones="2" nlines="113" similarity="80">
+<source file="systems/clike-tokens-gcj/fashion-show_debad.c.ifdefed" startline="1" endline="121" pcid="43"></source>
+<source file="systems/clike-tokens-gcj/fashion-show_debad.c.ifdefed" startline="123" endline="229" pcid="44"></source>
+</class>
+
+<class classid="11" nclones="2" nlines="33" similarity="93">
+<source file="systems/clike-tokens-gcj/close-match_shk10.c.ifdefed" startline="98" endline="131" pcid="49"></source>
+<source file="systems/clike-tokens-gcj/close-match_shk10.c.ifdefed" startline="133" endline="166" pcid="50"></source>
+</class>
+
+<class classid="12" nclones="3" nlines="12" similarity="71">
+<source file="systems/clike-tokens-gcj/close-match_shk10.c.ifdefed" startline="210" endline="224" pcid="53"></source>
+<source file="systems/clike-tokens-gcj/fractiles_stschudi42.c.ifdefed" startline="129" endline="140" pcid="335"></source>
+<source file="systems/clike-tokens-gcj/stable-neigh-bors_rompel.c.ifdefed" startline="1" endline="14" pcid="413"></source>
+</class>
+
+<class classid="13" nclones="2" nlines="63" similarity="75">
+<source file="systems/clike-tokens-gcj/ominous-omino_Chuchox.Jaraday.c.ifdefed" startline="1" endline="62" pcid="54"></source>
+<source file="systems/clike-tokens-gcj/ominous-omino_ivanilos.c.ifdefed" startline="1" endline="65" pcid="129"></source>
+</class>
+
+<class classid="14" nclones="2" nlines="9" similarity="77">
+<source file="systems/clike-tokens-gcj/counting-sheep_Bibi.c.ifdefed" startline="7" endline="16" pcid="56"></source>
+<source file="systems/clike-tokens-gcj/counting-sheep_Bibi.c.ifdefed" startline="18" endline="27" pcid="57"></source>
+</class>
+
+<class classid="15" nclones="2" nlines="15" similarity="80">
+<source file="systems/clike-tokens-gcj/counting-sheep_Bibi.c.ifdefed" startline="45" endline="60" pcid="59"></source>
+<source file="systems/clike-tokens-gcj/counting-sheep_cHaOs.c.ifdefed" startline="1" endline="15" pcid="135"></source>
+</class>
+
+<class classid="16" nclones="6" nlines="8" similarity="70">
+<source file="systems/clike-tokens-gcj/parenting-partnering_Rudolph..c.ifdefed" startline="1" endline="9" pcid="73"></source>
+<source file="systems/clike-tokens-gcj/senate-evacuation_santosha.c.ifdefed" startline="1" endline="11" pcid="596"></source>
+<source file="systems/clike-tokens-gcj/rank-and-file_hobermallow.c.ifdefed" startline="1" endline="9" pcid="472"></source>
+<source file="systems/clike-tokens-gcj/senate-evacuation_Yakimo.c.ifdefed" startline="1" endline="9" pcid="214"></source>
+<source file="systems/clike-tokens-gcj/stable-neigh-bors_ulyr.c.ifdefed" startline="1" endline="9" pcid="139"></source>
+<source file="systems/clike-tokens-gcj/steed-2-cruise-control_tatuyan.c.ifdefed" startline="1" endline="9" pcid="389"></source>
+</class>
+
+<class classid="17" nclones="3" nlines="170" similarity="87">
+<source file="systems/clike-tokens-gcj/alphabet-cake_Aaby.c.ifdefed" startline="29" endline="196" pcid="78"></source>
+<source file="systems/clike-tokens-gcj/alphabet-cake_Vishu2421.c.ifdefed" startline="29" endline="196" pcid="615"></source>
+<source file="systems/clike-tokens-gcj/alphabet-cake_Aps07.c.ifdefed" startline="15" endline="204" pcid="410"></source>
+</class>
+
+<class classid="18" nclones="3" nlines="49" similarity="98">
+<source file="systems/clike-tokens-gcj/alphabet-cake_Aaby.c.ifdefed" startline="198" endline="247" pcid="79"></source>
+<source file="systems/clike-tokens-gcj/alphabet-cake_Vishu2421.c.ifdefed" startline="198" endline="247" pcid="616"></source>
+<source file="systems/clike-tokens-gcj/alphabet-cake_Aps07.c.ifdefed" startline="206" endline="256" pcid="411"></source>
+</class>
+
+<class classid="19" nclones="2" nlines="13" similarity="71">
+<source file="systems/clike-tokens-gcj/fractiles_Rogerup.c.ifdefed" startline="1" endline="13" pcid="80"></source>
+<source file="systems/clike-tokens-gcj/code-jam_TinyNight.c.ifdefed" startline="1" endline="15" pcid="97"></source>
+</class>
+
+<class classid="20" nclones="11" nlines="76" similarity="70">
+<source file="systems/clike-tokens-gcj/mushroom-monster_Vrexu.c.ifdefed" startline="1" endline="85" pcid="90"></source>
+<source file="systems/clike-tokens-gcj/mushroom-monster_Hornbill.c.ifdefed" startline="1" endline="86" pcid="259"></source>
+<source file="systems/clike-tokens-gcj/mushroom-monster_dota.question.space.equal.op.c.ifdefed" startline="1" endline="81" pcid="277"></source>
+<source file="systems/clike-tokens-gcj/mushroom-monster_maups.c.ifdefed" startline="1" endline="79" pcid="244"></source>
+<source file="systems/clike-tokens-gcj/mushroom-monster_syuxuan.c.ifdefed" startline="1" endline="73" pcid="293"></source>
+<source file="systems/clike-tokens-gcj/mushroom-monster_notongcj.c.ifdefed" startline="1" endline="89" pcid="163"></source>
+<source file="systems/clike-tokens-gcj/infinite-house-of-pancakes_cnj.c.ifdefed" startline="1" endline="74" pcid="531"></source>
+<source file="systems/clike-tokens-gcj/mushroom-monster_tomtseng.c.ifdefed" startline="1" endline="71" pcid="170"></source>
+<source file="systems/clike-tokens-gcj/infinite-house-of-pancakes_PunSa.c.ifdefed" startline="1" endline="68" pcid="593"></source>
+<source file="systems/clike-tokens-gcj/infinite-house-of-pancakes_PKu.c.ifdefed" startline="1" endline="58" pcid="464"></source>
+<source file="systems/clike-tokens-gcj/infinite-house-of-pancakes_Charyl.c.ifdefed" startline="1" endline="59" pcid="204"></source>
+</class>
+
+<class classid="21" nclones="2" nlines="49" similarity="78">
+<source file="systems/clike-tokens-gcj/steed-2-cruise-control_XeR.c.ifdefed" startline="39" endline="85" pcid="108"></source>
+<source file="systems/clike-tokens-gcj/core-training_XeR.c.ifdefed" startline="61" endline="112" pcid="112"></source>
+</class>
+
+<class classid="22" nclones="4" nlines="11" similarity="72">
+<source file="systems/clike-tokens-gcj/core-training_XeR.c.ifdefed" startline="1" endline="12" pcid="110"></source>
+<source file="systems/clike-tokens-gcj/core-training_Toniolo.c.ifdefed" startline="1" endline="12" pcid="248"></source>
+<source file="systems/clike-tokens-gcj/ample-syrup_MechanicalTurd.c.ifdefed" startline="95" endline="106" pcid="352"></source>
+<source file="systems/clike-tokens-gcj/core-training_Asrael.c.ifdefed" startline="1" endline="12" pcid="559"></source>
+</class>
+
+<class classid="23" nclones="20" nlines="5" similarity="80">
+<source file="systems/clike-tokens-gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="141" endline="146" pcid="121"></source>
+<source file="systems/clike-tokens-gcj/alphabet-cake_Aps07.c.ifdefed" startline="1" endline="6" pcid="408"></source>
+<source file="systems/clike-tokens-gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="1" endline="6" pcid="177"></source>
+<source file="systems/clike-tokens-gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="148" endline="153" pcid="122"></source>
+<source file="systems/clike-tokens-gcj/alphabet-cake_Aps07.c.ifdefed" startline="8" endline="13" pcid="409"></source>
+<source file="systems/clike-tokens-gcj/ominous-omino_saiz.c.ifdefed" startline="8" endline="13" pcid="539"></source>
+<source file="systems/clike-tokens-gcj/parenting-partnering_MechanicalTurd.c.ifdefed" startline="130" endline="135" pcid="197"></source>
+<source file="systems/clike-tokens-gcj/ominous-omino_saiz.c.ifdefed" startline="1" endline="6" pcid="538"></source>
+<source file="systems/clike-tokens-gcj/core-training_Functional.c.ifdefed" startline="8" endline="13" pcid="371"></source>
+<source file="systems/clike-tokens-gcj/senate-evacuation_hobermallow.c.ifdefed" startline="1" endline="6" pcid="629"></source>
+<source file="systems/clike-tokens-gcj/fractiles_alsoba.c.ifdefed" startline="1" endline="6" pcid="179"></source>
+<source file="systems/clike-tokens-gcj/ample-syrup_sahuang.c.ifdefed" startline="51" endline="56" pcid="230"></source>
+<source file="systems/clike-tokens-gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="39" endline="44" pcid="554"></source>
+<source file="systems/clike-tokens-gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="1" endline="6" pcid="261"></source>
+<source file="systems/clike-tokens-gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="1" endline="6" pcid="421"></source>
+<source file="systems/clike-tokens-gcj/ample-syrup_sahuang.c.ifdefed" startline="58" endline="63" pcid="231"></source>
+<source file="systems/clike-tokens-gcj/bff_Tjandra.c.ifdefed" startline="1" endline="6" pcid="315"></source>
+<source file="systems/clike-tokens-gcj/core-training_Functional.c.ifdefed" startline="1" endline="6" pcid="370"></source>
+<source file="systems/clike-tokens-gcj/bff_TinyNight.c.ifdefed" startline="1" endline="6" pcid="542"></source>
+<source file="systems/clike-tokens-gcj/stable-neigh-bors_rompel.c.ifdefed" startline="225" endline="230" pcid="417"></source>
+</class>
+
+<class classid="24" nclones="2" nlines="66" similarity="77">
+<source file="systems/clike-tokens-gcj/pony-express_Asrael.c.ifdefed" startline="91" endline="155" pcid="144"></source>
+<source file="systems/clike-tokens-gcj/pony-express_p5ic05i5.c.ifdefed" startline="65" endline="133" pcid="503"></source>
+</class>
+
+<class classid="25" nclones="8" nlines="18" similarity="70">
+<source file="systems/clike-tokens-gcj/counter-culture_SSVK.c.ifdefed" startline="80" endline="100" pcid="152"></source>
+<source file="systems/clike-tokens-gcj/haircut_doodhwala.c.ifdefed" startline="190" endline="207" pcid="429"></source>
+<source file="systems/clike-tokens-gcj/dijkstra_antalg.c.ifdefed" startline="1" endline="18" pcid="317"></source>
+<source file="systems/clike-tokens-gcj/revenge-of-the-pancakes_TungNP.c.ifdefed" startline="38" endline="56" pcid="618"></source>
+<source file="systems/clike-tokens-gcj/haircut_doodhwala.c.ifdefed" startline="170" endline="188" pcid="428"></source>
+<source file="systems/clike-tokens-gcj/senate-evacuation_thug.life.c.ifdefed" startline="169" endline="185" pcid="442"></source>
+<source file="systems/clike-tokens-gcj/haircut_doodhwala.c.ifdefed" startline="150" endline="168" pcid="427"></source>
+<source file="systems/clike-tokens-gcj/oversized-pancake-flipper_debad.c.ifdefed" startline="1" endline="20" pcid="455"></source>
+</class>
+
+<class classid="26" nclones="2" nlines="51" similarity="98">
+<source file="systems/clike-tokens-gcj/close-match_Backspe.c.ifdefed" startline="1" endline="52" pcid="157"></source>
+<source file="systems/clike-tokens-gcj/close-match_Backspe.c.ifdefed" startline="54" endline="105" pcid="158"></source>
+</class>
+
+<class classid="27" nclones="4" nlines="18" similarity="70">
+<source file="systems/clike-tokens-gcj/fractiles_BrainSteel.c.ifdefed" startline="17" endline="37" pcid="161"></source>
+<source file="systems/clike-tokens-gcj/haircut_hychen.c.ifdefed" startline="1" endline="18" pcid="439"></source>
+<source file="systems/clike-tokens-gcj/haircut_doodhwala.c.ifdefed" startline="107" endline="124" pcid="424"></source>
+<source file="systems/clike-tokens-gcj/close-match_yshuiv7.c.ifdefed" startline="287" endline="305" pcid="393"></source>
+</class>
+
+<class classid="28" nclones="2" nlines="6" similarity="83">
+<source file="systems/clike-tokens-gcj/haircut_eama.c.ifdefed" startline="21" endline="27" pcid="167"></source>
+<source file="systems/clike-tokens-gcj/haircut_jupiterlover.c.ifdefed" startline="16" endline="22" pcid="477"></source>
+</class>
+
+<class classid="29" nclones="3" nlines="44" similarity="73">
+<source file="systems/clike-tokens-gcj/fractiles_alsoba.c.ifdefed" startline="53" endline="95" pcid="181"></source>
+<source file="systems/clike-tokens-gcj/the-last-word_alsoba.c.ifdefed" startline="42" endline="84" pcid="341"></source>
+<source file="systems/clike-tokens-gcj/counter-culture_edusoto.c.ifdefed" startline="112" endline="165" pcid="580"></source>
+</class>
+
+<class classid="30" nclones="5" nlines="66" similarity="74">
+<source file="systems/clike-tokens-gcj/rank-and-file_tilak.c.ifdefed" startline="1" endline="62" pcid="183"></source>
+<source file="systems/clike-tokens-gcj/rank-and-file_sibin.c.ifdefed" startline="1" endline="79" pcid="378"></source>
+<source file="systems/clike-tokens-gcj/rank-and-file_zuck007.c.ifdefed" startline="1" endline="71" pcid="642"></source>
+<source file="systems/clike-tokens-gcj/rank-and-file_Sempr.c.ifdefed" startline="1" endline="62" pcid="292"></source>
+<source file="systems/clike-tokens-gcj/rank-and-file_WhiteShadow.c.ifdefed" startline="1" endline="68" pcid="200"></source>
+</class>
+
+<class classid="31" nclones="2" nlines="60" similarity="75">
+<source file="systems/clike-tokens-gcj/stable-neigh-bors_xylo.c.ifdefed" startline="217" endline="271" pcid="207"></source>
+<source file="systems/clike-tokens-gcj/stable-neigh-bors_iSourabh.c.ifdefed" startline="165" endline="231" pcid="603"></source>
+</class>
+
+<class classid="32" nclones="2" nlines="14" similarity="71">
+<source file="systems/clike-tokens-gcj/ample-syrup_Rudolph..c.ifdefed" startline="1" endline="14" pcid="209"></source>
+<source file="systems/clike-tokens-gcj/dijkstra_susobhang70.c.ifdefed" startline="22" endline="36" pcid="323"></source>
+</class>
+
+<class classid="33" nclones="2" nlines="29" similarity="86">
+<source file="systems/clike-tokens-gcj/bff_dooglius.c.ifdefed" startline="103" endline="130" pcid="225"></source>
+<source file="systems/clike-tokens-gcj/bff_dooglius.c.ifdefed" startline="132" endline="162" pcid="226"></source>
+</class>
+
+<class classid="34" nclones="2" nlines="25" similarity="100">
+<source file="systems/clike-tokens-gcj/dijkstra_LevinLMKwong.c.ifdefed" startline="1" endline="26" pcid="234"></source>
+<source file="systems/clike-tokens-gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="1" endline="26" pcid="552"></source>
+</class>
+
+<class classid="35" nclones="2" nlines="279" similarity="72">
+<source file="systems/clike-tokens-gcj/getting-the-digits_shubhamdsoni.c.ifdefed" startline="1" endline="267" pcid="239"></source>
+<source file="systems/clike-tokens-gcj/getting-the-digits_hkhetawat.c.ifdefed" startline="1" endline="293" pcid="641"></source>
+</class>
+
+<class classid="36" nclones="3" nlines="53" similarity="75">
+<source file="systems/clike-tokens-gcj/standing-ovation_niquefa.diego.c.ifdefed" startline="1" endline="51" pcid="256"></source>
+<source file="systems/clike-tokens-gcj/standing-ovation_DeerWay.c.ifdefed" startline="1" endline="56" pcid="453"></source>
+<source file="systems/clike-tokens-gcj/standing-ovation_jxcode.c.ifdefed" startline="1" endline="58" pcid="526"></source>
+</class>
+
+<class classid="37" nclones="2" nlines="22" similarity="73">
+<source file="systems/clike-tokens-gcj/haircut_Konrad127123.c.ifdefed" startline="71" endline="94" pcid="265"></source>
+<source file="systems/clike-tokens-gcj/haircut_chiguri.c.ifdefed" startline="1" endline="22" pcid="287"></source>
+</class>
+
+<class classid="38" nclones="2" nlines="469" similarity="70">
+<source file="systems/clike-tokens-gcj/getting-the-digits_kyunglaeya.c.ifdefed" startline="1" endline="501" pcid="267"></source>
+<source file="systems/clike-tokens-gcj/getting-the-digits_HonMing.c.ifdefed" startline="11" endline="449" pcid="346"></source>
+</class>
+
+<class classid="39" nclones="2" nlines="6" similarity="83">
+<source file="systems/clike-tokens-gcj/getting-the-digits_kyunglaeya.c.ifdefed" startline="503" endline="509" pcid="268"></source>
+<source file="systems/clike-tokens-gcj/fresh-chocolate_HonMing.c.ifdefed" startline="1" endline="7" pcid="621"></source>
+</class>
+
+<class classid="40" nclones="4" nlines="35" similarity="70">
+<source file="systems/clike-tokens-gcj/bff_hamadu.c.ifdefed" startline="124" endline="165" pcid="270"></source>
+<source file="systems/clike-tokens-gcj/bff_shk10.c.ifdefed" startline="84" endline="117" pcid="512"></source>
+<source file="systems/clike-tokens-gcj/standing-ovation_RAYMAN.c.ifdefed" startline="1" endline="36" pcid="523"></source>
+<source file="systems/clike-tokens-gcj/haircut_chiguri.c.ifdefed" startline="78" endline="111" pcid="289"></source>
+</class>
+
+<class classid="41" nclones="2" nlines="19" similarity="85">
+<source file="systems/clike-tokens-gcj/counter-culture_yhrin.c.ifdefed" startline="1" endline="19" pcid="279"></source>
+<source file="systems/clike-tokens-gcj/close-match_akdee.c.ifdefed" startline="1" endline="21" pcid="399"></source>
+</class>
+
+<class classid="42" nclones="2" nlines="5" similarity="80">
+<source file="systems/clike-tokens-gcj/steed-2-cruise-control_yudhik.c.ifdefed" startline="1" endline="6" pcid="299"></source>
+<source file="systems/clike-tokens-gcj/steed-2-cruise-control_topwu.c.ifdefed" startline="1" endline="6" pcid="461"></source>
+</class>
+
+<class classid="43" nclones="2" nlines="13" similarity="84">
+<source file="systems/clike-tokens-gcj/counter-culture_AxiomOfChoice.c.ifdefed" startline="1" endline="14" pcid="303"></source>
+<source file="systems/clike-tokens-gcj/counter-culture_kdb.c.ifdefed" startline="1" endline="14" pcid="637"></source>
+</class>
+
+<class classid="44" nclones="2" nlines="66" similarity="70">
+<source file="systems/clike-tokens-gcj/ominous-omino_a3nm.c.ifdefed" startline="1" endline="64" pcid="321"></source>
+<source file="systems/clike-tokens-gcj/fractiles_Dopinder.c.ifdefed" startline="1" endline="68" pcid="520"></source>
+</class>
+
+<class classid="45" nclones="2" nlines="75" similarity="74">
+<source file="systems/clike-tokens-gcj/the-last-word_sibin.c.ifdefed" startline="1" endline="76" pcid="357"></source>
+<source file="systems/clike-tokens-gcj/the-last-word_pro2911.c.ifdefed" startline="1" endline="75" pcid="644"></source>
+</class>
+
+<class classid="46" nclones="2" nlines="30" similarity="71">
+<source file="systems/clike-tokens-gcj/slides_Ristretto.c.ifdefed" startline="21" endline="53" pcid="452"></source>
+<source file="systems/clike-tokens-gcj/the-last-word_b013040047.c.ifdefed" startline="1" endline="29" pcid="548"></source>
+</class>
+
+<class classid="47" nclones="2" nlines="199" similarity="95">
+<source file="systems/clike-tokens-gcj/stable-neigh-bors_PetrosN.c.ifdefed" startline="1" endline="195" pcid="463"></source>
+<source file="systems/clike-tokens-gcj/stable-neigh-bors_papachristoumarios.c.ifdefed" startline="1" endline="204" pcid="563"></source>
+</class>
+
+<class classid="48" nclones="2" nlines="68" similarity="79">
+<source file="systems/clike-tokens-gcj/standing-ovation_sas6137.c.ifdefed" startline="1" endline="64" pcid="499"></source>
+<source file="systems/clike-tokens-gcj/infinite-house-of-pancakes_sas6137.c.ifdefed" startline="1" endline="73" pcid="546"></source>
+</class>
+
+<class classid="49" nclones="2" nlines="63" similarity="75">
+<source file="systems/clike-tokens-gcj/fresh-chocolate_sgtlaugh.c.ifdefed" startline="83" endline="144" pcid="537"></source>
+<source file="systems/clike-tokens-gcj/fresh-chocolate_Math.Wizard.Boy.c.ifdefed" startline="60" endline="123" pcid="636"></source>
+</class>
+
+<class classid="50" nclones="2" nlines="27" similarity="81">
+<source file="systems/clike-tokens-gcj/alphabet-cake_Ioannis70.c.ifdefed" startline="40" endline="66" pcid="566"></source>
+<source file="systems/clike-tokens-gcj/fashion-show_hikalium.c.ifdefed" startline="1" endline="28" pcid="581"></source>
+</class>
+
+<class classid="51" nclones="2" nlines="9" similarity="88">
+<source file="systems/clike-tokens-gcj/ample-syrup_piepie01.c.ifdefed" startline="1" endline="10" pcid="575"></source>
+<source file="systems/clike-tokens-gcj/ample-syrup_piepie01.c.ifdefed" startline="12" endline="21" pcid="576"></source>
+</class>
+
+<class classid="52" nclones="2" nlines="22" similarity="79">
+<source file="systems/clike-tokens-gcj/fresh-chocolate_Math.Wizard.Boy.c.ifdefed" startline="12" endline="32" pcid="634"></source>
+<source file="systems/clike-tokens-gcj/fresh-chocolate_Math.Wizard.Boy.c.ifdefed" startline="34" endline="58" pcid="635"></source>
+</class>
+
+</clones>

@@ -1,0 +1,71 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int t,i,j,k,c,r,d;
+    char s[100][100],a;
+    scanf("%d",&t);
+    for(i=0;i<t;i++)
+    {
+        d=0;
+        scanf("%d%d",&r,&c);
+        for(j=0;j<r;j++)
+        {
+            scanf("%c",&a);
+            for(k=0;k<c;k++)
+            {
+                scanf("%c",&s[j][k]);
+            }
+        }
+        for(j=0;j<r;j++)
+        {
+            for(k=1;k<c;k++)
+            {
+                if(s[j][k-1]!='?'&&s[j][k]=='?')
+                {
+                    s[j][k]=s[j][k-1];
+                }
+            }
+        }
+        for(j=r-1;j>=0;j--)
+        {
+            for(k=c-2;k>=0;k--)
+            {
+                if(s[j][k+1]!='?'&&s[j][k]=='?')
+                {
+                    s[j][k]=s[j][k+1];
+                }
+            }
+        }
+        for(j=1;j<r;j++)
+        {
+            for(k=0;k<c;k++)
+            {
+                if(s[j-1][k]!='?'&&s[j][k]=='?')
+                {
+                    s[j][k]=s[j-1][k];
+                }
+            }
+        }
+        for(j=r-2;j>=0;j--)
+        {
+            for(k=c-1;k>=0;k--)
+            {
+                if(s[j+1][k]!='?'&&s[j][k]=='?')
+                {
+                    s[j][k]=s[j+1][k];
+                }
+            }
+        }
+        printf("Case #%d:\n",i+1);
+        for(j=0;j<r;j++)
+        {
+            for(k=0;k<c;k++)
+            {
+                printf("%c",s[j][k]);
+            }
+            printf("\n");
+        }
+    }
+    return 0;
+}

@@ -1,0 +1,2496 @@
+<clones>
+<systeminfo processor="nicad5" system="krutz" granularity="functions" threshold="30%" minlines="1" maxlines="2500"/>
+<cloneinfo npcs="415" npairs="498"/>
+<runinfo ncompares="18829" cputime="47103"/>
+
+<clone nlines="139" similarity="74">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1884" endline="2014" pcid="115"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="2016" endline="2157" pcid="116"></source>
+</clone>
+
+<clone nlines="135" similarity="76">
+<source file="systems/krutz/audioop.c.ifdefed" startline="915" endline="1049" pcid="106"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="1884" endline="2014" pcid="115"></source>
+</clone>
+
+<clone nlines="118" similarity="75">
+<source file="systems/krutz/audioop.c.ifdefed" startline="814" endline="913" pcid="105"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="1884" endline="2014" pcid="115"></source>
+</clone>
+
+<clone nlines="117" similarity="89">
+<source file="systems/krutz/audioop.c.ifdefed" startline="217" endline="327" pcid="98"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="329" endline="448" pcid="99"></source>
+</clone>
+
+<clone nlines="101" similarity="81">
+<source file="systems/krutz/audioop.c.ifdefed" startline="814" endline="913" pcid="105"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="1428" endline="1523" pcid="112"></source>
+</clone>
+
+<clone nlines="92" similarity="70">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1051" endline="1134" pcid="107"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="1428" endline="1523" pcid="112"></source>
+</clone>
+
+<clone nlines="84" similarity="84">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1051" endline="1134" pcid="107"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="2225" endline="2306" pcid="118"></source>
+</clone>
+
+<clone nlines="80" similarity="70">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1051" endline="1134" pcid="107"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="1354" endline="1426" pcid="111"></source>
+</clone>
+
+<clone nlines="80" similarity="70">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1051" endline="1134" pcid="107"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="1208" endline="1280" pcid="109"></source>
+</clone>
+
+<clone nlines="79" similarity="74">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1354" endline="1426" pcid="111"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="2225" endline="2306" pcid="118"></source>
+</clone>
+
+<clone nlines="79" similarity="74">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1208" endline="1280" pcid="109"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="2225" endline="2306" pcid="118"></source>
+</clone>
+
+<clone nlines="74" similarity="98">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1208" endline="1280" pcid="109"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="1354" endline="1426" pcid="111"></source>
+</clone>
+
+<clone nlines="73" similarity="71">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1136" endline="1206" pcid="108"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="1354" endline="1426" pcid="111"></source>
+</clone>
+
+<clone nlines="73" similarity="71">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1282" endline="1352" pcid="110"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="1354" endline="1426" pcid="111"></source>
+</clone>
+
+<clone nlines="73" similarity="71">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1136" endline="1206" pcid="108"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="1208" endline="1280" pcid="109"></source>
+</clone>
+
+<clone nlines="73" similarity="71">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1208" endline="1280" pcid="109"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="1282" endline="1352" pcid="110"></source>
+</clone>
+
+<clone nlines="72" similarity="98">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1136" endline="1206" pcid="108"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="1282" endline="1352" pcid="110"></source>
+</clone>
+
+<clone nlines="71" similarity="95">
+<source file="systems/krutz/audioop.c.ifdefed" startline="147" endline="215" pcid="97"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="450" endline="520" pcid="100"></source>
+</clone>
+
+<clone nlines="70" similarity="80">
+<source file="systems/krutz/audioop.c.ifdefed" startline="450" endline="520" pcid="100"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="746" endline="812" pcid="104"></source>
+</clone>
+
+<clone nlines="69" similarity="79">
+<source file="systems/krutz/audioop.c.ifdefed" startline="18" endline="81" pcid="95"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="450" endline="520" pcid="100"></source>
+</clone>
+
+<clone nlines="68" similarity="76">
+<source file="systems/krutz/audioop.c.ifdefed" startline="83" endline="145" pcid="96"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="450" endline="520" pcid="100"></source>
+</clone>
+
+<clone nlines="69" similarity="82">
+<source file="systems/krutz/audioop.c.ifdefed" startline="147" endline="215" pcid="97"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="746" endline="812" pcid="104"></source>
+</clone>
+
+<clone nlines="68" similarity="81">
+<source file="systems/krutz/audioop.c.ifdefed" startline="18" endline="81" pcid="95"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="147" endline="215" pcid="97"></source>
+</clone>
+
+<clone nlines="67" similarity="78">
+<source file="systems/krutz/audioop.c.ifdefed" startline="83" endline="145" pcid="96"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="147" endline="215" pcid="97"></source>
+</clone>
+
+<clone nlines="67" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="675" endline="741" pcid="145"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2109" endline="2177" pcid="176"></source>
+</clone>
+
+<clone nlines="67" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="933" endline="998" pcid="150"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2109" endline="2177" pcid="176"></source>
+</clone>
+
+<clone nlines="66" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="560" endline="624" pcid="143"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2109" endline="2177" pcid="176"></source>
+</clone>
+
+<clone nlines="67" similarity="86">
+<source file="systems/krutz/audioop.c.ifdefed" startline="18" endline="81" pcid="95"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="746" endline="812" pcid="104"></source>
+</clone>
+
+<clone nlines="66" similarity="83">
+<source file="systems/krutz/audioop.c.ifdefed" startline="83" endline="145" pcid="96"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="746" endline="812" pcid="104"></source>
+</clone>
+
+<clone nlines="63" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="675" endline="741" pcid="145"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="825" endline="885" pcid="148"></source>
+</clone>
+
+<clone nlines="65" similarity="90">
+<source file="systems/krutz/audioop.c.ifdefed" startline="18" endline="81" pcid="95"></source>
+<source file="systems/krutz/audioop.c.ifdefed" startline="83" endline="145" pcid="96"></source>
+</clone>
+
+<clone nlines="64" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="933" endline="998" pcid="150"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2425" endline="2488" pcid="184"></source>
+</clone>
+
+<clone nlines="64" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="560" endline="624" pcid="143"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2425" endline="2488" pcid="184"></source>
+</clone>
+
+<clone nlines="62" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="560" endline="624" pcid="143"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="825" endline="885" pcid="148"></source>
+</clone>
+
+<clone nlines="60" similarity="74">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1000" endline="1062" pcid="151"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1167" endline="1224" pcid="154"></source>
+</clone>
+
+<clone nlines="60" similarity="74">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1000" endline="1062" pcid="151"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1108" endline="1165" pcid="153"></source>
+</clone>
+
+<clone nlines="59" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1000" endline="1062" pcid="151"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1723" endline="1778" pcid="166"></source>
+</clone>
+
+<clone nlines="58" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="825" endline="885" pcid="148"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1723" endline="1778" pcid="166"></source>
+</clone>
+
+<clone nlines="53" similarity="70">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="986" endline="1034" pcid="285"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1301" endline="1359" pcid="292"></source>
+</clone>
+
+<clone nlines="53" similarity="70">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="651" endline="699" pcid="267"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1301" endline="1359" pcid="292"></source>
+</clone>
+
+<clone nlines="57" similarity="96">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1108" endline="1165" pcid="153"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1167" endline="1224" pcid="154"></source>
+</clone>
+
+<clone nlines="56" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1167" endline="1224" pcid="154"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1723" endline="1778" pcid="166"></source>
+</clone>
+
+<clone nlines="53" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1167" endline="1224" pcid="154"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2179" endline="2228" pcid="177"></source>
+</clone>
+
+<clone nlines="53" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1167" endline="1224" pcid="154"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1382" endline="1431" pcid="158"></source>
+</clone>
+
+<clone nlines="53" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1167" endline="1224" pcid="154"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1331" endline="1380" pcid="157"></source>
+</clone>
+
+<clone nlines="52" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="626" endline="673" pcid="144"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1167" endline="1224" pcid="154"></source>
+</clone>
+
+<clone nlines="50" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1167" endline="1224" pcid="154"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+</clone>
+
+<clone nlines="56" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1108" endline="1165" pcid="153"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1723" endline="1778" pcid="166"></source>
+</clone>
+
+<clone nlines="53" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1108" endline="1165" pcid="153"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2179" endline="2228" pcid="177"></source>
+</clone>
+
+<clone nlines="53" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1108" endline="1165" pcid="153"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1382" endline="1431" pcid="158"></source>
+</clone>
+
+<clone nlines="53" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1108" endline="1165" pcid="153"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1331" endline="1380" pcid="157"></source>
+</clone>
+
+<clone nlines="52" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="626" endline="673" pcid="144"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1108" endline="1165" pcid="153"></source>
+</clone>
+
+<clone nlines="50" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1108" endline="1165" pcid="153"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+</clone>
+
+<clone nlines="54" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1226" endline="1278" pcid="155"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2510" endline="2566" pcid="186"></source>
+</clone>
+
+<clone nlines="53" similarity="85">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="743" endline="793" pcid="146"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2510" endline="2566" pcid="186"></source>
+</clone>
+
+<clone nlines="54" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1226" endline="1278" pcid="155"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1723" endline="1778" pcid="166"></source>
+</clone>
+
+<clone nlines="52" similarity="78">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1723" endline="1778" pcid="166"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2179" endline="2228" pcid="177"></source>
+</clone>
+
+<clone nlines="52" similarity="78">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1382" endline="1431" pcid="158"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1723" endline="1778" pcid="166"></source>
+</clone>
+
+<clone nlines="52" similarity="78">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1331" endline="1380" pcid="157"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1723" endline="1778" pcid="166"></source>
+</clone>
+
+<clone nlines="52" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1280" endline="1329" pcid="156"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1723" endline="1778" pcid="166"></source>
+</clone>
+
+<clone nlines="49" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1723" endline="1778" pcid="166"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+</clone>
+
+<clone nlines="48" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1723" endline="1778" pcid="166"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="48" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1723" endline="1778" pcid="166"></source>
+</clone>
+
+<clone nlines="51" similarity="78">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="743" endline="793" pcid="146"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1226" endline="1278" pcid="155"></source>
+</clone>
+
+<clone nlines="51" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1226" endline="1278" pcid="155"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2179" endline="2228" pcid="177"></source>
+</clone>
+
+<clone nlines="51" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1226" endline="1278" pcid="155"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1382" endline="1431" pcid="158"></source>
+</clone>
+
+<clone nlines="51" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1226" endline="1278" pcid="155"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1331" endline="1380" pcid="157"></source>
+</clone>
+
+<clone nlines="51" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1226" endline="1278" pcid="155"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1280" endline="1329" pcid="156"></source>
+</clone>
+
+<clone nlines="48" similarity="80">
+<source file="systems/krutz/mod_file_cache.c.ifdefed" startline="278" endline="329" pcid="201"></source>
+<source file="systems/krutz/mod_file_cache.c.ifdefed" startline="331" endline="376" pcid="202"></source>
+</clone>
+
+<clone nlines="50" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="743" endline="793" pcid="146"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1280" endline="1329" pcid="156"></source>
+</clone>
+
+<clone nlines="44" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="743" endline="793" pcid="146"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1528" endline="1566" pcid="161"></source>
+</clone>
+
+<clone nlines="44" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="743" endline="793" pcid="146"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2001" endline="2039" pcid="173"></source>
+</clone>
+
+<clone nlines="49" similarity="97">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1382" endline="1431" pcid="158"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2179" endline="2228" pcid="177"></source>
+</clone>
+
+<clone nlines="49" similarity="97">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1331" endline="1380" pcid="157"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2179" endline="2228" pcid="177"></source>
+</clone>
+
+<clone nlines="49" similarity="83">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1280" endline="1329" pcid="156"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2179" endline="2228" pcid="177"></source>
+</clone>
+
+<clone nlines="48" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="626" endline="673" pcid="144"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2179" endline="2228" pcid="177"></source>
+</clone>
+
+<clone nlines="46" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2179" endline="2228" pcid="177"></source>
+</clone>
+
+<clone nlines="46" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2179" endline="2228" pcid="177"></source>
+</clone>
+
+<clone nlines="46" similarity="81">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2179" endline="2228" pcid="177"></source>
+</clone>
+
+<clone nlines="45" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2179" endline="2228" pcid="177"></source>
+</clone>
+
+<clone nlines="49" similarity="97">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1331" endline="1380" pcid="157"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1382" endline="1431" pcid="158"></source>
+</clone>
+
+<clone nlines="49" similarity="83">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1280" endline="1329" pcid="156"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1382" endline="1431" pcid="158"></source>
+</clone>
+
+<clone nlines="48" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="626" endline="673" pcid="144"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1382" endline="1431" pcid="158"></source>
+</clone>
+
+<clone nlines="46" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1382" endline="1431" pcid="158"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+</clone>
+
+<clone nlines="46" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1382" endline="1431" pcid="158"></source>
+</clone>
+
+<clone nlines="46" similarity="81">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1382" endline="1431" pcid="158"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+</clone>
+
+<clone nlines="45" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1382" endline="1431" pcid="158"></source>
+</clone>
+
+<clone nlines="49" similarity="83">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1280" endline="1329" pcid="156"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1331" endline="1380" pcid="157"></source>
+</clone>
+
+<clone nlines="48" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="626" endline="673" pcid="144"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1331" endline="1380" pcid="157"></source>
+</clone>
+
+<clone nlines="46" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1331" endline="1380" pcid="157"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+</clone>
+
+<clone nlines="46" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1331" endline="1380" pcid="157"></source>
+</clone>
+
+<clone nlines="46" similarity="81">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1331" endline="1380" pcid="157"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+</clone>
+
+<clone nlines="45" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1331" endline="1380" pcid="157"></source>
+</clone>
+
+<clone nlines="48" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="626" endline="673" pcid="144"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1280" endline="1329" pcid="156"></source>
+</clone>
+
+<clone nlines="46" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1280" endline="1329" pcid="156"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+</clone>
+
+<clone nlines="46" similarity="81">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1280" endline="1329" pcid="156"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+</clone>
+
+<clone nlines="45" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1280" endline="1329" pcid="156"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+</clone>
+
+<clone nlines="43" similarity="75">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="203" endline="251" pcid="242"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="253" endline="290" pcid="243"></source>
+</clone>
+
+<clone nlines="48" similarity="85">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="651" endline="699" pcid="267"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="986" endline="1034" pcid="285"></source>
+</clone>
+
+<clone nlines="45" similarity="77">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="986" endline="1034" pcid="285"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1236" endline="1278" pcid="290"></source>
+</clone>
+
+<clone nlines="45" similarity="77">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="986" endline="1034" pcid="285"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1122" endline="1164" pcid="287"></source>
+</clone>
+
+<clone nlines="45" similarity="77">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="651" endline="699" pcid="267"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1236" endline="1278" pcid="290"></source>
+</clone>
+
+<clone nlines="45" similarity="77">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="651" endline="699" pcid="267"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1122" endline="1164" pcid="287"></source>
+</clone>
+
+<clone nlines="45" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="626" endline="673" pcid="144"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+</clone>
+
+<clone nlines="45" similarity="74">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="626" endline="673" pcid="144"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+</clone>
+
+<clone nlines="44" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="626" endline="673" pcid="144"></source>
+</clone>
+
+<clone nlines="43" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="887" endline="931" pcid="149"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="43" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="887" endline="931" pcid="149"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+</clone>
+
+<clone nlines="41" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="887" endline="931" pcid="149"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2001" endline="2039" pcid="173"></source>
+</clone>
+
+<clone nlines="43" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+</clone>
+
+<clone nlines="43" similarity="81">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+</clone>
+
+<clone nlines="42" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="42" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+</clone>
+
+<clone nlines="42" similarity="79">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+</clone>
+
+<clone nlines="42" similarity="74">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+</clone>
+
+<clone nlines="41" similarity="74">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1817" endline="1856" pcid="168"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+</clone>
+
+<clone nlines="39" similarity="74">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1914" endline="1957" pcid="171"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="42" similarity="88">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1122" endline="1164" pcid="287"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1236" endline="1278" pcid="290"></source>
+</clone>
+
+<clone nlines="42" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+</clone>
+
+<clone nlines="42" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="42" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+</clone>
+
+<clone nlines="41" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+</clone>
+
+<clone nlines="41" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+</clone>
+
+<clone nlines="40" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1528" endline="1566" pcid="161"></source>
+</clone>
+
+<clone nlines="40" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1568" endline="1605" pcid="162"></source>
+</clone>
+
+<clone nlines="39" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+</clone>
+
+<clone nlines="39" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1064" endline="1106" pcid="152"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+</clone>
+
+<clone nlines="42" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="42" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+</clone>
+
+<clone nlines="41" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+</clone>
+
+<clone nlines="41" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+</clone>
+
+<clone nlines="41" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1817" endline="1856" pcid="168"></source>
+</clone>
+
+<clone nlines="40" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1528" endline="1566" pcid="161"></source>
+</clone>
+
+<clone nlines="39" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1433" endline="1475" pcid="159"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="41" similarity="95">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="41" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="41" similarity="87">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="40" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1817" endline="1856" pcid="168"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="39" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1568" endline="1605" pcid="162"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="38" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="38" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="38" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2280" endline="2321" pcid="180"></source>
+</clone>
+
+<clone nlines="41" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+</clone>
+
+<clone nlines="41" similarity="87">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+</clone>
+
+<clone nlines="40" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1817" endline="1856" pcid="168"></source>
+</clone>
+
+<clone nlines="39" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1568" endline="1605" pcid="162"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+</clone>
+
+<clone nlines="38" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+</clone>
+
+<clone nlines="38" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+</clone>
+
+<clone nlines="38" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1643" endline="1684" pcid="164"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="40" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+</clone>
+
+<clone nlines="38" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+</clone>
+
+<clone nlines="38" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+</clone>
+
+<clone nlines="38" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="518" endline="558" pcid="142"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="40" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1817" endline="1856" pcid="168"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+</clone>
+
+<clone nlines="39" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1528" endline="1566" pcid="161"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+</clone>
+
+<clone nlines="39" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1568" endline="1605" pcid="162"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+</clone>
+
+<clone nlines="38" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2387" endline="2423" pcid="183"></source>
+</clone>
+
+<clone nlines="38" similarity="82">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+</clone>
+
+<clone nlines="38" similarity="82">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+</clone>
+
+<clone nlines="38" similarity="82">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="37" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1607" endline="1641" pcid="163"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+</clone>
+
+<clone nlines="35" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2355" endline="2385" pcid="182"></source>
+</clone>
+
+<clone nlines="35" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1959" endline="1999" pcid="172"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2323" endline="2353" pcid="181"></source>
+</clone>
+
+<clone nlines="39" similarity="97">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="410" endline="449" pcid="250"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="470" endline="509" pcid="252"></source>
+</clone>
+
+<clone nlines="39" similarity="89">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1528" endline="1566" pcid="161"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1817" endline="1856" pcid="168"></source>
+</clone>
+
+<clone nlines="39" similarity="84">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1817" endline="1856" pcid="168"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2001" endline="2039" pcid="173"></source>
+</clone>
+
+<clone nlines="38" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1817" endline="1856" pcid="168"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2387" endline="2423" pcid="183"></source>
+</clone>
+
+<clone nlines="37" similarity="79">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1817" endline="1856" pcid="168"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="37" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1607" endline="1641" pcid="163"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1817" endline="1856" pcid="168"></source>
+</clone>
+
+<clone nlines="38" similarity="89">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1528" endline="1566" pcid="161"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2001" endline="2039" pcid="173"></source>
+</clone>
+
+<clone nlines="37" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1528" endline="1566" pcid="161"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="36" similarity="78">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1528" endline="1566" pcid="161"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1607" endline="1641" pcid="163"></source>
+</clone>
+
+<clone nlines="37" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2001" endline="2039" pcid="173"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="36" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1607" endline="1641" pcid="163"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2001" endline="2039" pcid="173"></source>
+</clone>
+
+<clone nlines="36" similarity="78">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1568" endline="1605" pcid="162"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+</clone>
+
+<clone nlines="36" similarity="78">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1568" endline="1605" pcid="162"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+</clone>
+
+<clone nlines="36" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1568" endline="1605" pcid="162"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="36" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1568" endline="1605" pcid="162"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1607" endline="1641" pcid="163"></source>
+</clone>
+
+<clone nlines="36" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2387" endline="2423" pcid="183"></source>
+</clone>
+
+<clone nlines="36" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2387" endline="2423" pcid="183"></source>
+</clone>
+
+<clone nlines="36" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2387" endline="2423" pcid="183"></source>
+</clone>
+
+<clone nlines="35" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2387" endline="2423" pcid="183"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2774" endline="2808" pcid="190"></source>
+</clone>
+
+<clone nlines="33" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2355" endline="2385" pcid="182"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2387" endline="2423" pcid="183"></source>
+</clone>
+
+<clone nlines="33" similarity="72">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2323" endline="2353" pcid="181"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2387" endline="2423" pcid="183"></source>
+</clone>
+
+<clone nlines="33" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2041" endline="2070" pcid="174"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2387" endline="2423" pcid="183"></source>
+</clone>
+
+<clone nlines="35" similarity="94">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+</clone>
+
+<clone nlines="35" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="35" similarity="74">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1607" endline="1641" pcid="163"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+</clone>
+
+<clone nlines="33" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2355" endline="2385" pcid="182"></source>
+</clone>
+
+<clone nlines="33" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2323" endline="2353" pcid="181"></source>
+</clone>
+
+<clone nlines="32" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1686" endline="1721" pcid="165"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2041" endline="2070" pcid="174"></source>
+</clone>
+
+<clone nlines="35" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="35" similarity="74">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1607" endline="1641" pcid="163"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+</clone>
+
+<clone nlines="33" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2355" endline="2385" pcid="182"></source>
+</clone>
+
+<clone nlines="33" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2323" endline="2353" pcid="181"></source>
+</clone>
+
+<clone nlines="32" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1780" endline="1815" pcid="167"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2041" endline="2070" pcid="174"></source>
+</clone>
+
+<clone nlines="35" similarity="74">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1607" endline="1641" pcid="163"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="35" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2774" endline="2808" pcid="190"></source>
+</clone>
+
+<clone nlines="33" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2355" endline="2385" pcid="182"></source>
+</clone>
+
+<clone nlines="33" similarity="80">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2323" endline="2353" pcid="181"></source>
+</clone>
+
+<clone nlines="32" similarity="77">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2041" endline="2070" pcid="174"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2072" endline="2107" pcid="175"></source>
+</clone>
+
+<clone nlines="32" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1607" endline="1641" pcid="163"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2041" endline="2070" pcid="174"></source>
+</clone>
+
+<clone nlines="31" similarity="73">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1607" endline="1641" pcid="163"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1858" endline="1885" pcid="169"></source>
+</clone>
+
+<clone nlines="31" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="795" endline="823" pcid="147"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2774" endline="2808" pcid="190"></source>
+</clone>
+
+<clone nlines="29" similarity="80">
+<source file="systems/krutz/pqformat.c.ifdefed" startline="427" endline="458" pcid="80"></source>
+<source file="systems/krutz/pqformat.c.ifdefed" startline="497" endline="524" pcid="84"></source>
+</clone>
+
+<clone nlines="31" similarity="74">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1566" endline="1597" pcid="301"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1599" endline="1630" pcid="302"></source>
+</clone>
+
+<clone nlines="30" similarity="93">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2323" endline="2353" pcid="181"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2355" endline="2385" pcid="182"></source>
+</clone>
+
+<clone nlines="30" similarity="83">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2041" endline="2070" pcid="174"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2355" endline="2385" pcid="182"></source>
+</clone>
+
+<clone nlines="29" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1858" endline="1885" pcid="169"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2355" endline="2385" pcid="182"></source>
+</clone>
+
+<clone nlines="28" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1887" endline="1912" pcid="170"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2355" endline="2385" pcid="182"></source>
+</clone>
+
+<clone nlines="30" similarity="83">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2041" endline="2070" pcid="174"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2323" endline="2353" pcid="181"></source>
+</clone>
+
+<clone nlines="29" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1858" endline="1885" pcid="169"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2323" endline="2353" pcid="181"></source>
+</clone>
+
+<clone nlines="28" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1887" endline="1912" pcid="170"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2323" endline="2353" pcid="181"></source>
+</clone>
+
+<clone nlines="28" similarity="79">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1858" endline="1885" pcid="169"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2041" endline="2070" pcid="174"></source>
+</clone>
+
+<clone nlines="27" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1887" endline="1912" pcid="170"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2041" endline="2070" pcid="174"></source>
+</clone>
+
+<clone nlines="28" similarity="96">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="304" endline="332" pcid="226"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="361" endline="389" pcid="228"></source>
+</clone>
+
+<clone nlines="27" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="216" endline="240" pcid="221"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="304" endline="332" pcid="226"></source>
+</clone>
+
+<clone nlines="27" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="304" endline="332" pcid="226"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="334" endline="359" pcid="227"></source>
+</clone>
+
+<clone nlines="28" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="795" endline="823" pcid="147"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1858" endline="1885" pcid="169"></source>
+</clone>
+
+<clone nlines="26" similarity="75">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="795" endline="823" pcid="147"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2749" endline="2772" pcid="189"></source>
+</clone>
+
+<clone nlines="25" similarity="71">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="795" endline="823" pcid="147"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2568" endline="2590" pcid="187"></source>
+</clone>
+
+<clone nlines="27" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="216" endline="240" pcid="221"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="361" endline="389" pcid="228"></source>
+</clone>
+
+<clone nlines="27" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="334" endline="359" pcid="227"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="361" endline="389" pcid="228"></source>
+</clone>
+
+<clone nlines="26" similarity="70">
+<source file="systems/krutz/pqformat.c.ifdefed" startline="366" endline="391" pcid="78"></source>
+<source file="systems/krutz/pqformat.c.ifdefed" startline="497" endline="524" pcid="84"></source>
+</clone>
+
+<clone nlines="26" similarity="70">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1858" endline="1885" pcid="169"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1887" endline="1912" pcid="170"></source>
+</clone>
+
+<clone nlines="25" similarity="74">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1858" endline="1885" pcid="169"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2255" endline="2278" pcid="179"></source>
+</clone>
+
+<clone nlines="25" similarity="74">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1858" endline="1885" pcid="169"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2230" endline="2253" pcid="178"></source>
+</clone>
+
+<clone nlines="25" similarity="74">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1858" endline="1885" pcid="169"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2568" endline="2590" pcid="187"></source>
+</clone>
+
+<clone nlines="26" similarity="96">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1695" endline="1721" pcid="305"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2255" endline="2281" pcid="327"></source>
+</clone>
+
+<clone nlines="26" similarity="96">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1695" endline="1721" pcid="305"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1723" endline="1749" pcid="306"></source>
+</clone>
+
+<clone nlines="26" similarity="84">
+<source file="systems/krutz/list.c.ifdefed" startline="726" endline="752" pcid="43"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="754" endline="780" pcid="44"></source>
+</clone>
+
+<clone nlines="26" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="754" endline="780" pcid="44"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="809" endline="834" pcid="46"></source>
+</clone>
+
+<clone nlines="26" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="754" endline="780" pcid="44"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="836" endline="861" pcid="47"></source>
+</clone>
+
+<clone nlines="26" similarity="92">
+<source file="systems/krutz/list.c.ifdefed" startline="754" endline="780" pcid="44"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="782" endline="807" pcid="45"></source>
+</clone>
+
+<clone nlines="25" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="576" endline="599" pcid="38"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="754" endline="780" pcid="44"></source>
+</clone>
+
+<clone nlines="24" similarity="73">
+<source file="systems/krutz/list.c.ifdefed" startline="654" endline="676" pcid="40"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="754" endline="780" pcid="44"></source>
+</clone>
+
+<clone nlines="24" similarity="73">
+<source file="systems/krutz/list.c.ifdefed" startline="754" endline="780" pcid="44"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="907" endline="929" pcid="52"></source>
+</clone>
+
+<clone nlines="26" similarity="96">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1723" endline="1749" pcid="306"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2255" endline="2281" pcid="327"></source>
+</clone>
+
+<clone nlines="26" similarity="80">
+<source file="systems/krutz/list.c.ifdefed" startline="726" endline="752" pcid="43"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="782" endline="807" pcid="45"></source>
+</clone>
+
+<clone nlines="25" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="576" endline="599" pcid="38"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="726" endline="752" pcid="43"></source>
+</clone>
+
+<clone nlines="24" similarity="73">
+<source file="systems/krutz/list.c.ifdefed" startline="654" endline="676" pcid="40"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="726" endline="752" pcid="43"></source>
+</clone>
+
+<clone nlines="24" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="726" endline="752" pcid="43"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="907" endline="929" pcid="52"></source>
+</clone>
+
+<clone nlines="24" similarity="73">
+<source file="systems/krutz/list.c.ifdefed" startline="726" endline="752" pcid="43"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="931" endline="952" pcid="53"></source>
+</clone>
+
+<clone nlines="25" similarity="80">
+<source file="systems/krutz/list.c.ifdefed" startline="459" endline="485" pcid="33"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="487" endline="511" pcid="34"></source>
+</clone>
+
+<clone nlines="24" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1887" endline="1912" pcid="170"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2255" endline="2278" pcid="179"></source>
+</clone>
+
+<clone nlines="24" similarity="76">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="1887" endline="1912" pcid="170"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2230" endline="2253" pcid="178"></source>
+</clone>
+
+<clone nlines="25" similarity="92">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="216" endline="240" pcid="221"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="334" endline="359" pcid="227"></source>
+</clone>
+
+<clone nlines="25" similarity="92">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="503" endline="528" pcid="237"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="530" endline="554" pcid="238"></source>
+</clone>
+
+<clone nlines="25" similarity="96">
+<source file="systems/krutz/list.c.ifdefed" startline="809" endline="834" pcid="46"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="836" endline="861" pcid="47"></source>
+</clone>
+
+<clone nlines="25" similarity="80">
+<source file="systems/krutz/list.c.ifdefed" startline="782" endline="807" pcid="45"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="809" endline="834" pcid="46"></source>
+</clone>
+
+<clone nlines="24" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="678" endline="700" pcid="41"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="809" endline="834" pcid="46"></source>
+</clone>
+
+<clone nlines="24" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="702" endline="724" pcid="42"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="809" endline="834" pcid="46"></source>
+</clone>
+
+<clone nlines="23" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="809" endline="834" pcid="46"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="954" endline="975" pcid="54"></source>
+</clone>
+
+<clone nlines="23" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="809" endline="834" pcid="46"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="977" endline="998" pcid="55"></source>
+</clone>
+
+<clone nlines="25" similarity="80">
+<source file="systems/krutz/list.c.ifdefed" startline="782" endline="807" pcid="45"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="836" endline="861" pcid="47"></source>
+</clone>
+
+<clone nlines="24" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="678" endline="700" pcid="41"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="836" endline="861" pcid="47"></source>
+</clone>
+
+<clone nlines="24" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="702" endline="724" pcid="42"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="836" endline="861" pcid="47"></source>
+</clone>
+
+<clone nlines="23" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="836" endline="861" pcid="47"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="954" endline="975" pcid="54"></source>
+</clone>
+
+<clone nlines="23" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="836" endline="861" pcid="47"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="977" endline="998" pcid="55"></source>
+</clone>
+
+<clone nlines="24" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="576" endline="599" pcid="38"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="782" endline="807" pcid="45"></source>
+</clone>
+
+<clone nlines="24" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="654" endline="676" pcid="40"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="782" endline="807" pcid="45"></source>
+</clone>
+
+<clone nlines="24" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="782" endline="807" pcid="45"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="907" endline="929" pcid="52"></source>
+</clone>
+
+<clone nlines="23" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="782" endline="807" pcid="45"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="931" endline="952" pcid="53"></source>
+</clone>
+
+<clone nlines="24" similarity="70">
+<source file="systems/krutz/list.c.ifdefed" startline="487" endline="511" pcid="34"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="513" endline="537" pcid="35"></source>
+</clone>
+
+<clone nlines="24" similarity="70">
+<source file="systems/krutz/list.c.ifdefed" startline="487" endline="511" pcid="34"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="539" endline="563" pcid="36"></source>
+</clone>
+
+<clone nlines="24" similarity="95">
+<source file="systems/krutz/list.c.ifdefed" startline="513" endline="537" pcid="35"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="539" endline="563" pcid="36"></source>
+</clone>
+
+<clone nlines="23" similarity="91">
+<source file="systems/krutz/list.c.ifdefed" startline="576" endline="599" pcid="38"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="654" endline="676" pcid="40"></source>
+</clone>
+
+<clone nlines="23" similarity="91">
+<source file="systems/krutz/list.c.ifdefed" startline="576" endline="599" pcid="38"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="907" endline="929" pcid="52"></source>
+</clone>
+
+<clone nlines="23" similarity="73">
+<source file="systems/krutz/list.c.ifdefed" startline="576" endline="599" pcid="38"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="678" endline="700" pcid="41"></source>
+</clone>
+
+<clone nlines="23" similarity="73">
+<source file="systems/krutz/list.c.ifdefed" startline="576" endline="599" pcid="38"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="702" endline="724" pcid="42"></source>
+</clone>
+
+<clone nlines="22" similarity="86">
+<source file="systems/krutz/list.c.ifdefed" startline="576" endline="599" pcid="38"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="931" endline="952" pcid="53"></source>
+</clone>
+
+<clone nlines="23" similarity="91">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2230" endline="2253" pcid="178"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2255" endline="2278" pcid="179"></source>
+</clone>
+
+<clone nlines="23" similarity="78">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2255" endline="2278" pcid="179"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2568" endline="2590" pcid="187"></source>
+</clone>
+
+<clone nlines="23" similarity="78">
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2230" endline="2253" pcid="178"></source>
+<source file="systems/krutz/readfuncs.c.ifdefed" startline="2568" endline="2590" pcid="187"></source>
+</clone>
+
+<clone nlines="22" similarity="90">
+<source file="systems/krutz/list.c.ifdefed" startline="654" endline="676" pcid="40"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="907" endline="929" pcid="52"></source>
+</clone>
+
+<clone nlines="22" similarity="77">
+<source file="systems/krutz/list.c.ifdefed" startline="654" endline="676" pcid="40"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="678" endline="700" pcid="41"></source>
+</clone>
+
+<clone nlines="22" similarity="77">
+<source file="systems/krutz/list.c.ifdefed" startline="654" endline="676" pcid="40"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="702" endline="724" pcid="42"></source>
+</clone>
+
+<clone nlines="22" similarity="90">
+<source file="systems/krutz/list.c.ifdefed" startline="654" endline="676" pcid="40"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="931" endline="952" pcid="53"></source>
+</clone>
+
+<clone nlines="22" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="654" endline="676" pcid="40"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="954" endline="975" pcid="54"></source>
+</clone>
+
+<clone nlines="22" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="654" endline="676" pcid="40"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="977" endline="998" pcid="55"></source>
+</clone>
+
+<clone nlines="22" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="678" endline="700" pcid="41"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="907" endline="929" pcid="52"></source>
+</clone>
+
+<clone nlines="22" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="702" endline="724" pcid="42"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="907" endline="929" pcid="52"></source>
+</clone>
+
+<clone nlines="22" similarity="90">
+<source file="systems/krutz/list.c.ifdefed" startline="907" endline="929" pcid="52"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="931" endline="952" pcid="53"></source>
+</clone>
+
+<clone nlines="22" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="907" endline="929" pcid="52"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="954" endline="975" pcid="54"></source>
+</clone>
+
+<clone nlines="22" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="907" endline="929" pcid="52"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="977" endline="998" pcid="55"></source>
+</clone>
+
+<clone nlines="22" similarity="95">
+<source file="systems/krutz/list.c.ifdefed" startline="678" endline="700" pcid="41"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="702" endline="724" pcid="42"></source>
+</clone>
+
+<clone nlines="22" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="678" endline="700" pcid="41"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="931" endline="952" pcid="53"></source>
+</clone>
+
+<clone nlines="22" similarity="90">
+<source file="systems/krutz/list.c.ifdefed" startline="678" endline="700" pcid="41"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="954" endline="975" pcid="54"></source>
+</clone>
+
+<clone nlines="22" similarity="90">
+<source file="systems/krutz/list.c.ifdefed" startline="678" endline="700" pcid="41"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="977" endline="998" pcid="55"></source>
+</clone>
+
+<clone nlines="22" similarity="72">
+<source file="systems/krutz/list.c.ifdefed" startline="702" endline="724" pcid="42"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="931" endline="952" pcid="53"></source>
+</clone>
+
+<clone nlines="22" similarity="90">
+<source file="systems/krutz/list.c.ifdefed" startline="702" endline="724" pcid="42"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="954" endline="975" pcid="54"></source>
+</clone>
+
+<clone nlines="22" similarity="90">
+<source file="systems/krutz/list.c.ifdefed" startline="702" endline="724" pcid="42"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="977" endline="998" pcid="55"></source>
+</clone>
+
+<clone nlines="21" similarity="71">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1947" endline="1968" pcid="314"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2311" endline="2332" pcid="330"></source>
+</clone>
+
+<clone nlines="21" similarity="71">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4341" endline="4362" pcid="390"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4619" endline="4639" pcid="398"></source>
+</clone>
+
+<clone nlines="21" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="931" endline="952" pcid="53"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="954" endline="975" pcid="54"></source>
+</clone>
+
+<clone nlines="21" similarity="76">
+<source file="systems/krutz/list.c.ifdefed" startline="931" endline="952" pcid="53"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="977" endline="998" pcid="55"></source>
+</clone>
+
+<clone nlines="21" similarity="95">
+<source file="systems/krutz/list.c.ifdefed" startline="954" endline="975" pcid="54"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="977" endline="998" pcid="55"></source>
+</clone>
+
+<clone nlines="18" similarity="73">
+<source file="systems/krutz/pqformat.c.ifdefed" startline="44" endline="63" pcid="63"></source>
+<source file="systems/krutz/pqformat.c.ifdefed" startline="113" endline="130" pcid="66"></source>
+</clone>
+
+<clone nlines="19" similarity="94">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="292" endline="311" pcid="244"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="313" endline="332" pcid="245"></source>
+</clone>
+
+<clone nlines="18" similarity="78">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="292" endline="311" pcid="244"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="391" endline="408" pcid="249"></source>
+</clone>
+
+<clone nlines="18" similarity="78">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="292" endline="311" pcid="244"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="372" endline="389" pcid="248"></source>
+</clone>
+
+<clone nlines="18" similarity="78">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="292" endline="311" pcid="244"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="353" endline="370" pcid="247"></source>
+</clone>
+
+<clone nlines="18" similarity="78">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="292" endline="311" pcid="244"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="334" endline="351" pcid="246"></source>
+</clone>
+
+<clone nlines="18" similarity="78">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="292" endline="311" pcid="244"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="451" endline="468" pcid="251"></source>
+</clone>
+
+<clone nlines="18" similarity="78">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="313" endline="332" pcid="245"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="391" endline="408" pcid="249"></source>
+</clone>
+
+<clone nlines="18" similarity="78">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="313" endline="332" pcid="245"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="372" endline="389" pcid="248"></source>
+</clone>
+
+<clone nlines="18" similarity="78">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="313" endline="332" pcid="245"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="353" endline="370" pcid="247"></source>
+</clone>
+
+<clone nlines="18" similarity="78">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="313" endline="332" pcid="245"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="334" endline="351" pcid="246"></source>
+</clone>
+
+<clone nlines="18" similarity="78">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="313" endline="332" pcid="245"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="451" endline="468" pcid="251"></source>
+</clone>
+
+<clone nlines="18" similarity="72">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1970" endline="1988" pcid="315"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2021" endline="2039" pcid="317"></source>
+</clone>
+
+<clone nlines="17" similarity="94">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="372" endline="389" pcid="248"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="391" endline="408" pcid="249"></source>
+</clone>
+
+<clone nlines="17" similarity="94">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="353" endline="370" pcid="247"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="391" endline="408" pcid="249"></source>
+</clone>
+
+<clone nlines="17" similarity="94">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="334" endline="351" pcid="246"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="391" endline="408" pcid="249"></source>
+</clone>
+
+<clone nlines="17" similarity="94">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="391" endline="408" pcid="249"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="451" endline="468" pcid="251"></source>
+</clone>
+
+<clone nlines="17" similarity="94">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="353" endline="370" pcid="247"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="372" endline="389" pcid="248"></source>
+</clone>
+
+<clone nlines="17" similarity="94">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="334" endline="351" pcid="246"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="372" endline="389" pcid="248"></source>
+</clone>
+
+<clone nlines="17" similarity="94">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="372" endline="389" pcid="248"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="451" endline="468" pcid="251"></source>
+</clone>
+
+<clone nlines="17" similarity="94">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="334" endline="351" pcid="246"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="353" endline="370" pcid="247"></source>
+</clone>
+
+<clone nlines="17" similarity="94">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="353" endline="370" pcid="247"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="451" endline="468" pcid="251"></source>
+</clone>
+
+<clone nlines="17" similarity="94">
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="334" endline="351" pcid="246"></source>
+<source file="systems/krutz/mod_cache.c.ifdefed" startline="451" endline="468" pcid="251"></source>
+</clone>
+
+<clone nlines="15" similarity="70">
+<source file="systems/krutz/pqformat.c.ifdefed" startline="98" endline="111" pcid="65"></source>
+<source file="systems/krutz/pqformat.c.ifdefed" startline="113" endline="130" pcid="66"></source>
+</clone>
+
+<clone nlines="17" similarity="70">
+<source file="systems/krutz/list.c.ifdefed" startline="348" endline="365" pcid="27"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="403" endline="419" pcid="30"></source>
+</clone>
+
+<clone nlines="17" similarity="82">
+<source file="systems/krutz/list.c.ifdefed" startline="348" endline="365" pcid="27"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="367" endline="383" pcid="28"></source>
+</clone>
+
+<clone nlines="17" similarity="70">
+<source file="systems/krutz/list.c.ifdefed" startline="348" endline="365" pcid="27"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="385" endline="401" pcid="29"></source>
+</clone>
+
+<clone nlines="16" similarity="93">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="391" endline="407" pcid="229"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="409" endline="425" pcid="230"></source>
+</clone>
+
+<clone nlines="16" similarity="75">
+<source file="systems/krutz/list.c.ifdefed" startline="367" endline="383" pcid="28"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="403" endline="419" pcid="30"></source>
+</clone>
+
+<clone nlines="16" similarity="93">
+<source file="systems/krutz/list.c.ifdefed" startline="385" endline="401" pcid="29"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="403" endline="419" pcid="30"></source>
+</clone>
+
+<clone nlines="16" similarity="75">
+<source file="systems/krutz/list.c.ifdefed" startline="367" endline="383" pcid="28"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="385" endline="401" pcid="29"></source>
+</clone>
+
+<clone nlines="14" similarity="80">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1" endline="16" pcid="94"></source>
+<source file="systems/krutz/fpetestmodule.c.ifdefed" startline="1" endline="14" pcid="88"></source>
+</clone>
+
+<clone nlines="14" similarity="80">
+<source file="systems/krutz/audioop.c.ifdefed" startline="1" endline="16" pcid="94"></source>
+<source file="systems/krutz/fpectlmodule.c.ifdefed" startline="1" endline="14" pcid="1"></source>
+</clone>
+
+<clone nlines="13" similarity="71">
+<source file="systems/krutz/http_core.c.ifdefed" startline="37" endline="51" pcid="131"></source>
+<source file="systems/krutz/http_core.c.ifdefed" startline="53" endline="65" pcid="132"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2549" endline="2563" pcid="341"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2565" endline="2579" pcid="342"></source>
+</clone>
+
+<clone nlines="14" similarity="78">
+<source file="systems/krutz/http_core.c.ifdefed" startline="245" endline="259" pcid="137"></source>
+<source file="systems/krutz/http_core.c.ifdefed" startline="261" endline="275" pcid="138"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4311" endline="4325" pcid="388"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4641" endline="4655" pcid="399"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1400" endline="1413" pcid="295"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4641" endline="4655" pcid="399"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4295" endline="4309" pcid="387"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4311" endline="4325" pcid="388"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4311" endline="4325" pcid="388"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4419" endline="4433" pcid="393"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="1400" endline="1413" pcid="295"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4311" endline="4325" pcid="388"></source>
+</clone>
+
+<clone nlines="14" similarity="92">
+<source file="systems/krutz/list.c.ifdefed" startline="180" endline="194" pcid="17"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="196" endline="210" pcid="18"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/list.c.ifdefed" startline="145" endline="159" pcid="15"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="196" endline="210" pcid="18"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/list.c.ifdefed" startline="1" endline="15" pcid="6"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="196" endline="210" pcid="18"></source>
+</clone>
+
+<clone nlines="14" similarity="92">
+<source file="systems/krutz/list.c.ifdefed" startline="78" endline="92" pcid="10"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="196" endline="210" pcid="18"></source>
+</clone>
+
+<clone nlines="14" similarity="92">
+<source file="systems/krutz/list.c.ifdefed" startline="62" endline="76" pcid="9"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="196" endline="210" pcid="18"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4295" endline="4309" pcid="387"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4419" endline="4433" pcid="393"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2465" endline="2479" pcid="337"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4295" endline="4309" pcid="387"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/list.c.ifdefed" startline="145" endline="159" pcid="15"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="180" endline="194" pcid="17"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/list.c.ifdefed" startline="1" endline="15" pcid="6"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="180" endline="194" pcid="17"></source>
+</clone>
+
+<clone nlines="14" similarity="92">
+<source file="systems/krutz/list.c.ifdefed" startline="78" endline="92" pcid="10"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="180" endline="194" pcid="17"></source>
+</clone>
+
+<clone nlines="14" similarity="92">
+<source file="systems/krutz/list.c.ifdefed" startline="62" endline="76" pcid="9"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="180" endline="194" pcid="17"></source>
+</clone>
+
+<clone nlines="14" similarity="92">
+<source file="systems/krutz/list.c.ifdefed" startline="1" endline="15" pcid="6"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="145" endline="159" pcid="15"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/list.c.ifdefed" startline="78" endline="92" pcid="10"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="145" endline="159" pcid="15"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/list.c.ifdefed" startline="62" endline="76" pcid="9"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="145" endline="159" pcid="15"></source>
+</clone>
+
+<clone nlines="14" similarity="78">
+<source file="systems/krutz/fpetestmodule.c.ifdefed" startline="68" endline="81" pcid="91"></source>
+<source file="systems/krutz/fpetestmodule.c.ifdefed" startline="83" endline="95" pcid="92"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/list.c.ifdefed" startline="1" endline="15" pcid="6"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="78" endline="92" pcid="10"></source>
+</clone>
+
+<clone nlines="14" similarity="71">
+<source file="systems/krutz/list.c.ifdefed" startline="1" endline="15" pcid="6"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="62" endline="76" pcid="9"></source>
+</clone>
+
+<clone nlines="14" similarity="92">
+<source file="systems/krutz/list.c.ifdefed" startline="62" endline="76" pcid="9"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="78" endline="92" pcid="10"></source>
+</clone>
+
+<clone nlines="13" similarity="92">
+<source file="systems/krutz/fpectlmodule.c.ifdefed" startline="1" endline="14" pcid="1"></source>
+<source file="systems/krutz/fpetestmodule.c.ifdefed" startline="1" endline="14" pcid="88"></source>
+</clone>
+
+<clone nlines="12" similarity="83">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="427" endline="439" pcid="231"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="490" endline="501" pcid="236"></source>
+</clone>
+
+<clone nlines="12" similarity="83">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="427" endline="439" pcid="231"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="477" endline="488" pcid="235"></source>
+</clone>
+
+<clone nlines="12" similarity="83">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="427" endline="439" pcid="231"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="441" endline="452" pcid="232"></source>
+</clone>
+
+<clone nlines="11" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="427" endline="439" pcid="231"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="454" endline="464" pcid="233"></source>
+</clone>
+
+<clone nlines="12" similarity="75">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4251" endline="4263" pcid="383"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4327" endline="4339" pcid="389"></source>
+</clone>
+
+<clone nlines="12" similarity="75">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2283" endline="2295" pcid="328"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2297" endline="2309" pcid="329"></source>
+</clone>
+
+<clone nlines="11" similarity="72">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="701" endline="712" pcid="268"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="714" endline="725" pcid="269"></source>
+</clone>
+
+<clone nlines="11" similarity="81">
+<source file="systems/krutz/value.c.ifdefed" startline="1" endline="12" pcid="412"></source>
+<source file="systems/krutz/value.c.ifdefed" startline="14" endline="25" pcid="413"></source>
+</clone>
+
+<clone nlines="11" similarity="81">
+<source file="systems/krutz/value.c.ifdefed" startline="1" endline="12" pcid="412"></source>
+<source file="systems/krutz/value.c.ifdefed" startline="27" endline="38" pcid="414"></source>
+</clone>
+
+<clone nlines="11" similarity="81">
+<source file="systems/krutz/value.c.ifdefed" startline="1" endline="12" pcid="412"></source>
+<source file="systems/krutz/value.c.ifdefed" startline="40" endline="51" pcid="415"></source>
+</clone>
+
+<clone nlines="11" similarity="90">
+<source file="systems/krutz/value.c.ifdefed" startline="14" endline="25" pcid="413"></source>
+<source file="systems/krutz/value.c.ifdefed" startline="27" endline="38" pcid="414"></source>
+</clone>
+
+<clone nlines="11" similarity="90">
+<source file="systems/krutz/value.c.ifdefed" startline="14" endline="25" pcid="413"></source>
+<source file="systems/krutz/value.c.ifdefed" startline="40" endline="51" pcid="415"></source>
+</clone>
+
+<clone nlines="11" similarity="90">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="477" endline="488" pcid="235"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="490" endline="501" pcid="236"></source>
+</clone>
+
+<clone nlines="11" similarity="90">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="441" endline="452" pcid="232"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="490" endline="501" pcid="236"></source>
+</clone>
+
+<clone nlines="11" similarity="81">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="454" endline="464" pcid="233"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="490" endline="501" pcid="236"></source>
+</clone>
+
+<clone nlines="11" similarity="90">
+<source file="systems/krutz/value.c.ifdefed" startline="27" endline="38" pcid="414"></source>
+<source file="systems/krutz/value.c.ifdefed" startline="40" endline="51" pcid="415"></source>
+</clone>
+
+<clone nlines="11" similarity="72">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="786" endline="797" pcid="274"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="799" endline="810" pcid="275"></source>
+</clone>
+
+<clone nlines="11" similarity="72">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="786" endline="797" pcid="274"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="858" endline="869" pcid="278"></source>
+</clone>
+
+<clone nlines="11" similarity="90">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="441" endline="452" pcid="232"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="477" endline="488" pcid="235"></source>
+</clone>
+
+<clone nlines="11" similarity="81">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="454" endline="464" pcid="233"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="477" endline="488" pcid="235"></source>
+</clone>
+
+<clone nlines="11" similarity="72">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="799" endline="810" pcid="275"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="858" endline="869" pcid="278"></source>
+</clone>
+
+<clone nlines="11" similarity="72">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2581" endline="2592" pcid="343"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2607" endline="2618" pcid="345"></source>
+</clone>
+
+<clone nlines="11" similarity="72">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2581" endline="2592" pcid="343"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2594" endline="2605" pcid="344"></source>
+</clone>
+
+<clone nlines="11" similarity="81">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="441" endline="452" pcid="232"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="454" endline="464" pcid="233"></source>
+</clone>
+
+<clone nlines="11" similarity="72">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2594" endline="2605" pcid="344"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2607" endline="2618" pcid="345"></source>
+</clone>
+
+<clone nlines="10" similarity="70">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="2087" endline="2097" pcid="320"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4265" endline="4275" pcid="384"></source>
+</clone>
+
+<clone nlines="9" similarity="100">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4840" endline="4849" pcid="408"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="277" endline="286" pcid="21"></source>
+</clone>
+
+<clone nlines="9" similarity="100">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="4700" endline="4709" pcid="402"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="288" endline="297" pcid="22"></source>
+</clone>
+
+<clone nlines="9" similarity="88">
+<source file="systems/krutz/list.c.ifdefed" startline="863" endline="872" pcid="48"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="874" endline="883" pcid="49"></source>
+</clone>
+
+<clone nlines="9" similarity="88">
+<source file="systems/krutz/list.c.ifdefed" startline="885" endline="894" pcid="50"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="896" endline="905" pcid="51"></source>
+</clone>
+
+<clone nlines="9" similarity="77">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="267" endline="275" pcid="224"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="466" endline="475" pcid="234"></source>
+</clone>
+
+<clone nlines="6" similarity="83">
+<source file="systems/krutz/list.c.ifdefed" startline="332" endline="338" pcid="25"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="340" endline="346" pcid="26"></source>
+</clone>
+
+<clone nlines="6" similarity="83">
+<source file="systems/krutz/list.c.ifdefed" startline="129" endline="135" pcid="13"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="137" endline="143" pcid="14"></source>
+</clone>
+
+<clone nlines="5" similarity="80">
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="727" endline="732" pcid="270"></source>
+<source file="systems/krutz/outfuncs.c.ifdefed" startline="734" endline="739" pcid="271"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="32" endline="36" pcid="207"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="38" endline="42" pcid="208"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="44" endline="48" pcid="209"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="50" endline="54" pcid="210"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="56" endline="60" pcid="211"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/list.c.ifdefed" startline="453" endline="457" pcid="32"></source>
+<source file="systems/krutz/list.c.ifdefed" startline="1027" endline="1031" pcid="57"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/mod_file_cache.c.ifdefed" startline="18" endline="22" pcid="195"></source>
+<source file="systems/krutz/mod_file_cache.c.ifdefed" startline="24" endline="28" pcid="196"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="62" endline="66" pcid="212"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="134" endline="138" pcid="214"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="140" endline="144" pcid="215"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="26" endline="30" pcid="206"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="146" endline="150" pcid="216"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="152" endline="156" pcid="217"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="158" endline="162" pcid="218"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="164" endline="168" pcid="219"></source>
+</clone>
+
+<clone nlines="4" similarity="75">
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="14" endline="18" pcid="204"></source>
+<source file="systems/krutz/cmathmodule.c.ifdefed" startline="20" endline="24" pcid="205"></source>
+</clone>
+
+</clones>

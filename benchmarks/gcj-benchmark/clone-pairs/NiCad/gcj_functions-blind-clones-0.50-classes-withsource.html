@@ -1,0 +1,4007 @@
+<html>
+<head>
+<style type="text/css">
+body {font-family:Arial}
+table {background-color:white; border:0px solid white; width:95%; margin-left:auto; margin-right: auto}
+td {background-color:#b0c4de; padding:16px; border:4px solid white}
+pre {background-color:white; padding:4px}
+</style>
+<title>
+NiCad Clone Report
+</title>
+</head>
+<body>
+<h2>
+NiCad Clone Report
+</h2>
+System: gcj
+<br>
+<br>Granularity: functions-blind
+<br>Max difference threshold: 50%
+<br>Clone size: 1 - 2500 lines
+<br>
+<br>Total functions-blind: 666
+<br>Clone pairs found: 509
+<br>
+<br>LCS compares: 90183 &nbsp;&nbsp;&nbsp; CPU time: 0 min 0.91 sec
+<br>
+<br>Number of  classes: 42
+<br>
+<h3>Clone class 1, 7 fragments, nominal size 9 lines, similarity 50%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 17 - 31 of systems/gcj/alphabet-cake_lemmaa.c.ifdefed
+<pre>
+void show_cake(int R, int C)
+{
+	int i, j;
+
+	__LOG("----------------------\n");
+	for (i = 1; i &lt;= R; ++i)
+	{
+		for (j = 1; j &lt;= C; ++j)
+		{
+			printf("%c", CAKE[i][j]);
+		}
+		printf("\n");
+	}
+	__LOG("----------------------\n");
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 4 - 15 of systems/gcj/alphabet-cake_Vishu2421.c.ifdefed
+<pre>
+void matprint(char **a,int m,int n)
+{
+    int i,j;
+    for(i=0;i&lt;m;i++)
+    {
+        for(j=0;j&lt;n;j++)
+        {
+            printf("%c",a[i][j]);
+        }
+        printf("\n");
+    }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 6 - 19 of systems/gcj/alphabet-cake_Aaby.c.ifdefed
+<pre>
+void print_array(char **a,int m,int n)
+{
+    int x,y;
+    
+    
+    for(x=0;x&lt;m;x++)
+    {
+        for(y=0;y&lt;n;y++)
+        {
+            printf("%c",a[x][y]);
+        }
+        printf("\n");
+    }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 44 - 53 of systems/gcj/alphabet-cake_Ioannis70.c.ifdefed
+<pre>
+void print_cake()
+{
+	int i, j;
+	for (i = 0;i &lt; R;i++)
+	{
+		for (j = 0;j &lt; C;j++)
+			printf("%c", cake[i][j]);
+		printf("\n");
+	}
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 15 - 25 of systems/gcj/fashion-show_hikalium.c.ifdefed
+<pre>
+void printMap(char map[100][100])
+{
+	int x, y;
+	printf("MAP:\n");
+	for(y = 0; y &lt; N; y++){
+		for(x = 0; x &lt; N; x++){
+			printf("%c ", map[y][x]);
+		}
+		printf("\n");
+	}
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 36 - 42 of systems/gcj/alphabet-cake_Ioannis70.c.ifdefed
+<pre>
+void print_alphabet()
+{
+	int i;
+	for (i = 0;i &lt; nof_chars;i++)
+		printf("%c", alphabet[i]);
+	printf("\n");
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 115 - 122 of systems/gcj/counter-culture_SSVK.c.ifdefed
+<pre>
+void printarray(int *array, int size)
+{
+	int i;
+	printf("printing array\n");
+	for (i=0;i&lt;size;i++)
+		printf("[%d] %d \n",i, array[i]);
+	printf("\n");
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 2, 2 fragments, nominal size 22 lines, similarity 59%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 3 - 27 of systems/gcj/steed-2-cruise-control_mimo31.c.ifdefed
+<pre>
+int main(void)
+{
+    int t;
+    scanf("%d", &amp;t);
+    int curcase = 0;
+    while (curcase != t)
+    {
+        int d, n;
+	scanf("%d %d", &amp;d, &amp;n);
+	double maxtime = 0;
+	for (int i = 0; i &lt; n; i++)
+	{
+	    int dist, speed;
+	    scanf("%d %d", &amp;dist, &amp;speed);
+	    double time = (d - dist) / (double)speed;
+	    if (time &gt; maxtime)
+	    {
+	        maxtime = time;
+	    }
+	}
+	printf("Case #%d: %lf\n", curcase + 1, d / maxtime);
+	curcase++;
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 10 - 33 of systems/gcj/steed-2-cruise-control_topwu.c.ifdefed
+<pre>
+int main() {
+    int t;
+    scanf("%d", &amp;t);
+
+    for (int i = 0; i &lt; t; i++) {
+        int d, n;
+        scanf("%d %d", &amp;d, &amp;n);
+
+        float min = 0.0;
+        for (int j = 0; j &lt; n; j++) {
+            int k, s;
+            scanf("%d %d", &amp;k, &amp;s);
+
+            float v = (float)d / (d - k) * s;
+            if (j == 0) {
+                min = v;
+            } else {
+                min = minF(min, v);
+            }
+        }
+        printf("Case #%d: %f\n", i + 1, min);
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 3, 55 fragments, nominal size 10 lines, similarity 50%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 5 - 10 of systems/gcj/pony-express_tatuyan.c.ifdefed
+<pre>
+int main(void){
+  int T,i;
+  scanf("%d",&amp;T);
+  for(i=1;i&lt;=T;i++) solve(i);
+  return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 32 - 42 of systems/gcj/rank-and-file_caf.c.ifdefed
+<pre>
+int main()
+{
+	int t, i;
+
+	scanf("%d", &amp;t);
+	
+	for (i = 0; i &lt; t; i++)
+		do_test(i);
+
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 79 - 85 of systems/gcj/getting-the-digits_Garogolun.c.ifdefed
+<pre>
+int main() {
+  int n, i;
+
+  scanf("%d\n", &amp;n);
+  for (i = 1; i &lt;= n; i++)
+    test_case(i);
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 44 - 54 of systems/gcj/fractiles_caf.c.ifdefed
+<pre>
+int main()
+{
+	int t, i;
+
+	scanf("%d", &amp;t);
+	
+	for (i = 0; i &lt; t; i++)
+		do_test(i);
+
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 42 - 52 of systems/gcj/slides_caf.c.ifdefed
+<pre>
+int main()
+{
+	int t, i;
+
+	scanf("%d", &amp;t);
+	
+	for (i = 0; i &lt; t; i++)
+		do_test(i);
+
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 17 - 22 of systems/gcj/ample-syrup_tatuyan.c.ifdefed
+<pre>
+int main(void){
+  int T,i;
+  scanf("%d",&amp;T);
+  for(i=1;i&lt;=T;i++) solve(i);
+  return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 21 - 28 of systems/gcj/tidy-numbers_trainsick.c.ifdefed
+<pre>
+int main(int argc, char **argv) {
+    int i,tc;
+    scanf("%d",&amp;tc);
+    for (i=1;i&lt;=tc;i++) {
+        printf("Case #%d: %s\n",i, problem());
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 47 - 54 of systems/gcj/haircut_xylo.c.ifdefed
+<pre>
+int main(void) {
+	int n_cases;
+	scanf("%d", &amp;n_cases);
+	for (int i = 0; i &lt; n_cases; ++i) {
+		solve_testcase(i+1);
+	}
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 14 - 19 of systems/gcj/parenting-partnering_tatuyan.c.ifdefed
+<pre>
+int main(void){
+  int T,i;
+  scanf("%d",&amp;T);
+  for(i=1;i&lt;=T;i++) solve(i);
+  return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 16 - 21 of systems/gcj/steed-2-cruise-control_tatuyan.c.ifdefed
+<pre>
+int main(void){
+  int i,T;
+  scanf("%d",&amp;T);
+  for(i=1;i&lt;=T;i++) solve(i);
+  return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 95 - 101 of systems/gcj/stable-neigh-bors_ulyr.c.ifdefed
+<pre>
+int main () {
+    int t,i;
+    scanf("%d",&amp;t);
+    for(i = 0; i&lt;t; i++)
+        solve(i+1);
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 215 - 225 of systems/gcj/dijkstra_caf.c.ifdefed
+<pre>
+int main()
+{
+	int t, i;
+
+	scanf("%d", &amp;t);
+	
+	for (i = 0; i &lt; t; i++)
+		do_test(i);
+
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 46 - 51 of systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed
+<pre>
+int main() {
+	int T,caseno=1;
+	scanf("%d",&amp;T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 40 - 45 of systems/gcj/bff_stubbscroll.c.ifdefed
+<pre>
+int main() {
+	int T,caseno=1;
+	scanf("%d",&amp;T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 74 - 79 of systems/gcj/bathroom-stalls_stubbscroll.c.ifdefed
+<pre>
+int main() {
+	int T,caseno=1;
+	scanf("%d",&amp;T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 29 - 34 of systems/gcj/core-training_stubbscroll.c.ifdefed
+<pre>
+int main() {
+	int T,caseno=1;
+	scanf("%d",&amp;T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 53 - 58 of systems/gcj/stable-neigh-bors_stubbscroll.c.ifdefed
+<pre>
+int main() {
+	int T,caseno=1;
+	scanf("%d",&amp;T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 32 - 44 of systems/gcj/counting-sheep_aalapshah12297.c.ifdefed
+<pre>
+int main()
+{
+	int t, n, i;
+	scanf("%d", &amp;t);
+	for(i=1;i&lt;=t;i++)
+	{
+		scanf("%d", &amp;n);
+		printf("Case #%d: ", i);
+		lastNumber(n);
+	}
+
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 91 - 97 of systems/gcj/fractiles_stschudi42.c.ifdefed
+<pre>
+int main(){
+	int run, n;
+	n = nextInt();
+	for(run=1;run&lt;=n;run++){
+		doStuff(run);
+	}
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 32 - 37 of systems/gcj/ample-syrup_stubbscroll.c.ifdefed
+<pre>
+int main() {
+	int T,caseno=1;
+	scanf("%d",&amp;T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 42 - 47 of systems/gcj/pony-express_stubbscroll.c.ifdefed
+<pre>
+int main() {
+	int T,caseno=1;
+	scanf("%d",&amp;T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 20 - 31 of systems/gcj/revenge-of-the-pancakes_hobermallow.c.ifdefed
+<pre>
+int main()
+{
+    int t, i;
+    char s[101];
+    scanf("%d",&amp;t);
+    for(i=0;i&lt;t;i++)
+    {
+        scanf("%s",s);
+        printf("Case #%d: %d\n",i+1,f(s));
+    }
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 23 - 36 of systems/gcj/revenge-of-the-pancakes_alan790712.c.ifdefed
+<pre>
+int main()
+{
+    int t, T;
+    char stack[105];
+    scanf("%d",&amp;T);
+    for(t=1;t&lt;=T;++t)
+    {
+        scanf("%s",stack);
+        printf("Case #%d: ", t);
+        solve(stack);
+    }
+
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 86 - 99 of systems/gcj/senate-evacuation_santosha.c.ifdefed
+<pre>
+int 
+main ()
+{
+	int	ix, ntests;
+
+	scanf ("%d", &amp;ntests);
+
+	for (ix = 1; ix &lt;= ntests; ++ix) {
+
+		printf ("Case #%d: ", ix);
+		do_evac ();
+	}
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 47 - 57 of systems/gcj/ominous-omino_saiz.c.ifdefed
+<pre>
+int main()
+{
+    int q,i;
+    scanf("%d",&amp;q);
+    for(i=1;i&lt;=q;i++)
+    {
+        printf("Case #%d: ",i);
+        solve();
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 43 - 48 of systems/gcj/parenting-partnering_stubbscroll.c.ifdefed
+<pre>
+int main() {
+	int T,caseno=1;
+	scanf("%d",&amp;T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 82 - 94 of systems/gcj/stable-neigh-bors_Rudolph..c.ifdefed
+<pre>
+int main(int argc, char** argv){
+    int T, t;
+
+    scanf(" %d", &amp;T);
+
+    for (t = 1; t &lt;= T; ++t){
+        printf("Case #%d: ", t);
+        solve();
+        printf("\n");
+    }
+
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 118 - 132 of systems/gcj/stable-neigh-bors_rompel.c.ifdefed
+<pre>
+int main(int argc, char **argv)
+{
+  int T, cnum;
+
+  init_data();
+
+  T = rd1int();
+  for(cnum=1; cnum&lt;=T; cnum++)
+    {
+      do_one_case(cnum);
+      fflush(stdout);
+    }
+
+  return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 45 - 54 of systems/gcj/bff_dooglius.c.ifdefed
+<pre>
+int main(void) {
+	int t;
+	scanf("%d",&amp;t);
+	for(int i = 1; i &lt;= t; i++) {
+		int n;
+		scanf("%d", &amp;n);
+		printf("Case #%d: %d\n", i, go(n));
+	}
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 55 - 66 of systems/gcj/counter-culture_AxiomOfChoice.c.ifdefed
+<pre>
+int main()
+{
+	int t;
+	ll x;
+	scanf("%d", &amp;t);
+	for(int i = 1; i &lt;= t; i++)
+	{
+		scanf("%lld", &amp;x);
+		printf("Case #%d: %lld\n", i, work(x));
+	}
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 88 - 97 of systems/gcj/stable-neigh-bors_xylo.c.ifdefed
+<pre>
+int main(void) {
+	int n_test_cases;
+	scanf("%d", &amp;n_test_cases);
+	for (int i = 0; i &lt; n_test_cases; ++i) {
+		int n, r, o, y, g, b, v;
+		scanf("%d%d%d%d%d%d%d", &amp;n, &amp;r, &amp;o, &amp;y, &amp;g, &amp;b, &amp;v);
+		solve_test_case(i+1, n, r, o, y, g, b, v);
+	}
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 63 - 78 of systems/gcj/ample-syrup_xylo.c.ifdefed
+<pre>
+int main(void) {
+	int n_test_cases;
+	scanf("%d", &amp;n_test_cases);
+	for (int i = 0; i &lt; n_test_cases; ++i) {
+		int n, k;
+		pancake_t pancakes[1000];
+		scanf("%d%d", &amp;n, &amp;k);
+		for (int i = 0; i &lt; n; ++i) 
+			scanf("%lf%lf", 
+					&amp;(pancakes[i].radius),
+					&amp;(pancakes[i].height)
+			);
+		solve_test_case(i+1, n, k, pancakes);
+	}
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 87 - 97 of systems/gcj/close-match_shk10.c.ifdefed
+<pre>
+int main()
+{
+	int T=getInt(), cas;
+	for(cas=1; cas&lt;=T; cas++) {
+		scanf("%s%s", P, Q);
+		printf("Case #%d: ", cas);
+		solve();
+		printf("\n");
+	}
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 3 - 17 of systems/gcj/ominous-omino_a3nm.c.ifdefed
+<pre>
+int main() {
+  int T;
+  scanf("%d", &amp;T);
+  for (int ncase = 0; ncase &lt; T; ncase++) {
+    int X, R, C;
+    scanf("%d%d%d", &amp;X, &amp;R, &amp;C);
+    printf("Case #%d: %s\n", ncase + 1, 
+        (X == 1) ||
+        (X == 2 &amp;&amp; ((R%2) == 0 || (C%2) == 0)) ||
+        (X == 3 &amp;&amp; ((R == 3 &amp;&amp; C &gt;= 2) || (C == 3 &amp;&amp; R &gt;= 2))) ||
+        (X == 4 &amp;&amp; ((C == 4 &amp;&amp; R &gt;= 3)|| (R == 4 &amp;&amp; C &gt;= 3))) ?
+        "GABRIEL" : "RICHARD");
+  }
+  return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 44 - 58 of systems/gcj/bff_shk10.c.ifdefed
+<pre>
+int main() {
+    int T, cas;
+    scanf("%d", &amp;T);
+    for(cas=1; cas&lt;=T; cas++) {
+        scanf("%d", &amp;N);
+        int i;
+        for(i=0; i&lt;N; i++) {
+            scanf("%d", &amp;A[i]);
+            A[i]--;
+        }
+        printf("Case #%d: ", cas);
+        solve();
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 35 - 48 of systems/gcj/counting-sheep_Garogolun.c.ifdefed
+<pre>
+int main(int argc, char *argv[]) {
+  int T;
+  scanf("%d", &amp;T);
+
+  for (int i = 1; i &lt;= T; i++) {
+    uint64_t N;
+    scanf("%" SCNu64, &amp;N);
+    printf("Case #%d: ", i);
+    test_case(N);
+    printf("\n");
+  }
+
+  return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 6 - 16 of systems/gcj/getting-the-digits_tatuyan.c.ifdefed
+<pre>
+int main(void){
+  int cases,T;
+  char str[2001];
+  scanf("%d%*c",&amp;T);
+  for(cases=1;cases&lt;=T;cases++){
+    scanf("%s%*c",str);
+    printf("Case #%d: ",cases);
+    solve(str);
+  }
+  return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 27 - 37 of systems/gcj/tidy-numbers_akshay.rajput.c.ifdefed
+<pre>
+int main()
+{
+  char s[20];
+  int t;
+  scanf("%d",&amp;t);
+  for(int a0 = 1; a0 &lt;=t ; a0++)
+  {
+    scanf("%s",s);
+    printf("Case #%d: %lld\n",a0,atoll(getNum(s)));
+  }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 8 - 24 of systems/gcj/the-last-word_b013040047.c.ifdefed
+<pre>
+int main() {
+	int T, i;
+	char S[SIZE], ans[SIZE];
+
+	scanf("%d", &amp;T);
+
+	for (i = 1; i &lt; T+1; i++) {
+		scanf("%s", &amp;S);
+
+		memset(ans, 0, sizeof(ans));
+		find(ans, S);
+
+		printf("Case #%d: %s\n", i, ans);
+	}
+
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 107 - 118 of systems/gcj/revenge-of-the-pancakes_BrainSteel.c.ifdefed
+<pre>
+int main() {
+    int num, T;
+    char buf[100];
+    scanf(" %d", &amp;num);
+    for (T = 0; T &lt; num; T++) {
+        
+        scanf(" %[+-]", buf);
+        
+        printf("Case #%d: %ld\n", T + 1, findtotalflips(buf));
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 147 - 159 of systems/gcj/parenting-partnering_Rudolph..c.ifdefed
+<pre>
+int main(int argc, char* argv[]){
+  int T, t;
+
+  scanf(" %d", &amp;T);
+
+  for (t = 1; t &lt;= T; ++t){
+    printf("Case #%d: ", t);
+    solve();
+    printf("\n");
+  }
+
+  return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 40 - 50 of systems/gcj/fresh-chocolate_hidden1.c.ifdefed
+<pre>
+int main() {
+    freopen("a.in", "r", stdin);
+    freopen("a.out", "w", stdout);
+
+    int t, ti;
+    scanf("%i", &amp;t);
+    for (ti = 1; ti &lt;= t; ++ti) {
+        printf("Case #%i: ", ti);
+        solve();
+    }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 32 - 46 of systems/gcj/mushroom-monster_RandomUser.c.ifdefed
+<pre>
+int main() {
+	int cases;
+	scanf("%d", &amp;cases);
+	for(int i = 1; i &lt;= cases; i++) {
+		int states;
+		scanf("%d", &amp;states);
+		int *mush = malloc(sizeof(int)*states);
+		for(int j=0;j&lt;states;j++) {
+			scanf("%d",mush+j);
+		}
+
+		printf("Case #%d: %d %d\n", i, first(mush,states), second(mush,states));
+		free(mush);
+	}
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 85 - 94 of systems/gcj/close-match_akdee.c.ifdefed
+<pre>
+int main()
+{
+	int cases;scanf("%d",&amp;cases);
+	for (int cs=1;cs&lt;=cases;cs++)
+	{
+		char c[20],j[20];scanf(" %s %s\n",c,j);
+		solve(c,j);
+		printf("Case #%d: %s %s\n",cs,c,j);
+	}
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 33 - 39 of systems/gcj/counter-culture_Effilry.c.ifdefed
+<pre>
+int main(void) {
+  int T; scanf("%d", &amp;T);
+  for (int t = 1; t &lt;= T; t++) {
+    long n; scanf("%ld", &amp;n);
+    printf("Case #%d: %ld\n", t, solve(n));
+  }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 43 - 61 of systems/gcj/ominous-omino_hak7a3.c.ifdefed
+<pre>
+int main()
+{
+  int T;
+  scanf("%d", &amp;T);
+
+  int i;
+  for (i = 0; i &lt; T; i++) {
+    printf("Case #%d: ", i + 1);
+
+    int X, R ,C;
+    scanf("%d %d %d", &amp;X, &amp;R, &amp;C);
+    calc(X, R, C);
+    
+    printf("\n");
+  }
+
+  
+  return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 56 - 70 of systems/gcj/bff_hamadu.c.ifdefed
+<pre>
+int main(int argc, char** argv) {
+  int T = 0;
+  int n = 0;
+  int t, i;
+  scanf("%d", &amp;T);
+  for (t = 1 ; t &lt;= T ; t++) {
+    scanf("%d", &amp;n);
+    for (i = 0 ; i &lt; n ; i++) {
+      scanf("%d", &amp;a[i]);
+      a[i]--;
+    }
+    solve(n);
+    printf("Case #%d: %d\n", t, ans);
+  }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 28 - 45 of systems/gcj/bff_WhiteShadow.c.ifdefed
+<pre>
+int main() {
+  int t, i, j, k;
+
+  scanf("%d", &amp;t);
+  for (i=1; i&lt;=t; i++) {
+    scanf("%d", &amp;n);
+    for (j=1; j&lt;=n; j++) scanf("%d", &amp;bff[j]);
+    
+    for (k=n, ok=0; k&gt;0; k--) {
+      go(0, k);
+      if (ok) break;
+    }
+
+    printf("Case #%d: %d\n", i, k);
+  }
+  
+  return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 21 - 31 of systems/gcj/standing-ovation_regnarg.c.ifdefed
+<pre>
+int main(void) {
+    int T;
+    scanf("%d ", &amp;T);
+    for (int tc = 1; tc &lt;= T; tc++) {
+        scanf("%d ", &amp;max_shy);
+        gets(s);
+        int r = solve();
+        printf("Case #%d: %d\n", tc, r);
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 8 - 23 of systems/gcj/steed-2-cruise-control_yudhik.c.ifdefed
+<pre>
+int main (){
+		int t;
+		scanf("%d",&amp;t);
+		for (int z=1;z&lt;=t;z++){
+				double d,h;
+				scanf("%lf%lf",&amp;d,&amp;h);
+				float mn=0;
+				for (int i=0;i&lt;h;i++){
+						double a,b;
+						scanf("%lf%lf",&amp;a,&amp;b);
+						mn=max(mn,(d-a)/b);
+				}
+		printf("Case #%d: %lf\n",z,d/mn);
+		}
+		return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 4 - 26 of systems/gcj/infinite-house-of-pancakes_PKu.c.ifdefed
+<pre>
+int main()
+{
+    int q,z,n,i,j,ans=0,min;
+    scanf("%d",&amp;q);
+    for(z=1;z&lt;=q;z++)
+    {
+        min=INF;
+        scanf("%d",&amp;n);
+        for(i=0;i&lt;n;i++)
+            scanf("%d",&amp;a[i]);
+        for(i=1;i&lt;=1000;i++)
+        {
+            ans=0;
+            for(j=0;j&lt;n;j++)
+            {
+                ans+=(a[j]-1)/i;
+            }
+            if(ans+i&lt;min)min=ans+i;
+        }
+        printf("Case #%d: %d\n",z,min);
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 9 - 27 of systems/gcj/standing-ovation_RAYMAN.c.ifdefed
+<pre>
+int main()
+{
+	int T, t, i, ans;
+	FILE* fp = fopen("A-large.out", "w");
+
+	scanf("%d", &amp;T);
+	for(t = 1; t &lt;= T; t++) {
+		scanf("%d", &amp;N);
+		for(i = 0; i &lt;= N; i++) {
+			scanf("%1d", &amp;S[i]);
+		}
+		P[0] = 0;
+		init(1, N);
+		ans = solve();
+		fprintf(fp, "Case #%d: %d\n", t, ans);
+	}
+	fclose(fp);
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 3 - 27 of systems/gcj/infinite-house-of-pancakes_PunSa.c.ifdefed
+<pre>
+int main()
+{
+    int q,k,d,i,j,high=0,count;
+    scanf("%d",&amp;q);
+    for(k=1;k&lt;=q;k++)
+    {
+        high=0,min=10000;
+        scanf("%d",&amp;d);
+        for(i=1;i&lt;=d;i++)
+        {
+            scanf("%d",&amp;arr[i]);
+            if(arr[i]&gt;high) high=arr[i];
+        }
+        for(i=1;i&lt;=high;i++)
+        {
+            count=0;
+            for(j=1;j&lt;=d;j++)
+                count+=(arr[j]-1)/i;
+            count+=i;
+            //printf("%d\n",count);
+            if(count&lt;min)   min=count;
+        }
+        printf("Case #%d: %d\n",k,min);
+    }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 9 - 30 of systems/gcj/haircut_Konrad127123.c.ifdefed
+<pre>
+int main(){
+scanf("%d",&amp;T);
+
+for(t=1;t&lt;=T;t++){
+scanf("%d",&amp;B);
+scanf("%lld",&amp;N);
+for(b=0;b&lt;B;b++){
+ scanf("%lld",&amp;foo[b]);
+ } 
+
+tmp=seech();
+N-=score(tmp);
+
+for(b=0;b&lt;B;b++){
+ if (tmp%foo[b]==0) N--;
+ if (N==0) break;
+ } 
+
+ printf("Case #%d: %d\n",t,b+1);
+}
+return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 8 - 27 of systems/gcj/infinite-house-of-pancakes_Charyl.c.ifdefed
+<pre>
+int main(){
+	int t,i,j,d,sum,k,min;
+    scanf("%d",&amp;t);
+	for(i=1;i&lt;=t;i++){
+		printf("Case #%d: ",i);
+		scanf("%d",&amp;d);
+		for(j=0;j&lt;d;j++)
+			scanf("%d",&amp;pan[j]);
+		min=2000;
+		for(j=1;j&lt;=1000;j++){
+			sum=0;
+			for(k=0;k&lt;d;k++)
+				sum+=(pan[k]-1)/j;
+			if(sum+j &lt; min)
+				min = sum+j;
+		}
+		printf("%d\n",min);
+	}
+    return 0;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 4, 8 fragments, nominal size 4 lines, similarity 50%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 3 - 5 of systems/gcj/ominous-omino_cjoa.c.ifdefed
+<pre>
+int solve1(int R, int C) {
+   return 1;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 7 - 10 of systems/gcj/ominous-omino_cjoa.c.ifdefed
+<pre>
+int solve2(int R, int C) {
+   if ((R*C % 2) != 0) return 0;
+   return 1;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 228 - 233 of systems/gcj/alphabet-cake_Ioannis70.c.ifdefed
+<pre>
+long main()
+{
+	read_file();
+
+	return 1;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 18 - 22 of systems/gcj/ominous-omino_cjoa.c.ifdefed
+<pre>
+int solve4(int R, int C) {
+   if ((R*C % 4) != 0) return 0;
+   if (R &lt;= 2) return 0;
+   return 1;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 12 - 16 of systems/gcj/ominous-omino_cjoa.c.ifdefed
+<pre>
+int solve3(int R, int C) {
+   if ((R*C % 3) != 0) return 0;
+   if (R == 1) return 0;
+   return 1;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 34 - 36 of systems/gcj/fractiles_stschudi42.c.ifdefed
+<pre>
+long nextLong(){
+	return atol(nextToken());
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 26 - 28 of systems/gcj/fractiles_stschudi42.c.ifdefed
+<pre>
+int nextInt(){
+	return atoi(nextToken());
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 30 - 32 of systems/gcj/fractiles_stschudi42.c.ifdefed
+<pre>
+double nextDouble(){
+	return atof(nextToken());
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 5, 2 fragments, nominal size 12 lines, similarity 50%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 18 - 31 of systems/gcj/revenge-of-the-pancakes_BrainSteel.c.ifdefed
+<pre>
+void strreverse(char* src, long num) {
+    long i;
+    char* mod = malloc(num);
+    
+    for (i = 0; i &lt; num; i++) {
+        mod[i] = src[num - i - 1];
+    }
+    
+    for (i = 0; i &lt; num; i++) {
+        src[i] = mod[i];
+    }
+    
+    free(mod);
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 33 - 45 of systems/gcj/revenge-of-the-pancakes_BrainSteel.c.ifdefed
+<pre>
+void panflip(char* src, long num) {
+    long i;
+    for (i = 0; i &lt; num; i++) {
+        if (src[i] == '+') {
+            src[i] = '-';
+        }
+        else {
+            src[i] = '+';
+        }
+    }
+    
+    strreverse(src, num);
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 6, 2 fragments, nominal size 11 lines, similarity 50%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 47 - 55 of systems/gcj/revenge-of-the-pancakes_BrainSteel.c.ifdefed
+<pre>
+long ishappy(char* src) {
+    long i;
+    for (i = 0; i &lt; strlen(src); i++) {
+        if (src[i] != '+') {
+            return 0;
+        }
+    }
+    return 1;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 57 - 70 of systems/gcj/revenge-of-the-pancakes_BrainSteel.c.ifdefed
+<pre>
+long firstsadindex(char* src) {
+    
+    if (ishappy(src)) {
+        return -1;
+    }
+
+    long i;
+    for (i = 0; i &lt; strlen(src); i++) {
+        if (src[i] == '-') {
+            return i;
+        }
+    }
+    return i;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 7, 31 fragments, nominal size 8 lines, similarity 50%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 3 - 12 of systems/gcj/counter-culture_Jayam.c.ifdefed
+<pre>
+long long int rev(long long int n)
+{
+	long long int num=0;
+	while(n&gt;0)
+	{
+		num=(num*10)+n%10;
+		n=n/10;
+	}
+	return num;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 5 - 12 of systems/gcj/counter-culture_Effilry.c.ifdefed
+<pre>
+long reverse(long n) {
+  long r = 0;
+  while (n &gt; 0) {
+    r = r * 10 + n % 10;
+    n /= 10;
+  }
+  return r;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 4 - 13 of systems/gcj/counter-culture_kdb.c.ifdefed
+<pre>
+int leng(long long rnum)
+{
+	int x=0;
+		while(rnum)
+		{
+         x++;
+         rnum=rnum/10;
+		 }
+    return x;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 8 - 14 of systems/gcj/counting-sheep_adibond.c.ifdefed
+<pre>
+void mark_digits(char *mark, int nr)
+{
+    while (nr &gt; 0) {
+        mark[nr % 10] = 1;
+        nr = nr / 10;
+    }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 4 - 11 of systems/gcj/counter-culture_yhrin.c.ifdefed
+<pre>
+long long int ton(char* buf){
+	long long int s = 0;
+	while(*buf != '\0'){
+		s = s*10 + *buf - '0';
+		buf++;
+	}
+	return s;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 19 - 28 of systems/gcj/counter-culture_AxiomOfChoice.c.ifdefed
+<pre>
+ll rev(ll x)
+{
+	ll y = 0;
+	while(x)
+	{
+		y = 10 * y + x % 10;
+		x /= 10;
+	}
+	return y;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 8 - 17 of systems/gcj/counter-culture_AxiomOfChoice.c.ifdefed
+<pre>
+int digs(ll x)
+{
+	int cnt = 0;
+	while(x)
+	{
+		x /= 10;
+		cnt++;
+	}
+	return cnt;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 13 - 22 of systems/gcj/dijkstra_antalg.c.ifdefed
+<pre>
+int max(int* P, int len)
+{
+    int max = 0;
+    int i;
+    for (i = 0; i &lt; len; i++) {
+        max = max&lt;P[i] ? P[i] : max;
+    }
+
+    return max;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 3 - 15 of systems/gcj/getting-the-digits_supremeedible.c.ifdefed
+<pre>
+int count(char *word, char c) {
+  int num = 0;
+
+  while (*word) {
+    if (*word == c) {
+      num++;
+    }
+    
+    word++;
+  }
+  
+  return num;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 13 - 17 of systems/gcj/counter-culture_yhrin.c.ifdefed
+<pre>
+int len(char* buf){
+	int l = 0;
+	while(*buf++ != '\0') l++;
+	return l;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 37 - 44 of systems/gcj/fractiles_BrainSteel.c.ifdefed
+<pre>
+ubig getsubsetindex( ubig K, ubig C, ubig* sublist, int num ) {
+    int i;
+    ubig result = 0;
+    for (i = 0; i &lt; num; i++) {
+        result += sublist[i] * bpow(K, C - i - 1);
+    }
+    return result;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 3 - 11 of systems/gcj/counting-sheep_cHaOs.c.ifdefed
+<pre>
+void dig(int n, int *a)
+{
+	while(n)
+	{
+		int temp = n%10;
+		a[temp] = 1;
+		n/=10;
+	}
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 32 - 40 of systems/gcj/haircut_Konrad127123.c.ifdefed
+<pre>
+long long score(long long tim){
+int c=0;
+long long anstmp=0;
+if (tim==0) return 0;
+for(c=0;c&lt;B;c++) {
+anstmp+=(tim-1)/foo[c]+1;
+}
+return anstmp;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 38 - 46 of systems/gcj/fractiles_stschudi42.c.ifdefed
+<pre>
+long interpret(int *num, int len, int base){
+	int i;
+	long baseholder = 1, ret = 0;
+	for(i=0;i&lt;len;i++){
+		ret += baseholder * (num[len - i - 1]);
+		baseholder *= base;
+	}
+	return ret;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 6 - 13 of systems/gcj/haircut_hychen.c.ifdefed
+<pre>
+LL finishcount(int x,LL mid){
+  int a;
+  LL finishcnt=0;
+  for(a=0;a&lt;x;a++){
+    finishcnt+=mid/barber[a];
+  }
+  return finishcnt;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 97 - 104 of systems/gcj/haircut_doodhwala.c.ifdefed
+<pre>
+int findBarber(int * booked, int n)
+{
+	int i;
+	for(i = 0; i&lt;n; ++i)
+		if(booked[i] == 0)
+			return i;
+	return -1;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 69 - 78 of systems/gcj/haircut_doodhwala.c.ifdefed
+<pre>
+long lcmOfAll(int * m, int n)
+{
+	long ans = 1;
+	int i;
+	for(i = 0; i&lt;n; ++i)
+	{
+		ans = lcm(ans, m[i]);
+	}
+	return ans;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 17 - 24 of systems/gcj/haircut_chiguri.c.ifdefed
+<pre>
+long long cutting_num(long long t) {
+    long long acc = 0LL;
+    int i;
+    for(i = 0; i &lt; B; ++i) {
+        acc += t/(long long)(M[i]) + 1;
+    }
+    return acc;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 101 - 110 of systems/gcj/senate-evacuation_thug.life.c.ifdefed
+<pre>
+int s(int* num,int n)
+{
+	int i,total=0;
+	for(i=0;i&lt;n;i++)
+	{
+		total+=num[i];
+	}
+	
+	return total;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 24 - 38 of systems/gcj/dijkstra_antalg.c.ifdefed
+<pre>
+int cutmax(int* P, int len)
+{
+    int max = 0, maxi;
+    int i;
+    for (i = 0; i &lt; len; i++) {
+        if (max&lt;P[i]) {
+            max = P[i];
+            maxi = i;
+        }
+    }
+
+    P[maxi] = (P[maxi]+1)/2;
+
+    return max;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 29 - 38 of systems/gcj/code-jam_Sathipandu.c.ifdefed
+<pre>
+long int z(int x)
+{
+	long int y=powr(x,10)+1;
+	int i;
+	for(i=0;i&lt;9;i++)
+	{
+		y+=arrA[i]*powr(x,i+1);
+	}
+	return y;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 4 - 12 of systems/gcj/mushroom-monster_RandomUser.c.ifdefed
+<pre>
+int first(int *steps, states) {
+	int eaten = 0;
+	for(int i = 0; i &lt; states - 1; i++) {
+		if (steps[i]-steps[i+1] &gt; 0) {
+			eaten += steps[i]-steps[i+1];
+		}
+	}
+	return eaten;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 107 - 116 of systems/gcj/alphabet-cake_Ioannis70.c.ifdefed
+<pre>
+int get_letter_ID(char a)
+{
+	int i;
+	for (i = 0;i &lt; nof_chars;i++)
+		if (alphabet[i] == a)
+			return i;
+
+	exit(0);
+	return -1;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 114 - 122 of systems/gcj/haircut_doodhwala.c.ifdefed
+<pre>
+int minInt(int * booked, int n, int mi)
+{
+	int i;
+	int min = 100000;
+	for(i = 0; i&lt;n; ++i)
+		if(booked[i] &lt; min)
+			min = booked[i];
+	return min;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 106 - 115 of systems/gcj/core-training_Toniolo.c.ifdefed
+<pre>
+double give_final_result(double* cores, unsigned count) {
+    double result = 1;
+    unsigned c;
+
+    for (c = 0; c &lt; count; ++c) {
+        result *= cores[c];
+    }
+
+    return result;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 20 - 30 of systems/gcj/close-match_adibond.c.ifdefed
+<pre>
+char *printme(char *cc, int len, int nr)
+{
+    cc[len] = 0;
+    int i;
+    for (i = 0; i &lt; len; ++i) {
+        int d = nr % 10;
+        cc[len - i - 1] = d + '0';
+        nr = nr / 10;
+    }
+    return cc;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 27 - 34 of systems/gcj/alphabet-cake_Ioannis70.c.ifdefed
+<pre>
+int new_char(char c)
+{
+	int i;
+	for (i = 0;i &lt; nof_chars;i++)
+		if (alphabet[i] == c)
+			return 0;
+	return 1;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 6 - 9 of systems/gcj/oversized-pancake-flipper_debad.c.ifdefed
+<pre>
+int find(int *l,int start, int size,int value){
+	for(int i=start;i&lt;size;i++)if(l[i]==value)return i;
+	return -1;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 106 - 112 of systems/gcj/haircut_doodhwala.c.ifdefed
+<pre>
+int nSec(int * booked, int n, int mi)
+{
+	int i;
+	for(i = 0; i&lt;n; ++i)
+		if(booked[i] &gt; 0)
+			booked[i] -= mi;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 39 - 47 of systems/gcj/core-training_Toniolo.c.ifdefed
+<pre>
+void get_probabilities(double* probabilities, unsigned count) {
+    unsigned p;
+
+    for (p = 0; p &lt; count; ++p) {
+        scanf("%lf", probabilities + p);
+    }
+
+    qsort(probabilities, count, sizeof (double), compareProbabilities);
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 6 - 18 of systems/gcj/close-match_adibond.c.ifdefed
+<pre>
+int matches(int nr, char *m, int len)
+{
+    int i;
+    for (i = 0; i &lt; len; ++i) {
+        int d = nr % 10;
+        nr = nr / 10;
+        if (m[len - i - 1] == '?')
+            continue;
+        if (m[len - i - 1] != '0' + d)
+            return 0;
+    }
+    return 1;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 8, 2 fragments, nominal size 43 lines, similarity 68%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 8 - 53 of systems/gcj/fashion-show_debad.c.ifdefed
+<pre>
+int countEmptyDiags(unsigned int *M, int r, int c, int R,int C){
+	int num = 0;
+	if(r &gt;= c){
+		int _r = r - c;
+		int _c = 0;
+		while(_r &lt; R &amp;&amp; _c &lt; C){
+			if((M[_r*C+_c] &amp; 0xf0) == 0){
+				num++;
+			}
+			_r++;
+			_c++;
+		}
+	}else{
+		int _r = 0;
+		int _c = c-r;
+		while(_r &lt; R &amp;&amp; _c &lt; C){
+			if((M[_r*C+_c] &amp; 0xf0) == 0){
+				num++;
+			}	
+			_r++;
+			_c++;
+		}
+	}
+	if(r+c &lt; C){
+		int _r = 0;
+		int _c = c+r;
+		while(_c &gt;= 0 &amp;&amp; _r &lt; R){
+			if((M[_r*C+_c] &amp; 0xf0) == 0){
+				num++;
+			}	
+			_r++;
+			_c--;
+		}
+	}else{
+		int _r = r - (C-c);
+		int _c = C-1;
+		while(_c &gt;= 0 &amp;&amp; _r &lt; R){
+			if((M[_r*C+_c] &amp; 0xf0) == 0){
+				num++;
+			}
+			_r++;
+			_c--;
+		}
+	}
+	return num;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 55 - 91 of systems/gcj/fashion-show_debad.c.ifdefed
+<pre>
+void fillDiags(unsigned int *M,int r,int c, int R, int C,unsigned int val){
+	// fill up SE diag
+	if(r &gt;= c){
+		int _r = r - c;
+		int _c = 0;
+		while(_r &lt; R &amp;&amp; _c &lt; C){
+			M[_r*C + _c] |= val;
+			_r++;
+			_c++;
+		}
+	}else{
+		int _r = 0;
+		int _c = c-r;
+		while(_r &lt; R &amp;&amp; _c &lt; C){
+			M[_r*C + _c] |= val;
+			_r++;
+			_c++;
+		}
+	}
+	if(r+c &lt; C){
+		int _r = 0;
+		int _c = c+r;
+		while(_c &gt;= 0 &amp;&amp; _r &lt; R){
+			M[_r*C + _c] |= val;
+			_r++;
+			_c--;
+		}
+	}else{
+		int _r = r - (C-c);
+		int _c = C-1;
+		while(_c &gt;= 0 &amp;&amp; _r &lt; R){
+			M[_r*C + _c] |= val;
+			_r++;
+			_c--;
+		}
+	}
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 9, 2 fragments, nominal size 16 lines, similarity 52%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 158 - 169 of systems/gcj/fashion-show_debad.c.ifdefed
+<pre>
+		F0(r,N)F0(c,N){
+			// check if we put down either 'X' or '+'
+			if(G[r*N+c] &amp; (1&lt;&lt;6) || G[r*N+c] &amp; (1&lt;&lt;2)){
+				numOfMod++;
+			}
+			int X = G[r*N+c] &amp; (1&lt;&lt;0 | 1&lt;&lt;2);
+			int P = G[r*N+c] &amp; (1&lt;&lt;4 | 1&lt;&lt;6);
+			if(X &amp;&amp; P)points+=2;
+			else if(X)points++;
+			else if(P)points++;
+			
+		}
+</pre>
+</td></tr>
+<tr><td>
+Lines 171 - 184 of systems/gcj/fashion-show_debad.c.ifdefed
+<pre>
+		F0(r,N)F0(c,N){
+			// check if we put down either 'X' or '+'
+			if(G[r*N+c] &amp; (1&lt;&lt;6) || G[r*N+c] &amp; (1&lt;&lt;2)){
+				int X = G[r*N+c] &amp; (1&lt;&lt;0 | 1&lt;&lt;2);
+				int P = G[r*N+c] &amp; (1&lt;&lt;4 | 1&lt;&lt;6);
+				if(X &amp;&amp; P)printf("o %d %d\n",r+1,c+1);
+				else if(X)printf("x %d %d\n",r+1,c+1);
+				else if(P)printf("+ %d %d\n",r+1,c+1);
+				else{
+					fprintf(stderr,"Not supposed to reach this\n");
+					return 1;
+				}
+			}
+		}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 10, 2 fragments, nominal size 16 lines, similarity 93%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 32 - 45 of systems/gcj/close-match_shk10.c.ifdefed
+<pre>
+void try2(int index) {
+	if(index==N) {
+		compare();
+		return;
+	}
+	if(Q[index]=='?') {
+		int i;
+		for(i=0; i&lt;10; i++) {
+			Q[index] = i + '0';
+			try2(index+1);
+		}
+		Q[index] = '?';
+	} else try2(index+1);
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 47 - 60 of systems/gcj/close-match_shk10.c.ifdefed
+<pre>
+void try(int index) {
+	if(index==N) {
+		try2(0);
+		return;
+	}
+	if(P[index]=='?') {
+		int i;
+		for(i=0; i&lt;10; i++) {
+			P[index] = i + '0';
+			try(index+1);
+		}
+		P[index] = '?';
+	} else try(index+1);
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 11, 3 fragments, nominal size 3 lines, similarity 50%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 14 - 17 of systems/gcj/counting-sheep_Bibi.c.ifdefed
+<pre>
+void printResult(int result) {
+    fprintf(out,"Case #%d: %d\n", caseIndex, result);
+    caseIndex++;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 18 - 21 of systems/gcj/counting-sheep_Bibi.c.ifdefed
+<pre>
+void printFail() {
+    fprintf(out,"Case #%d: INSOMNIA\n", caseIndex);
+    caseIndex++;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 139 - 141 of systems/gcj/stable-neigh-bors_rompel.c.ifdefed
+<pre>
+void init_data()
+{
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 12, 2 fragments, nominal size 5 lines, similarity 60%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 16 - 21 of systems/gcj/parenting-partnering_Rudolph..c.ifdefed
+<pre>
+int chrono_sort(const void * a, const void * b){
+  const act_t * A = a;
+  const act_t * B = b;
+
+  return A-&gt;start - B-&gt;start;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 15 - 22 of systems/gcj/senate-evacuation_santosha.c.ifdefed
+<pre>
+int
+dcomp (const void *a, const void *b) 
+{
+	sen_t *x = (sen_t *)a;
+	sen_t *y = (sen_t *)b;
+
+	return y-&gt;cnt - x-&gt;cnt;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 13, 4 fragments, nominal size 51 lines, similarity 50%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 24 - 99 of systems/gcj/alphabet-cake_Aaby.c.ifdefed
+<pre>
+void fun(char **arr,int m,int n)
+{
+    int x,y,f;
+
+
+    for(x=0;x&lt;m;x++)
+    {        f = 1;
+        for(y=0;y&lt;n;y++)
+        {
+            if(arr[x][y]!='?')
+            {
+                f = 0;
+                break;
+            }
+        }
+        if(f)
+        {
+            for(y=0;y&lt;n;y++)
+            {
+                arr[x][y]='a';
+            }
+        }
+        else
+        {
+            for(y=1;y&lt;n;y++)
+            {
+                if(arr[x][y-1]!='?' &amp;&amp; arr[x][y]=='?')
+                {
+                    arr[x][y] = arr[x][y-1];
+                }
+            }
+            if(arr[x][0]=='?')
+            {
+                for(y=0;y&lt;n &amp;&amp; arr[x][y]=='?';y++);
+                for(;y&gt;0;y--)
+                {
+                    arr[x][y-1]=arr[x][y];
+                }
+            }
+        }
+    }
+    
+    
+    if(arr[0][0]=='a')
+    {
+        for(x=0;x&lt;m;x++)
+        {
+            if(arr[x][0]!='a')
+                break;
+        }
+        for(;x&gt;0;x--)
+        {
+            for(y=0;y&lt;n;y++)
+            {
+                arr[x-1][y]=arr[x][y];
+            }
+        }
+    }
+    
+    
+    for(x=1;x&lt;m;x++)
+    {
+        if(arr[x][0]=='a')
+        {
+            for(y=0;y&lt;n;y++)
+            {
+                arr[x][y]=arr[x-1][y];
+            }
+        }
+    }
+    
+    
+	print_array(arr,m,n);
+
+
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 19 - 89 of systems/gcj/alphabet-cake_Vishu2421.c.ifdefed
+<pre>
+void pro(char **a,int m,int n)
+{
+    int i,j,flag;
+
+    for(i=0;i&lt;m;i++)
+    {
+        flag = 1;
+        for(j=0;j&lt;n;j++)
+        {
+            if(a[i][j]!='?')
+            {
+                flag = 0;
+                break;
+            }
+        }
+        if(flag)
+        {
+            for(j=0;j&lt;n;j++)
+            {
+                a[i][j]='a';
+            }
+        }
+        else
+        {
+            for(j=1;j&lt;n;j++)
+            {
+                if(a[i][j-1]!='?' &amp;&amp; a[i][j]=='?')
+                {
+                    a[i][j] = a[i][j-1];
+                }
+            }
+            if(a[i][0]=='?')
+            {
+                for(j=0;j&lt;n &amp;&amp; a[i][j]=='?';j++);
+                for(;j&gt;0;j--)
+                {
+                    a[i][j-1]=a[i][j];
+                }
+            }
+        }
+    }
+
+    if(a[0][0]=='a')
+    {
+        for(i=0;i&lt;m;i++)
+        {
+            if(a[i][0]!='a')
+                break;
+        }
+        for(;i&gt;0;i--)
+        {
+            for(j=0;j&lt;n;j++)
+            {
+                a[i-1][j]=a[i][j];
+            }
+        }
+    }
+
+
+    for(i=1;i&lt;m;i++)
+    {
+        if(a[i][0]=='a')
+        {
+            for(j=0;j&lt;n;j++)
+            {
+                a[i][j]=a[i-1][j];
+            }
+        }
+    }
+    matprint(a,m,n);
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 22 - 101 of systems/gcj/alphabet-cake_Aps07.c.ifdefed
+<pre>
+void func(char **array,int m,int n)
+{
+    int i,j,temp, x, y;
+
+    for(i=0;i&lt;m;i++)
+    {
+        temp = 1;
+        for(j=0;j&lt;n;j++)
+        {
+            if(array[i][j]!='?')
+            {
+                temp = 0;
+                break;
+            }
+        }
+        if(temp)
+        {
+            for(j=0;j&lt;n;j++)
+            {
+                array[i][j]='a';
+            }
+        }
+        else
+        {
+            for(j=1;j&lt;n;j++)
+            {
+                if(array[i][j-1]!='?' &amp;&amp; array[i][j]=='?')
+                {
+                    array[i][j] = array[i][j-1];
+                }
+            }
+            if(array[i][0]=='?')
+            {
+                for(j=0;j&lt;n &amp;&amp; array[i][j]=='?';j++);
+                for(;j&gt;0;j--)
+                {
+                    array[i][j-1]=array[i][j];
+                }
+            }
+        }
+    }
+
+    if(array[0][0]=='a')
+    {
+        for(i=0;i&lt;m;i++)
+        {
+            if(array[i][0]!='a')
+                break;
+        }
+        for(;i&gt;0;i--)
+        {
+            for(j=0;j&lt;n;j++)
+            {
+                array[i-1][j]=array[i][j];
+            }
+        }
+    }
+
+
+    for(i=1;i&lt;m;i++)
+    {
+        if(array[i][0]=='a')
+        {
+            for(j=0;j&lt;n;j++)
+            {
+                array[i][j]=array[i-1][j];
+            }
+        }
+    }
+    
+    
+    for(x=0;x&lt;m;x++)
+    {
+        for(y=0;y&lt;n;y++)
+        {
+            printf("%c",array[x][y]);
+        }
+        printf("\n");
+    }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 3 - 71 of systems/gcj/alphabet-cake_shikhar1997.c.ifdefed
+<pre>
+int main()
+{
+    int t,i,j,k,c,r,d;
+    char s[100][100],a;
+    scanf("%d",&amp;t);
+    for(i=0;i&lt;t;i++)
+    {
+        d=0;
+        scanf("%d%d",&amp;r,&amp;c);
+        for(j=0;j&lt;r;j++)
+        {
+            scanf("%c",&amp;a);
+            for(k=0;k&lt;c;k++)
+            {
+                scanf("%c",&amp;s[j][k]);
+            }
+        }
+        for(j=0;j&lt;r;j++)
+        {
+            for(k=1;k&lt;c;k++)
+            {
+                if(s[j][k-1]!='?'&amp;&amp;s[j][k]=='?')
+                {
+                    s[j][k]=s[j][k-1];
+                }
+            }
+        }
+        for(j=r-1;j&gt;=0;j--)
+        {
+            for(k=c-2;k&gt;=0;k--)
+            {
+                if(s[j][k+1]!='?'&amp;&amp;s[j][k]=='?')
+                {
+                    s[j][k]=s[j][k+1];
+                }
+            }
+        }
+        for(j=1;j&lt;r;j++)
+        {
+            for(k=0;k&lt;c;k++)
+            {
+                if(s[j-1][k]!='?'&amp;&amp;s[j][k]=='?')
+                {
+                    s[j][k]=s[j-1][k];
+                }
+            }
+        }
+        for(j=r-2;j&gt;=0;j--)
+        {
+            for(k=c-1;k&gt;=0;k--)
+            {
+                if(s[j+1][k]!='?'&amp;&amp;s[j][k]=='?')
+                {
+                    s[j][k]=s[j+1][k];
+                }
+            }
+        }
+        printf("Case #%d:\n",i+1);
+        for(j=0;j&lt;r;j++)
+        {
+            for(k=0;k&lt;c;k++)
+            {
+                printf("%c",s[j][k]);
+            }
+            printf("\n");
+        }
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 14, 3 fragments, nominal size 15 lines, similarity 86%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 105 - 127 of systems/gcj/alphabet-cake_Aaby.c.ifdefed
+<pre>
+int main()
+{
+	
+	
+    int t,i1,i,j,m,n;
+	char **a;
+    
+	
+	scanf("%d",&amp;t);
+    
+	for(i1=0;i1&lt;t;i1++)
+    {
+        scanf("%d %d",&amp;m,&amp;n);
+        a = (char**) malloc(sizeof(char*)*m);
+        for(i=0;i&lt;m;i++)
+        {
+            a[i] = (char*) malloc(sizeof(char)*(n+1));
+            scanf("%s",a[i]);
+        }
+        printf("Case #%d:\n",i1+1);
+        fun(a,m,n);
+    }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 91 - 108 of systems/gcj/alphabet-cake_Vishu2421.c.ifdefed
+<pre>
+int main()
+{
+    int t,i1,i,j,m,n;
+    char **a;
+    scanf("%d",&amp;t);
+    for(i1=0;i1&lt;t;i1++)
+    {
+        scanf("%d %d",&amp;m,&amp;n);
+        a = (char**) malloc(sizeof(char*)*m);
+        for(i=0;i&lt;m;i++)
+        {
+            a[i] = (char*) malloc(sizeof(char)*(n+1));
+            scanf("%s",a[i]);
+        }
+        printf("Case #%d:\n",i1+1);
+        pro(a,m,n);
+    }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 106 - 123 of systems/gcj/alphabet-cake_Aps07.c.ifdefed
+<pre>
+int main()
+{
+    int t,i1,i,j,x,y;
+    char **array;
+    scanf("%d",&amp;t);
+    for(i1=0;i1&lt;t;i1++)
+    {
+        scanf("%d %d",&amp;x,&amp;y);
+        array = (char**) malloc(sizeof(char*)*(x+1));
+        for(i=0;i&lt;x;i++)
+        {
+            array[i] = (char*) malloc(sizeof(char)*(y+2));
+            scanf("%s",array[i]);
+        }
+        printf("Case #%d:\n",i1+1);
+        func(array,x,y);
+    }
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 15, 3 fragments, nominal size 18 lines, similarity 59%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 60 - 92 of systems/gcj/pony-express_XeR.c.ifdefed
+<pre>
+int main(int argc, char *argv[])
+{
+	size_t T, i;
+	size_t N, j, Q, k;
+
+	double answer;
+	struct horse horses[NMAX];
+	size_t cities[NMAX][NMAX];
+	struct path paths[QMAX];
+
+	scanf("%llu", &amp;T);
+	for(i = 0; i &lt; T; i++) {
+		scanf("%llu %llu", &amp;N, &amp;Q);
+
+		/* Read each horses */
+		for(j = 0; j &lt; N; j++)
+			scanf("%llu %u", &amp;horses[j].distance,
+			                 &amp;horses[j].speed);
+
+		/* Read each cities */
+		for(j = 0; j &lt; N; j++)
+			for(k = 0; k &lt; N; k++)
+				scanf("%llu", &amp;cities[j][k]);
+
+		for(j = 0; j &lt; Q; j++)
+			scanf("%u %u", &amp;paths[j].from, &amp;paths[j].to);
+		
+		answer = solve(horses, cities, N, paths, Q);
+		printf("Case #%u: %.6f\n", i + 1, answer);
+	}
+
+	return EXIT_SUCCESS;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 36 - 55 of systems/gcj/steed-2-cruise-control_XeR.c.ifdefed
+<pre>
+int main(int argc, char *argv[])
+{
+	size_t i, T;
+	size_t D, N, j;
+	double answer;
+	struct horse horses[NMAX];
+
+	scanf("%llu", &amp;T);
+	for(i = 0; i &lt; T; i++) {
+		scanf("%llu %llu", &amp;D, &amp;N);
+
+		for(j = 0; j &lt; N; j++)
+			scanf("%u %u", &amp;horses[j].position, &amp;horses[j].speed);
+
+		answer = solve(D, horses, N);
+		printf("Case #%u: %.6f\n", i + 1, answer);
+	}
+
+	return EXIT_SUCCESS;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 46 - 65 of systems/gcj/core-training_XeR.c.ifdefed
+<pre>
+int main(int argc, char *argv[])
+{
+	size_t T, i;
+	size_t N, K, j;
+	double U;
+	double core[NMAX];
+	double answer;
+	
+	scanf("%llu", &amp;T);
+	for(i = 0; i &lt; T; i++) {
+		scanf("%llu %llu", &amp;N, &amp;K);
+		
+		scanf("%lf", &amp;U);
+		for(j = 0; j &lt; N; j++)
+			scanf("%lf", &amp;core[j]);
+
+		answer = solve(core, N, K, U);
+		printf("Case #%u: %.6f\n", i + 1, answer);
+	}
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 16, 3 fragments, nominal size 40 lines, similarity 51%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 5 - 63 of systems/gcj/mushroom-monster_sas6137.c.ifdefed
+<pre>
+void main()
+{
+  FILE *infile, *outfile;
+  char inputFile[100];
+  char outputFile[100];
+  int testCases;
+  
+  printf("Input file?");
+  scanf("%s", inputFile);
+  
+  infile = fopen(inputFile, "r");
+  
+  if (!infile) {
+    printf("Unable to open input file %s\n",inputFile);
+    exit(1);
+  }
+  
+  printf("Output file?");
+  scanf("%s", outputFile);
+  
+  outfile = fopen(outputFile, "w");
+  
+  fscanf(infile,"%d",&amp;testCases);
+  for (int i = 1; i &lt;= testCases; i++)
+  {
+    int rate, mushCount;
+    int prevMush;
+    int currMush;
+    int mushArray[1001];
+    long long minEaten = 0;
+    long long constEaten = 0;
+    fscanf(infile,"%d",&amp;mushCount);
+    fscanf(infile,"%d",&amp;prevMush);
+    mushArray[0] = prevMush;
+    rate = 0;
+    for (int j = 1; j &lt; mushCount; j++) {
+      fscanf(infile,"%d",&amp;currMush);
+      mushArray[j] = currMush;
+      if (currMush &lt; prevMush) {
+        minEaten += (prevMush - currMush);
+      }
+      if ((prevMush - currMush) &gt; rate)
+      {
+        rate = prevMush - currMush;
+      }
+      prevMush = currMush;
+    }
+    
+    for (int j = 1; j &lt; mushCount; j++) {
+      if (mushArray[j-1] &lt; rate) {
+        constEaten += mushArray[j-1];
+      }
+      else {
+        constEaten += rate;
+      }
+    }
+    fprintf(outfile,"Case #%d: %lld %lld\n",i,minEaten,constEaten);
+  }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 7 - 52 of systems/gcj/infinite-house-of-pancakes_sas6137.c.ifdefed
+<pre>
+void main()
+{
+  FILE *infile, *outfile;
+  char inputFile[100];
+  char outputFile[100];
+  int testCases;
+  
+  printf("Input file?");
+  scanf("%s", inputFile);
+  
+  infile = fopen(inputFile, "r");
+  
+  if (!infile) {
+    printf("Unable to open input file %s\n",inputFile);
+    exit(1);
+  }
+  
+  printf("Output file?");
+  scanf("%s", outputFile);
+  
+  outfile = fopen(outputFile, "w");
+  
+  fscanf(infile,"%d",&amp;testCases);
+  for (int i = 1; i &lt;= testCases; i++)
+  {
+    int numPlates;
+    int pancakes[1001];
+    for (int j = 0; j &lt; 1001; j++)
+      pancakes[j] = 0;
+      
+    fscanf(infile,"%d",&amp;numPlates);
+    int maxPancakes=0;
+    for (int j = 0; j &lt; numPlates; j++)
+    {
+      int input;
+      fscanf(infile,"%d",&amp;input);
+      pancakes[input]++;
+      if (maxPancakes &lt; input)
+        maxPancakes = input;
+    }
+    int minMinutes;
+    int moves = 0;
+    minMinutes = findMinMinutes(pancakes, maxPancakes);
+    fprintf(outfile,"Case #%d: %d\n",i,minMinutes);
+  }
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 5 - 47 of systems/gcj/standing-ovation_sas6137.c.ifdefed
+<pre>
+void main()
+{
+  FILE *infile, *outfile;
+  char inputFile[100];
+  char outputFile[100];
+  int testCases;
+  
+  printf("Input file?");
+  scanf("%s", inputFile);
+  
+  infile = fopen(inputFile, "r");
+  
+  if (!infile) {
+    printf("Unable to open input file %s\n",inputFile);
+    exit(1);
+  }
+  
+  printf("Output file?");
+  scanf("%s", outputFile);
+  
+  outfile = fopen(outputFile, "w");
+  
+  fscanf(infile,"%d",&amp;testCases);
+  for (int i = 1; i &lt;= testCases; i++)
+  {
+    int sMax;
+    char input;
+    int value;
+    int minFriends = 0;
+    int friendCount = 0;
+    fscanf(infile,"%d",&amp;sMax);
+    fscanf(infile,"%c",&amp;input);
+    
+    for (int j = 0; j &lt;= sMax; j++)
+    {
+      fscanf(infile,"%c",&amp;input);
+      friendCount += atoi(&amp;input);
+      if (minFriends &lt; (j + 1 - friendCount))
+        minFriends = j + 1 - friendCount;
+    }
+    fprintf(outfile,"Case #%d: %d\n",i,minFriends);
+  }
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 17, 2 fragments, nominal size 8 lines, similarity 66%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 8 - 15 of systems/gcj/core-training_XeR.c.ifdefed
+<pre>
+int cmp(const void *a, const void *b)
+{
+	double *da = (double*)a;
+	double *db = (double*)b;
+	
+	if(*da == *db) return 0;
+	return *da &gt; *db ? -1 : 1;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 6 - 14 of systems/gcj/core-training_Asrael.c.ifdefed
+<pre>
+int compare(const void *a,const void *b){
+  double *A = (double*)a;
+  double *B = (double*)b;
+  if(*B&lt;*A)
+    return 1;
+  if(*A==*B)
+    return 0;
+  return -1;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 18, 19 fragments, nominal size 3 lines, similarity 66%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 67 - 70 of systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed
+<pre>
+int max( int a, int b )
+{
+    return a &gt; b ? a : b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 8 - 10 of systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed
+<pre>
+int min(int a,int b) {
+	return a&lt;b?a:b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 10 - 13 of systems/gcj/haircut_eama.c.ifdefed
+<pre>
+int lcm(int a,int b)
+{
+    return b/gcd(a,b)*a;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 39 - 41 of systems/gcj/ample-syrup_sahuang.c.ifdefed
+<pre>
+int min(int a,int b){
+    return a&lt;b?a:b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 13 - 13 of systems/gcj/alphabet-cake_Aps07.c.ifdefed
+<pre>
+int max(int x, int y) {return (x&gt;y?x:y);}
+</pre>
+</td></tr>
+<tr><td>
+Lines 4 - 4 of systems/gcj/core-training_Functional.c.ifdefed
+<pre>
+int max(int x, int y){return(x&gt;y?x:y);} 
+</pre>
+</td></tr>
+<tr><td>
+Lines 5 - 5 of systems/gcj/core-training_Functional.c.ifdefed
+<pre>
+int min(int x,int y){return(x&gt;y?y:x);}
+</pre>
+</td></tr>
+<tr><td>
+Lines 72 - 75 of systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed
+<pre>
+int min( int a, int b )
+{
+    return a &lt; b ? a : b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 5 - 5 of systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed
+<pre>
+int max( int x, int y ) { return x &lt; y ? y:x; }
+</pre>
+</td></tr>
+<tr><td>
+Lines 14 - 16 of systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed
+<pre>
+int get_f(int p, int j){
+	return (p/(j+1) + ((p%(j+1)&gt;0)?1:0));
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 35 - 37 of systems/gcj/ample-syrup_sahuang.c.ifdefed
+<pre>
+int max(int a,int b){
+    return a&gt;b?a:b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 6 - 7 of systems/gcj/fresh-chocolate_hzyfr.c.ifdefed
+<pre>
+int max(int a,int b) {return a&gt;b?a:b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 14 - 14 of systems/gcj/alphabet-cake_Aps07.c.ifdefed
+<pre>
+int min(int x, int y) {return (x&gt;y?y:x);}
+</pre>
+</td></tr>
+<tr><td>
+Lines 20 - 20 of systems/gcj/stable-neigh-bors_rompel.c.ifdefed
+<pre>
+inline static int imax(int x, int y) { return x&gt;y ? x : y; }
+</pre>
+</td></tr>
+<tr><td>
+Lines 3 - 3 of systems/gcj/bff_Tjandra.c.ifdefed
+<pre>
+u max(u a,u b){return a&gt;b?a:b;}
+</pre>
+</td></tr>
+<tr><td>
+Lines 23 - 26 of systems/gcj/haircut_jupiterlover.c.ifdefed
+<pre>
+int lcm( int a, int b )
+{
+    return a * b / gcd( a, b );
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 19 - 19 of systems/gcj/stable-neigh-bors_rompel.c.ifdefed
+<pre>
+inline static int imin(int x, int y) { return x&lt;y ? x : y; }
+</pre>
+</td></tr>
+<tr><td>
+Lines 8 - 8 of systems/gcj/parenting-partnering_MechanicalTurd.c.ifdefed
+<pre>
+static inline int min(int a, int b) { return a &lt; b ? a : b; }
+</pre>
+</td></tr>
+<tr><td>
+Lines 80 - 83 of systems/gcj/haircut_doodhwala.c.ifdefed
+<pre>
+long lcm(long a, long b)
+{
+	return a*b/hcf(a,b);
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 19, 2 fragments, nominal size 17 lines, similarity 50%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 55 - 70 of systems/gcj/core-training_sgtlaugh.c.ifdefed
+<pre>
+int main(){
+    read();
+    write();
+    int T = 0, t, i, j;
+
+    scanf("%d", &amp;t);
+    while (t--){
+        scanf("%d %d", &amp;n, &amp;k);
+        scanf("%lf", &amp;u);
+        for (i = 0; i &lt; n; i++) scanf("%lf", &amp;ar[i]);
+
+        double res = solve() + 1e-15;
+        printf("Case #%d: %0.12f\n", ++T, res);
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 38 - 57 of systems/gcj/fresh-chocolate_sgtlaugh.c.ifdefed
+<pre>
+int main(){
+    read();
+    write();
+    int T = 0, t, n, i, j, x, res, ar[4];
+
+    scanf("%d", &amp;t);
+    while (t--){
+        clr(ar);
+        scanf("%d %d", &amp;n, &amp;p);
+        for (i = 0; i &lt; n; i++){
+            scanf("%d", &amp;x);
+            ar[x % p]++;
+        }
+
+        memset(dp, -1, sizeof(dp));
+        res = F(n, ar, 0);
+        printf("Case #%d: %d\n", ++T, res);
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 20, 3 fragments, nominal size 3 lines, similarity 66%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 15 - 17 of systems/gcj/stable-neigh-bors_ulyr.c.ifdefed
+<pre>
+int cmp (const void * a, const void * b) {
+    return ( *(int*)a - *(int*)b );
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 14 - 17 of systems/gcj/senate-evacuation_Yakimo.c.ifdefed
+<pre>
+int Compare (const void *a, const void *b)
+{
+	return ((*(Element_t *) b).Count - (*(Element_t *) a).Count);
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 12 - 15 of systems/gcj/rank-and-file_hobermallow.c.ifdefed
+<pre>
+int compar(const void * a, const void * b)
+{
+	return *(int*)a - *(int*)b;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 21, 2 fragments, nominal size 13 lines, similarity 53%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 10 - 24 of systems/gcj/fashion-show_daybreakcx.c.ifdefed
+<pre>
+int
+dfs(int u, int rn)
+{
+    int v;
+    for (v = 0; v &lt; rn; ++v)
+        if (rela[u][v] &amp;&amp; !visited[v]) {
+            visited[v] = 1;
+            if (pairy[v] == -1 || dfs(pairy[v], rn)) {
+                pairx[u] = v;
+                pairy[v] = u;
+                return 1;
+            }
+        }
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 6 - 16 of systems/gcj/fashion-show_Yao.c.ifdefed
+<pre>
+int dfs(int a[MAXN][MAXN],int m1[],int m2[],int n,int k,int b[]) {
+	int i;
+	b[k]=1;
+	for(i=0;i&lt;n;i++) if (a[k][i]) {
+		if (m2[i]&lt;0 || !b[m2[i]] &amp;&amp; dfs(a,m1,m2,n,m2[i],b)) {
+			m1[k]=i,m2[i]=k;
+			return 1;
+		}
+	}
+	return 0;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 22, 2 fragments, nominal size 6 lines, similarity 50%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 51 - 57 of systems/gcj/counter-culture_SSVK.c.ifdefed
+<pre>
+int getval(int *array, int size)
+{
+	int i=0, num=0;
+	for (i=0;i&lt;size;i++)
+		num+= array[i]*pow(10,i);
+	return num;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 20 - 26 of systems/gcj/code-jam_Sathipandu.c.ifdefed
+<pre>
+long int powr(long int a, long int b)
+{
+	long int i,ans=1;
+	for(i=0;i&lt;b;i++)
+	ans=ans*a;
+	return ans;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 23, 2 fragments, nominal size 15 lines, similarity 93%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 10 - 25 of systems/gcj/close-match_Backspe.c.ifdefed
+<pre>
+void ltcheck() {
+	ll t1 = 0, t2 = 0;
+	int i;
+	for(i = 0; i &lt; l; i++) {
+		t1 *= 10;
+		t2 *= 10;
+		t1 += (c1[i] == '?') ? 9 : (c1[i] - '0');
+		t2 += (c2[i] == '?') ? 0 : (c2[i] - '0');
+	}
+	//printf("lt: %s %s %lld %lld %lld\n", c1, c2, t1, t2, t2-t1);
+	if ((t2 - t1 &lt; diff) || (t2 - t1 == diff &amp;&amp; ((t1 &lt; ans1) || (t1 == ans1 &amp;&amp; t2 &lt; ans2)))) {
+		diff = t2 - t1;
+		ans1 = t1;
+		ans2 = t2;
+	}
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 27 - 42 of systems/gcj/close-match_Backspe.c.ifdefed
+<pre>
+void gtcheck() {
+	ll t1 = 0, t2 = 0;
+	int i;
+	for(i = 0; i &lt; l; i++) {
+		t1 *= 10;
+		t2 *= 10;
+		t1 += (c1[i] == '?') ? 0 : (c1[i] - '0');
+		t2 += (c2[i] == '?') ? 9 : (c2[i] - '0');
+	}
+	//printf("gt: %s %s %lld %lld %lld\n", c1, c2, t1, t2, t1-t2);
+	if ((t1 - t2 &lt; diff) || (t1 - t2 == diff &amp;&amp; ((t1 &lt; ans1) || (t1 == ans1 &amp;&amp; t2 &lt; ans2)))) {
+		diff = t1 - t2;
+		ans1 = t1;
+		ans2 = t2;
+	}
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 24, 7 fragments, nominal size 5 lines, similarity 60%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 5 - 8 of systems/gcj/fractiles_alsoba.c.ifdefed
+<pre>
+int max (int a, int b){
+	if (a&lt;b) return b;
+	return a;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 10 - 14 of systems/gcj/ominous-omino_saiz.c.ifdefed
+<pre>
+int max(int a,int b)
+{
+    if(a&gt;b) return a;
+    return b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 5 - 9 of systems/gcj/ominous-omino_saiz.c.ifdefed
+<pre>
+int min(int a,int b)
+{
+    if(a&lt;b) return a;
+    return b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 17 - 20 of systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed
+<pre>
+int get_max(int a, int b){
+	if (a&gt;b) return a;
+	else return b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 3 - 8 of systems/gcj/bff_TinyNight.c.ifdefed
+<pre>
+int big(int a, int b) {
+	if (a &gt; b) {
+		return a;
+	}
+	return b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 3 - 6 of systems/gcj/steed-2-cruise-control_yudhik.c.ifdefed
+<pre>
+float max(float a,float b){
+		if (a&gt;b) return a;
+		return b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 4 - 9 of systems/gcj/senate-evacuation_hobermallow.c.ifdefed
+<pre>
+int max(int x, int y)
+{
+	if(x&lt;y)
+		return y;
+	return x;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 25, 3 fragments, nominal size 20 lines, similarity 68%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 18 - 41 of systems/gcj/fractiles_alsoba.c.ifdefed
+<pre>
+int main(int argc, char *argv[]){
+	char kk;
+	int total, i;
+
+	fin=fopen(argv[1], "r");
+	fout=fopen("out", "w");
+	if (fin==NULL || fout == NULL)
+	{
+		printf("Fitxer out.\n");
+	}
+	else 
+	{
+		fscanf(fin, "%d", &amp;total);
+		fscanf(fin, "%c", &amp;kk);
+		for (i = 0; i&lt;total; i++)
+		{
+			fprintf(fout, "Case #%d: ", i+1);
+			solve();
+		}
+		fclose(fin);
+		fclose(fout);
+	}
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 54 - 78 of systems/gcj/counter-culture_edusoto.c.ifdefed
+<pre>
+int main(int argc, char *argv[]){
+	char c;
+	int abcd, N, total, i;
+
+	fin=fopen(argv[1], "r");
+	fout=fopen("out.txt", "w");
+	if ( fin == NULL || fout == NULL )
+	{
+		printf("ERROR WITH FILE.\n");
+	}
+	else 
+	{
+		fscanf(fin, "%d", &amp;abcd);
+		fscanf(fin, "%c", &amp;c);
+		for ( i = 0; i&lt;abcd; i++ ){
+			fscanf( fin, "%d", &amp;N);
+			fscanf(fin, "%c", &amp;c);
+			total = function (N);
+			fprintf( fout, "Case #%d: %d\n", i+1, total );
+		}
+		fclose(fin);
+		fclose(fout);
+	}
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 32 - 55 of systems/gcj/the-last-word_alsoba.c.ifdefed
+<pre>
+int main(int argc, char *argv[]){
+	char kk;
+	int total, i;
+
+	fin=fopen(argv[1], "r");
+	fout=fopen("out", "w");
+	if (fin==NULL || fout == NULL)
+	{
+		printf("Fitxer out.\n");
+	}
+	else 
+	{
+		fscanf(fin, "%d", &amp;total);
+		fscanf(fin, "%c", &amp;kk);
+		for (i = 0; i&lt;total; i++)
+		{
+			fprintf(fout, "Case #%d: ", i+1);
+			solve();
+		}
+		fclose(fin);
+		fclose(fout);
+	}
+	return 0;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 26, 2 fragments, nominal size 19 lines, similarity 59%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 34 - 48 of systems/gcj/bff_hotpepsi.c.ifdefed
+<pre>
+void next_permutation(int pos, int n) {
+	int i;
+	if (pos == n) {
+		check(n);
+		return;
+	}
+	for (i = 0; i &lt; n; ++i) {
+		if (!used[i]) {
+			perm[pos] = i;
+			used[i] = 1;
+			next_permutation(pos + 1, n);
+			used[i] = 0;
+		}
+	}
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 7 - 26 of systems/gcj/bff_WhiteShadow.c.ifdefed
+<pre>
+void go(int pos, int max) {
+  int i;
+  if (pos&gt;2 &amp;&amp; perm[pos-3] != bff[perm[pos-2]] &amp;&amp; perm[pos-1] != bff[perm[pos-2]])
+    return;
+  if (ok) return;
+  if (pos==max) {
+    for (i=0; i&lt;max; i++)
+      if (perm[(i-1+max)%max] != bff[perm[i]] &amp;&amp; perm[(i+1)%max] != bff[perm[i]])
+	return;
+    ok=1;
+  } else {
+    for (i=1; i&lt;=n; i++)
+      if (!used[i]) {
+	perm[pos] = i;
+	used[i] = 1;
+	go(pos+1, max);
+	used[i] = 0;
+      }
+  }
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 27, 3 fragments, nominal size 20 lines, similarity 50%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 8 - 27 of systems/gcj/rank-and-file_WhiteShadow.c.ifdefed
+<pre>
+int main() {
+  int t, i, j, k, n, aux;
+  
+  scanf("%d", &amp;t);
+  for (i=1; i&lt;=t; i++) {
+    scanf("%d", &amp;n);
+    memset(v, 0, sizeof(v));
+    for (j=0; j&lt;2*n-1; j++)
+      for (k=0; k&lt;n; k++) { 
+	scanf("%d", &amp;aux);
+	v[aux]++;
+      }
+    printf("Case #%d:", i);
+    for (j=1; j&lt;MAX; j++)
+      if (v[j]%2==1) printf(" %d", j);
+    puts("");
+  }
+  
+  return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 2 - 30 of systems/gcj/rank-and-file_zuck007.c.ifdefed
+<pre>
+int main()
+{
+    int t,i,j,k,n,x;
+    scanf("%d",&amp;t);
+    for(i=1;i&lt;=t;++i)
+    {
+        int hash[3000]={0};
+        scanf("%d",&amp;n);
+        for(j=1;j&lt;=2*n-1;++j)
+        {
+            for(k=1;k&lt;=n;++k)
+            {
+            scanf("%d",&amp;x);
+            ++hash[x];
+            }
+        }
+        printf("Case #%d:",i);
+
+        for(k=1;k&lt;=2500;++k)
+        {
+           // printf("hash[%d]:%d \n",i,hash[i]);
+            if(hash[k]%2){
+                printf(" %d",k);
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 4 - 22 of systems/gcj/rank-and-file_Sempr.c.ifdefed
+<pre>
+int main(){
+    int cas, T;
+    int i,N,h;
+    char c[2600];
+    scanf("%d", &amp;T);
+    for (cas=1;cas&lt;=T;cas++){
+        scanf("%d", &amp;N);
+        memset(c,0,sizeof(c));
+        for (i=N*(2*N-1);i&gt;0;i--){
+            scanf("%d", &amp;h);
+            c[h] ^= 1;
+        }
+        printf("Case #%d:", cas);
+        for (i=1;i&lt;=2500;i++)
+            if (c[i]) printf(" %d", i);
+        printf("\n");
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 28, 2 fragments, nominal size 19 lines, similarity 70%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 58 - 74 of systems/gcj/bff_dooglius.c.ifdefed
+<pre>
+static int cycle_test(int start) {
+	bool used[1000] = {0};
+	int curr = start;
+	int ans = 1;
+	while(1){
+		used[curr] = true;
+		int next = bff[curr];
+		if(next == start) {
+			return ans;
+		}
+		if(used[next]){
+			return 1;
+		}
+		curr = bff[curr];
+		ans++;
+	}
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 76 - 95 of systems/gcj/bff_dooglius.c.ifdefed
+<pre>
+static int chain_test(int start, int* end_pair) {
+	bool used[1000] = {0};
+	int curr = start;
+	int prev = -1;
+	int ans = 0;
+	while(1){
+		used[curr] = true;
+		int next = bff[curr];
+		if(next == prev) {
+			*end_pair = curr;
+			return ans;
+		}
+		if(used[next]){
+			return 0;
+		}
+		prev = curr;
+		curr = bff[curr];
+		ans++;
+	}
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 29, 2 fragments, nominal size 9 lines, similarity 66%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 8 - 14 of systems/gcj/ample-syrup_sahuang.c.ifdefed
+<pre>
+int gcd(int a,int b){
+  int c;
+  while ( a != 0 ) {
+     c = a; a = b%a;  b = c;
+  }
+  return b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 85 - 95 of systems/gcj/haircut_doodhwala.c.ifdefed
+<pre>
+long hcf(long a, long b)
+{
+	int temp;
+	while(a % b != 0)
+	{
+		temp = a%b;
+		a = b;
+		b = temp;
+	}
+	return b;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 30, 2 fragments, nominal size 9 lines, similarity 55%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 25 - 33 of systems/gcj/ample-syrup_sahuang.c.ifdefed
+<pre>
+int cmp (const void * a, const void * b)
+{
+    if( *(long long int*)a - *(long long int*)b &lt; 0 )
+        return 1;
+    if( *(long long int*)a - *(long long int*)b &gt; 0 )
+        return -1;
+    if( *(long long int*)a - *(long long int*)b == 0 )
+        return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 16 - 25 of systems/gcj/core-training_Toniolo.c.ifdefed
+<pre>
+int compareProbabilities(const void* a, const void* b) {
+    const double* da = (const double*) a;
+    const double* db = (const double*) b;
+
+    if (*da &gt; *db)
+        return 1;
+    if (*da &lt; *db)
+        return -1;
+    return 0;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 31, 3 fragments, nominal size 11 lines, similarity 90%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 5 - 14 of systems/gcj/dijkstra_LevinLMKwong.c.ifdefed
+<pre>
+int get_int(){
+	char c;
+	while (c=getchar(),c&lt;'0'||c&gt;'9'){}
+	int result = 0;
+	while (c&gt;='0'&amp;&amp;c&lt;='9'){
+		result = result*10+c-'0';
+		c = getchar();
+	}
+	return result;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 15 - 24 of systems/gcj/dijkstra_LevinLMKwong.c.ifdefed
+<pre>
+int get_longlong(){
+	char c;
+	while (c=getchar(),c&lt;'0'||c&gt;'9'){}
+	long long result = 0;
+	while (c&gt;='0'&amp;&amp;c&lt;='9'){
+		result = result*10+c-'0';
+		c = getchar();
+	}
+	return result;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 4 - 13 of systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed
+<pre>
+int get_int(){
+	char c;
+	while (c=getchar(),c&lt;'0'||c&gt;'9'){}
+	int result = 0;
+	while (c&gt;='0'&amp;&amp;c&lt;='9'){
+		result = result*10+c-'0';
+		c = getchar();
+	}
+	return result;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 32, 2 fragments, nominal size 22 lines, similarity 59%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 92 - 124 of systems/gcj/ample-syrup_sdchikorde.c.ifdefed
+<pre>
+void main()
+{
+	int n = 0;
+	int cases;
+	int i,j,k;
+	scanf("%d",&amp;cases);
+	while(n&lt;cases)
+	{
+		finalAns = -1;
+		n++;
+		printf("Case #%d: ",n);
+		
+		//Logic to print answer for this case goes here
+		scanf("%d%d",&amp;N,&amp;K);
+		for(i=0;i&lt;N;i++)
+		{
+			scanf("%d%d",&amp;R[i],&amp;H[i]);
+			Ac[i] = PI*R[i]*R[i];
+			Av[i] = 2*PI*R[i]*H[i]; 
+			At[i] = Ac[i]+Av[i];
+		}
+		bubbleSort(R,N);
+		/*for(i=0;i&lt;N;i++)
+		{
+			printf("%d %d %Lf %Lf %Lf\n",R[i],H[i],Ac[i],Av[i],At[i]);
+		}*/
+		
+		printCombination(R, N, K);
+		
+		printf("%Lf",finalAns);
+		printf("\n");
+	}
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 4 - 33 of systems/gcj/steed-2-cruise-control_sdchikorde.c.ifdefed
+<pre>
+void main()
+{
+	int n = 0;
+	int cases;
+	double End,Max=-1,N;
+	double i,j,k,l;
+	double Start, Speed;
+	scanf("%d",&amp;cases);
+	while(n&lt;cases)
+	{
+		Max = -1;
+		n++;
+		printf("Case #%d: ",n);
+		
+		//Logic to print answer for this case goes here
+		scanf("%lf%lf",&amp;End,&amp;N);
+		
+		for(i=0;i&lt;N;i++)
+		{
+			scanf("%lf%lf",&amp;Start,&amp;Speed);
+			if((End-Start)/Speed&gt;Max)
+			{
+				Max = (End-Start)/Speed;
+			}
+		}
+		printf("%lf",(double)(End/Max));
+		
+		printf("\n");
+	}
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 33, 2 fragments, nominal size 19 lines, similarity 63%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 8 - 27 of systems/gcj/standing-ovation_niquefa.diego.c.ifdefed
+<pre>
+int main ( )
+{
+	int ntc, test, n;
+	scanf ( "%d", &amp;ntc );
+	for ( test = 1; test &lt;= ntc; ++test ) {
+		scanf ( "%d%s", &amp;n, s );
+		int ans = 0, i, sum = 0;
+		for ( i = 0; i &lt;= n; ++i ) {
+			if ( s[i] != '0' )
+				if ( sum &lt; i ) {
+					ans += i-sum;
+					sum = i;
+				}
+			sum += s[i]-'0';
+		}
+	
+		printf ( "Case #%d: %d\n", test, ans );
+	}
+	return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 3 - 25 of systems/gcj/standing-ovation_DeerWay.c.ifdefed
+<pre>
+int main()
+{
+  int n, i, j, T, now, need;
+  char s[SMAX+5];
+  scanf("%d",&amp;T);
+  for(i=0;i&lt;T;i++) {
+
+    now = need = 0;
+    scanf("%d%s",&amp;n, s); 
+    now = s[0]-'0';
+    
+    for(j=1;j&lt;=n;j++){
+      
+      if( now &lt; j ){
+	need += j-now;
+	now = j;
+      }
+      now += s[j]-'0';
+    }
+    printf("Case #%d: %d\n", i+1, need);
+  }
+  return 0;
+} 
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 34, 3 fragments, nominal size 3 lines, similarity 66%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 111 - 113 of systems/gcj/getting-the-digits_kyunglaeya.c.ifdefed
+<pre>
+int comp(int *arg1, int *arg2) {
+	return *arg1 - *arg2;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 5 - 8 of systems/gcj/fresh-chocolate_HonMing.c.ifdefed
+<pre>
+int cmp(int* a, int* b)
+{
+    return *a - *b;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 5 - 8 of systems/gcj/getting-the-digits_HonMing.c.ifdefed
+<pre>
+int cmp(char* a, char*b )
+{
+    return *a - *b;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 35, 2 fragments, nominal size 5 lines, similarity 80%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 39 - 42 of systems/gcj/bathroom-stalls_debad.c.ifdefed
+<pre>
+llu min(llu N){
+	if(N%2 == 1)return (N-1)/2;
+	return N/2 -1;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 44 - 47 of systems/gcj/bathroom-stalls_debad.c.ifdefed
+<pre>
+llu max(llu N){
+	if(N%2 == 1)return (N-1)/2;
+	return N/2;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 36, 2 fragments, nominal size 3 lines, similarity 66%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 9 - 9 of systems/gcj/bathroom-stalls_Noble.Mushtak.c.ifdefed
+<pre>
+static inline long long min(long long length1, long long length2) { return (length1 &lt; length2) ? length1 : length2; }
+</pre>
+</td></tr>
+<tr><td>
+Lines 10 - 10 of systems/gcj/bathroom-stalls_Noble.Mushtak.c.ifdefed
+<pre>
+static inline long long max(long long length1, long long length2) { return (length1 &gt; length2) ? length1 : length2; }
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 37, 2 fragments, nominal size 28 lines, similarity 55%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 3 - 35 of systems/gcj/the-last-word_sibin.c.ifdefed
+<pre>
+int main()
+{
+    char S[1000], word[4000];
+    int T, i, j, start, trail;
+
+    scanf("%d", &amp;T);
+
+    for (i = 0; i &lt; T; i++) {
+        scanf("%s", S);
+
+        start = 2000;
+        trail = 2000;
+        word[start] = S[0];
+        for (j = 1; j &lt; strlen(S); j++) {
+            if (S[j] &gt;= word[start]) {
+                start--;
+                word[start] = S[j];
+            } else {
+                trail++;
+                word[trail] = S[j];
+            }
+        }
+        trail++;
+        word[trail] = '\0';
+
+        printf("Case #%d: ", i + 1, start);
+        for (j = start; j &lt; trail; j++) {
+            printf("%c", word[j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 3 - 30 of systems/gcj/the-last-word_pro2911.c.ifdefed
+<pre>
+int main()
+{
+    int t,n,i,j,cnt,start,end;
+    char s[1005],ans[2005];
+    scanf("%d",&amp;t);
+    for(i=1;i&lt;=t;i++){
+        scanf("%s",s);
+        n=strlen(s);
+        start=end=1002;
+        ans[1002]=s[0];
+        for(j=1;j&lt;n;j++){
+            if(s[j]&gt;=ans[start]){
+                ans[start-1]=s[j];
+                start--;
+            }
+            else{
+                ans[end+1]=s[j];
+                end++;
+            }
+        }
+        printf("Case #%d: ",i);
+        for(j=start;j&lt;=end;j++){
+            printf("%c",ans[j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 38, 2 fragments, nominal size 3 lines, similarity 66%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 17 - 17 of systems/gcj/stable-neigh-bors_rompel.c.ifdefed
+<pre>
+inline static double fsqr(double x) { return x*x; }
+</pre>
+</td></tr>
+<tr><td>
+Lines 18 - 18 of systems/gcj/stable-neigh-bors_rompel.c.ifdefed
+<pre>
+inline static int isqr(int x) { return x*x; }
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 39, 2 fragments, nominal size 16 lines, similarity 77%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 23 - 43 of systems/gcj/stable-neigh-bors_rompel.c.ifdefed
+<pre>
+static int split(char *s, int m, char **v, char *r)
+{
+  int n=0;
+  char *x;
+
+  for(x=s;;)
+    {
+      while(*x &amp;&amp; strchr(r, *x))
+          x++;
+      if(!*x)
+          break;
+      assert(n&lt;m);
+      v[n++] = x;
+      while(*x &amp;&amp; !strchr(r, *x))
+          x++;
+      if(!*x)
+          break;
+      *x++ = 0;
+    }
+  return n;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 46 - 62 of systems/gcj/stable-neigh-bors_rompel.c.ifdefed
+<pre>
+static int splitn(char *s, int m, char **v, char *r)
+{
+  int n=0;
+  char *x;
+
+  for(x=s;;)
+    {
+      assert(n&lt;m);
+      v[n++] = x;
+      while(*x &amp;&amp; !strchr(r, *x))
+          x++;
+      if(!*x)
+          break;
+      *x++ = 0;
+    }
+  return n;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 40, 2 fragments, nominal size 141 lines, similarity 97%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 6 - 74 of systems/gcj/stable-neigh-bors_PetrosN.c.ifdefed
+<pre>
+int main(){
+FILE *fp,*fo;
+fp=fopen("B-small-attempt2.in","r");
+fo=fopen("output.txt","w");
+int i,k,j,lo,testcases,horses,x,y,z,max,color[9],rc,bc,yc,oc,gc,vc,xy,yz,zx,p;
+fscanf(fp,"%d",&amp;testcases);
+char seta[2000],temp;
+for(lo=1; lo&lt;=testcases; lo++){
+    fprintf(fo,"Case #");
+    fprintf(fo,"%d",lo);
+    fprintf(fo,": ");
+
+p=1;
+fscanf(fp,"%d",&amp;horses);
+for(i=1; i&lt;=6; i++){
+    fscanf(fp,"%d",&amp;color[i]);
+}
+
+rc=color[1];
+oc=color[2];
+yc=color[3];
+gc=color[4];
+bc=color[5];
+vc=color[6];
+    x=rc;
+    xy=oc;
+   y=yc;
+   yz=gc;
+   z=bc;
+   zx=vc;
+for(i=1; i&lt;=horses; i++){
+    max=0;
+
+
+
+if (x&gt;=max){max=x;}
+if (xy&gt;=max){max=xy;}
+if (y&gt;=max){max=y;}
+if (yz&gt;=max){max=yz;}
+if (z&gt;=max){max=z;}
+if (zx&gt;=max){max=zx;}
+
+    if (max==0){fprintf(fo,"IMPOSSIBLE"); p=0; break;}
+    else if (zx==max){vc--;seta[i]='V';x=-1; xy=-1; zx=-1; yz=-1; y=yc; z=-1;}
+    else if (z==max){bc--; seta[i]='B'; z=-1; yz=-1; zx =-1; xy=oc; x=rc; y=yc;  }
+    else if (yz==max){gc--;seta[i]='G';x=rc; xy=-1; zx=-1; yz=-1; y=-1; z=-1;}
+    else if (y==max){yc--;seta[i]='Y'; y=-1; yz=-1; xy=-1; zx=vc; x=rc; z=bc; }
+    else if (xy==max){oc--;seta[i]='O';x=-1; xy=-1; zx=-1; yz=-1; y=-1; z=bc;}
+    else if (x==max){rc--;seta[i]='R';x=-1; xy=-1; zx=-1; yz=gc; y=yc; z=bc;}
+
+}
+if (seta[1]==seta[horses]){temp=seta[horses]; seta[horses]=seta[horses-1]; seta[horses-1]=temp;}
+if(p==1){
+for(i=1; i&lt;=horses-1; i++){
+        if (seta[i]==seta[i+1]){ fprintf(fo,"IMPOSSIBLE"); p=0; break;}
+}
+}
+if(p==1){
+for(i=1; i&lt;=horses; i++){
+    fprintf(fo,"%c",seta[i]);
+}
+}
+fprintf(fo,"\n");
+
+    }
+    fclose(fp);
+    fclose(fo);
+    return 0;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 6 - 76 of systems/gcj/stable-neigh-bors_papachristoumarios.c.ifdefed
+<pre>
+int main(){
+FILE *fp,*fo;
+fp=fopen("input.in","r");
+fo=fopen("output.txt","w");
+int i,k,j,lo,testcases,horses,x,y,z,max,color[9],rc,bc,yc,oc,gc,vc,xy,yz,zx,p;
+fscanf(fp,"%d",&amp;testcases);
+char seta[2000],temp;
+for(lo=1; lo&lt;=testcases; lo++){
+    fprintf(fo,"Case #");
+    fprintf(fo,"%d",lo);
+    fprintf(fo,": ");
+
+p=1;
+fscanf(fp,"%d",&amp;horses);
+for(i=1; i&lt;=6; i++){
+    fscanf(fp,"%d",&amp;color[i]);
+}
+
+rc=color[1];
+oc=color[2];
+yc=color[3];
+gc=color[4];
+bc=color[5];
+vc=color[6];
+    x=rc;
+    xy=oc;
+   y=yc;
+   yz=gc;
+   z=bc;
+   zx=vc;
+for(i=1; i&lt;=horses; i++){
+    max=0;
+
+
+
+if (x&gt;=max){max=x;}
+if (xy&gt;=max){max=xy;}
+if (y&gt;=max){max=y;}
+if (yz&gt;=max){max=yz;}
+if (z&gt;=max){max=z;}
+if (zx&gt;=max){max=zx;}
+
+    if (max==0){ fprintf(fo,"IMPOSSIBLE"); p=0; break;  }
+    else if (zx==max){vc--;seta[i]='V';x=-1; xy=-1; zx=-1; yz=-1; y=yc; z=-1;}
+    else if (z==max){bc--; seta[i]='B'; z=-1; yz=-1; zx =-1; xy=oc; x=rc; y=yc;  }
+    else if (yz==max){gc--;seta[i]='G';x=rc; xy=-1; zx=-1; yz=-1; y=-1; z=-1;}
+    else if (y==max){yc--;seta[i]='Y'; y=-1; yz=-1; xy=-1; zx=vc; x=rc; z=bc; }
+    else if (xy==max){oc--;seta[i]='O';x=-1; xy=-1; zx=-1; yz=-1; y=-1; z=bc;}
+    else if (x==max){rc--;seta[i]='R';x=-1; xy=-1; zx=-1; yz=gc; y=yc; z=bc;}
+
+}
+if (seta[1]==seta[horses]){temp=seta[horses]; seta[horses]=seta[horses-1]; seta[horses-1]=temp;}
+if (p==1){
+for(i=1; i&lt;=horses-1; i++){
+        if (seta[i]==seta[i+1]){ fprintf(fo,"IMPOSSIBLE"); p=0; break;}
+}
+}
+
+if(p==1){
+for(i=1; i&lt;=horses; i++){
+    fprintf(fo,"%c",seta[i]);
+}
+if (seta[1]==seta[horses]){printf("hello");}
+}
+fprintf(fo,"\n");
+
+    }
+    fclose(fp);
+    fclose(fo);
+    return 0;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 41, 2 fragments, nominal size 3 lines, similarity 100%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 8 - 10 of systems/gcj/ample-syrup_piepie01.c.ifdefed
+<pre>
+int cmp(const data* a,const data* b){
+	return a-&gt;r&lt;b-&gt;r;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 11 - 13 of systems/gcj/ample-syrup_piepie01.c.ifdefed
+<pre>
+int cmp1(const data* a,const data* b){
+	return a-&gt;h &lt; b-&gt;h;
+}
+</pre>
+</td></tr>
+</table>
+<h3>Clone class 42, 2 fragments, nominal size 7 lines, similarity 57%
+</h3>
+<table cellpadding=12 border=2 frame="box" width="90%">
+<tr><td>
+Lines 10 - 18 of systems/gcj/fresh-chocolate_Math.Wizard.Boy.c.ifdefed
+<pre>
+int P3(int * C) {
+  int x = min(C[1], C[2]);
+
+  C[1] -= x;
+  C[2] -= x;
+  C[0] += x;
+
+  return C[0] + (C[1] + C[2] + 2) / 3;
+}
+</pre>
+</td></tr>
+<tr><td>
+Lines 20 - 27 of systems/gcj/fresh-chocolate_Math.Wizard.Boy.c.ifdefed
+<pre>
+int P4(int * C) {
+  int x = min(C[1], C[3]);
+  C[1] -= x;
+  C[3] -= x;
+  C[0] += x;
+
+  return C[0] + (C[1] + 2 * C[2] + C[3] + 3) / 4;
+}
+</pre>
+</td></tr>
+</table>
+</body>
+</html>

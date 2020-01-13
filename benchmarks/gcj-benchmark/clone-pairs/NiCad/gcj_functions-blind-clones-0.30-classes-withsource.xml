@@ -1,0 +1,1289 @@
+<clones>
+<systeminfo processor="nicad5" system="gcj" granularity="functions-blind" threshold="30%" minlines="1" maxlines="2500"/>
+<cloneinfo npcs="666" npairs="115"/>
+<runinfo ncompares="47764" cputime="61785"/>
+<classinfo nclasses="24"/>
+
+<class classid="1" nclones="9" nlines="7" similarity="71">
+<source file="systems/gcj/pony-express_tatuyan.c.ifdefed" startline="5" endline="10" pcid="13">
+int main(void){
+  int T,i;
+  scanf("%d",&T);
+  for(i=1;i<=T;i++) solve(i);
+  return 0;
+}
+</source>
+<source file="systems/gcj/slides_caf.c.ifdefed" startline="42" endline="52" pcid="388">
+int main()
+{
+	int t, i;
+
+	scanf("%d", &t);
+	
+	for (i = 0; i < t; i++)
+		do_test(i);
+
+	return 0;
+}
+</source>
+<source file="systems/gcj/rank-and-file_caf.c.ifdefed" startline="32" endline="42" pcid="196">
+int main()
+{
+	int t, i;
+
+	scanf("%d", &t);
+	
+	for (i = 0; i < t; i++)
+		do_test(i);
+
+	return 0;
+}
+</source>
+<source file="systems/gcj/parenting-partnering_tatuyan.c.ifdefed" startline="14" endline="19" pcid="300">
+int main(void){
+  int T,i;
+  scanf("%d",&T);
+  for(i=1;i<=T;i++) solve(i);
+  return 0;
+}
+</source>
+<source file="systems/gcj/ample-syrup_tatuyan.c.ifdefed" startline="17" endline="22" pcid="322">
+int main(void){
+  int T,i;
+  scanf("%d",&T);
+  for(i=1;i<=T;i++) solve(i);
+  return 0;
+}
+</source>
+<source file="systems/gcj/steed-2-cruise-control_tatuyan.c.ifdefed" startline="16" endline="21" pcid="404">
+int main(void){
+  int i,T;
+  scanf("%d",&T);
+  for(i=1;i<=T;i++) solve(i);
+  return 0;
+}
+</source>
+<source file="systems/gcj/fractiles_caf.c.ifdefed" startline="44" endline="54" pcid="645">
+int main()
+{
+	int t, i;
+
+	scanf("%d", &t);
+	
+	for (i = 0; i < t; i++)
+		do_test(i);
+
+	return 0;
+}
+</source>
+<source file="systems/gcj/dijkstra_caf.c.ifdefed" startline="215" endline="225" pcid="268">
+int main()
+{
+	int t, i;
+
+	scanf("%d", &t);
+	
+	for (i = 0; i < t; i++)
+		do_test(i);
+
+	return 0;
+}
+</source>
+<source file="systems/gcj/stable-neigh-bors_ulyr.c.ifdefed" startline="95" endline="101" pcid="149">
+int main () {
+    int t,i;
+    scanf("%d",&t);
+    for(i = 0; i<t; i++)
+        solve(i+1);
+    return 0;
+}
+</source>
+</class>
+
+<class classid="2" nclones="8" nlines="7" similarity="100">
+<source file="systems/gcj/bff_stubbscroll.c.ifdefed" startline="40" endline="45" pcid="19">
+int main() {
+	int T,caseno=1;
+	scanf("%d",&T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</source>
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="46" endline="51" pcid="273">
+int main() {
+	int T,caseno=1;
+	scanf("%d",&T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</source>
+<source file="systems/gcj/pony-express_stubbscroll.c.ifdefed" startline="42" endline="47" pcid="77">
+int main() {
+	int T,caseno=1;
+	scanf("%d",&T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</source>
+<source file="systems/gcj/parenting-partnering_stubbscroll.c.ifdefed" startline="43" endline="48" pcid="648">
+int main() {
+	int T,caseno=1;
+	scanf("%d",&T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</source>
+<source file="systems/gcj/core-training_stubbscroll.c.ifdefed" startline="29" endline="34" pcid="488">
+int main() {
+	int T,caseno=1;
+	scanf("%d",&T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</source>
+<source file="systems/gcj/ample-syrup_stubbscroll.c.ifdefed" startline="32" endline="37" pcid="383">
+int main() {
+	int T,caseno=1;
+	scanf("%d",&T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</source>
+<source file="systems/gcj/stable-neigh-bors_stubbscroll.c.ifdefed" startline="53" endline="58" pcid="355">
+int main() {
+	int T,caseno=1;
+	scanf("%d",&T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</source>
+<source file="systems/gcj/bathroom-stalls_stubbscroll.c.ifdefed" startline="74" endline="79" pcid="72">
+int main() {
+	int T,caseno=1;
+	scanf("%d",&T);
+	while(T--) printf("Case #%d: ",caseno++),solve();
+	return 0;
+}
+</source>
+</class>
+
+<class classid="3" nclones="2" nlines="7" similarity="71">
+<source file="systems/gcj/ominous-omino_cjoa.c.ifdefed" startline="12" endline="16" pcid="24">
+int solve3(int R, int C) {
+   if ((R*C % 3) != 0) return 0;
+   if (R == 1) return 0;
+   return 1;
+}
+</source>
+<source file="systems/gcj/ominous-omino_cjoa.c.ifdefed" startline="18" endline="22" pcid="25">
+int solve4(int R, int C) {
+   if ((R*C % 4) != 0) return 0;
+   if (R <= 2) return 0;
+   return 1;
+}
+</source>
+</class>
+
+<class classid="4" nclones="2" nlines="16" similarity="93">
+<source file="systems/gcj/close-match_shk10.c.ifdefed" startline="32" endline="45" pcid="56">
+void try2(int index) {
+	if(index==N) {
+		compare();
+		return;
+	}
+	if(Q[index]=='?') {
+		int i;
+		for(i=0; i<10; i++) {
+			Q[index] = i + '0';
+			try2(index+1);
+		}
+		Q[index] = '?';
+	} else try2(index+1);
+}
+</source>
+<source file="systems/gcj/close-match_shk10.c.ifdefed" startline="47" endline="60" pcid="57">
+void try(int index) {
+	if(index==N) {
+		try2(0);
+		return;
+	}
+	if(P[index]=='?') {
+		int i;
+		for(i=0; i<10; i++) {
+			P[index] = i + '0';
+			try(index+1);
+		}
+		P[index] = '?';
+	} else try(index+1);
+}
+</source>
+</class>
+
+<class classid="5" nclones="7" nlines="9" similarity="70">
+<source file="systems/gcj/close-match_shk10.c.ifdefed" startline="87" endline="97" pcid="60">
+int main()
+{
+	int T=getInt(), cas;
+	for(cas=1; cas<=T; cas++) {
+		scanf("%s%s", P, Q);
+		printf("Case #%d: ", cas);
+		solve();
+		printf("\n");
+	}
+	return 0;
+}
+</source>
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="47" endline="57" pcid="561">
+int main()
+{
+    int q,i;
+    scanf("%d",&q);
+    for(i=1;i<=q;i++)
+    {
+        printf("Case #%d: ",i);
+        solve();
+    }
+    return 0;
+}
+</source>
+<source file="systems/gcj/counting-sheep_aalapshah12297.c.ifdefed" startline="32" endline="44" pcid="421">
+int main()
+{
+	int t, n, i;
+	scanf("%d", &t);
+	for(i=1;i<=t;i++)
+	{
+		scanf("%d", &n);
+		printf("Case #%d: ", i);
+		lastNumber(n);
+	}
+
+	return 0;
+}
+</source>
+<source file="systems/gcj/senate-evacuation_santosha.c.ifdefed" startline="86" endline="99" pcid="618">
+int 
+main ()
+{
+	int	ix, ntests;
+
+	scanf ("%d", &ntests);
+
+	for (ix = 1; ix <= ntests; ++ix) {
+
+		printf ("Case #%d: ", ix);
+		do_evac ();
+	}
+	return 0;
+}
+</source>
+<source file="systems/gcj/revenge-of-the-pancakes_alan790712.c.ifdefed" startline="23" endline="36" pcid="542">
+int main()
+{
+    int t, T;
+    char stack[105];
+    scanf("%d",&T);
+    for(t=1;t<=T;++t)
+    {
+        scanf("%s",stack);
+        printf("Case #%d: ", t);
+        solve(stack);
+    }
+
+    return 0;
+}
+</source>
+<source file="systems/gcj/parenting-partnering_Rudolph..c.ifdefed" startline="147" endline="159" pcid="83">
+int main(int argc, char* argv[]){
+  int T, t;
+
+  scanf(" %d", &T);
+
+  for (t = 1; t <= T; ++t){
+    printf("Case #%d: ", t);
+    solve();
+    printf("\n");
+  }
+
+  return 0;
+}
+</source>
+<source file="systems/gcj/stable-neigh-bors_Rudolph..c.ifdefed" startline="82" endline="94" pcid="99">
+int main(int argc, char** argv){
+    int T, t;
+
+    scanf(" %d", &T);
+
+    for (t = 1; t <= T; ++t){
+        printf("Case #%d: ", t);
+        solve();
+        printf("\n");
+    }
+
+    return 0;
+}
+</source>
+</class>
+
+<class classid="6" nclones="3" nlines="9" similarity="70">
+<source file="systems/gcj/alphabet-cake_Aaby.c.ifdefed" startline="6" endline="19" pcid="84">
+void print_array(char **a,int m,int n)
+{
+    int x,y;
+    
+    
+    for(x=0;x<m;x++)
+    {
+        for(y=0;y<n;y++)
+        {
+            printf("%c",a[x][y]);
+        }
+        printf("\n");
+    }
+}
+</source>
+<source file="systems/gcj/alphabet-cake_Vishu2421.c.ifdefed" startline="4" endline="15" pcid="634">
+void matprint(char **a,int m,int n)
+{
+    int i,j;
+    for(i=0;i<m;i++)
+    {
+        for(j=0;j<n;j++)
+        {
+            printf("%c",a[i][j]);
+        }
+        printf("\n");
+    }
+}
+</source>
+<source file="systems/gcj/fashion-show_hikalium.c.ifdefed" startline="15" endline="25" pcid="601">
+void printMap(char map[100][100])
+{
+	int x, y;
+	printf("MAP:\n");
+	for(y = 0; y < N; y++){
+		for(x = 0; x < N; x++){
+			printf("%c ", map[y][x]);
+		}
+		printf("\n");
+	}
+}
+</source>
+</class>
+
+<class classid="7" nclones="3" nlines="52" similarity="87">
+<source file="systems/gcj/alphabet-cake_Aaby.c.ifdefed" startline="24" endline="99" pcid="85">
+void fun(char **arr,int m,int n)
+{
+    int x,y,f;
+
+
+    for(x=0;x<m;x++)
+    {        f = 1;
+        for(y=0;y<n;y++)
+        {
+            if(arr[x][y]!='?')
+            {
+                f = 0;
+                break;
+            }
+        }
+        if(f)
+        {
+            for(y=0;y<n;y++)
+            {
+                arr[x][y]='a';
+            }
+        }
+        else
+        {
+            for(y=1;y<n;y++)
+            {
+                if(arr[x][y-1]!='?' && arr[x][y]=='?')
+                {
+                    arr[x][y] = arr[x][y-1];
+                }
+            }
+            if(arr[x][0]=='?')
+            {
+                for(y=0;y<n && arr[x][y]=='?';y++);
+                for(;y>0;y--)
+                {
+                    arr[x][y-1]=arr[x][y];
+                }
+            }
+        }
+    }
+    
+    
+    if(arr[0][0]=='a')
+    {
+        for(x=0;x<m;x++)
+        {
+            if(arr[x][0]!='a')
+                break;
+        }
+        for(;x>0;x--)
+        {
+            for(y=0;y<n;y++)
+            {
+                arr[x-1][y]=arr[x][y];
+            }
+        }
+    }
+    
+    
+    for(x=1;x<m;x++)
+    {
+        if(arr[x][0]=='a')
+        {
+            for(y=0;y<n;y++)
+            {
+                arr[x][y]=arr[x-1][y];
+            }
+        }
+    }
+    
+    
+	print_array(arr,m,n);
+
+
+}
+</source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="22" endline="101" pcid="424">
+void func(char **array,int m,int n)
+{
+    int i,j,temp, x, y;
+
+    for(i=0;i<m;i++)
+    {
+        temp = 1;
+        for(j=0;j<n;j++)
+        {
+            if(array[i][j]!='?')
+            {
+                temp = 0;
+                break;
+            }
+        }
+        if(temp)
+        {
+            for(j=0;j<n;j++)
+            {
+                array[i][j]='a';
+            }
+        }
+        else
+        {
+            for(j=1;j<n;j++)
+            {
+                if(array[i][j-1]!='?' && array[i][j]=='?')
+                {
+                    array[i][j] = array[i][j-1];
+                }
+            }
+            if(array[i][0]=='?')
+            {
+                for(j=0;j<n && array[i][j]=='?';j++);
+                for(;j>0;j--)
+                {
+                    array[i][j-1]=array[i][j];
+                }
+            }
+        }
+    }
+
+    if(array[0][0]=='a')
+    {
+        for(i=0;i<m;i++)
+        {
+            if(array[i][0]!='a')
+                break;
+        }
+        for(;i>0;i--)
+        {
+            for(j=0;j<n;j++)
+            {
+                array[i-1][j]=array[i][j];
+            }
+        }
+    }
+
+
+    for(i=1;i<m;i++)
+    {
+        if(array[i][0]=='a')
+        {
+            for(j=0;j<n;j++)
+            {
+                array[i][j]=array[i-1][j];
+            }
+        }
+    }
+    
+    
+    for(x=0;x<m;x++)
+    {
+        for(y=0;y<n;y++)
+        {
+            printf("%c",array[x][y]);
+        }
+        printf("\n");
+    }
+}
+</source>
+<source file="systems/gcj/alphabet-cake_Vishu2421.c.ifdefed" startline="19" endline="89" pcid="635">
+void pro(char **a,int m,int n)
+{
+    int i,j,flag;
+
+    for(i=0;i<m;i++)
+    {
+        flag = 1;
+        for(j=0;j<n;j++)
+        {
+            if(a[i][j]!='?')
+            {
+                flag = 0;
+                break;
+            }
+        }
+        if(flag)
+        {
+            for(j=0;j<n;j++)
+            {
+                a[i][j]='a';
+            }
+        }
+        else
+        {
+            for(j=1;j<n;j++)
+            {
+                if(a[i][j-1]!='?' && a[i][j]=='?')
+                {
+                    a[i][j] = a[i][j-1];
+                }
+            }
+            if(a[i][0]=='?')
+            {
+                for(j=0;j<n && a[i][j]=='?';j++);
+                for(;j>0;j--)
+                {
+                    a[i][j-1]=a[i][j];
+                }
+            }
+        }
+    }
+
+    if(a[0][0]=='a')
+    {
+        for(i=0;i<m;i++)
+        {
+            if(a[i][0]!='a')
+                break;
+        }
+        for(;i>0;i--)
+        {
+            for(j=0;j<n;j++)
+            {
+                a[i-1][j]=a[i][j];
+            }
+        }
+    }
+
+
+    for(i=1;i<m;i++)
+    {
+        if(a[i][0]=='a')
+        {
+            for(j=0;j<n;j++)
+            {
+                a[i][j]=a[i-1][j];
+            }
+        }
+    }
+    matprint(a,m,n);
+}
+</source>
+</class>
+
+<class classid="8" nclones="3" nlines="15" similarity="86">
+<source file="systems/gcj/alphabet-cake_Aaby.c.ifdefed" startline="105" endline="127" pcid="86">
+int main()
+{
+	
+	
+    int t,i1,i,j,m,n;
+	char **a;
+    
+	
+	scanf("%d",&t);
+    
+	for(i1=0;i1<t;i1++)
+    {
+        scanf("%d %d",&m,&n);
+        a = (char**) malloc(sizeof(char*)*m);
+        for(i=0;i<m;i++)
+        {
+            a[i] = (char*) malloc(sizeof(char)*(n+1));
+            scanf("%s",a[i]);
+        }
+        printf("Case #%d:\n",i1+1);
+        fun(a,m,n);
+    }
+}
+</source>
+<source file="systems/gcj/alphabet-cake_Vishu2421.c.ifdefed" startline="91" endline="108" pcid="636">
+int main()
+{
+    int t,i1,i,j,m,n;
+    char **a;
+    scanf("%d",&t);
+    for(i1=0;i1<t;i1++)
+    {
+        scanf("%d %d",&m,&n);
+        a = (char**) malloc(sizeof(char*)*m);
+        for(i=0;i<m;i++)
+        {
+            a[i] = (char*) malloc(sizeof(char)*(n+1));
+            scanf("%s",a[i]);
+        }
+        printf("Case #%d:\n",i1+1);
+        pro(a,m,n);
+    }
+}
+</source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="106" endline="123" pcid="425">
+int main()
+{
+    int t,i1,i,j,x,y;
+    char **array;
+    scanf("%d",&t);
+    for(i1=0;i1<t;i1++)
+    {
+        scanf("%d %d",&x,&y);
+        array = (char**) malloc(sizeof(char*)*(x+1));
+        for(i=0;i<x;i++)
+        {
+            array[i] = (char*) malloc(sizeof(char)*(y+2));
+            scanf("%s",array[i]);
+        }
+        printf("Case #%d:\n",i1+1);
+        func(array,x,y);
+    }
+}
+</source>
+</class>
+
+<class classid="9" nclones="3" nlines="3" similarity="100">
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128">
+int max( int a, int b )
+{
+    return a > b ? a : b;
+}
+</source>
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439">
+int max(int a,int b) {return a>b?a:b;
+}
+</source>
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238">
+int max(int a,int b){
+    return a>b?a:b;
+}
+</source>
+</class>
+
+<class classid="10" nclones="4" nlines="3" similarity="100">
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129">
+int min( int a, int b )
+{
+    return a < b ? a : b;
+}
+</source>
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271">
+int min(int a,int b) {
+	return a<b?a:b;
+}
+</source>
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184">
+int max( int x, int y ) { return x < y ? y:x; }
+</source>
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239">
+int min(int a,int b){
+    return a<b?a:b;
+}
+</source>
+</class>
+
+<class classid="11" nclones="2" nlines="15" similarity="93">
+<source file="systems/gcj/close-match_Backspe.c.ifdefed" startline="10" endline="25" pcid="164">
+void ltcheck() {
+	ll t1 = 0, t2 = 0;
+	int i;
+	for(i = 0; i < l; i++) {
+		t1 *= 10;
+		t2 *= 10;
+		t1 += (c1[i] == '?') ? 9 : (c1[i] - '0');
+		t2 += (c2[i] == '?') ? 0 : (c2[i] - '0');
+	}
+	//printf("lt: %s %s %lld %lld %lld\n", c1, c2, t1, t2, t2-t1);
+	if ((t2 - t1 < diff) || (t2 - t1 == diff && ((t1 < ans1) || (t1 == ans1 && t2 < ans2)))) {
+		diff = t2 - t1;
+		ans1 = t1;
+		ans2 = t2;
+	}
+}
+</source>
+<source file="systems/gcj/close-match_Backspe.c.ifdefed" startline="27" endline="42" pcid="165">
+void gtcheck() {
+	ll t1 = 0, t2 = 0;
+	int i;
+	for(i = 0; i < l; i++) {
+		t1 *= 10;
+		t2 *= 10;
+		t1 += (c1[i] == '?') ? 0 : (c1[i] - '0');
+		t2 += (c2[i] == '?') ? 9 : (c2[i] - '0');
+	}
+	//printf("gt: %s %s %lld %lld %lld\n", c1, c2, t1, t2, t1-t2);
+	if ((t1 - t2 < diff) || (t1 - t2 == diff && ((t1 < ans1) || (t1 == ans1 && t2 < ans2)))) {
+		diff = t1 - t2;
+		ans1 = t1;
+		ans2 = t2;
+	}
+}
+</source>
+</class>
+
+<class classid="12" nclones="6" nlines="5" similarity="80">
+<source file="systems/gcj/fractiles_alsoba.c.ifdefed" startline="5" endline="8" pcid="186">
+int max (int a, int b){
+	if (a<b) return b;
+	return a;
+}
+</source>
+<source file="systems/gcj/senate-evacuation_hobermallow.c.ifdefed" startline="4" endline="9" pcid="649">
+int max(int x, int y)
+{
+	if(x<y)
+		return y;
+	return x;
+}
+</source>
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="5" endline="9" pcid="558">
+int min(int a,int b)
+{
+    if(a<b) return a;
+    return b;
+}
+</source>
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="10" endline="14" pcid="559">
+int max(int a,int b)
+{
+    if(a>b) return a;
+    return b;
+}
+</source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="17" endline="20" pcid="574">
+int get_max(int a, int b){
+	if (a>b) return a;
+	else return b;
+}
+</source>
+<source file="systems/gcj/steed-2-cruise-control_yudhik.c.ifdefed" startline="3" endline="6" pcid="310">
+float max(float a,float b){
+		if (a>b) return a;
+		return b;
+}
+</source>
+</class>
+
+<class classid="13" nclones="2" nlines="20" similarity="100">
+<source file="systems/gcj/fractiles_alsoba.c.ifdefed" startline="18" endline="41" pcid="188">
+int main(int argc, char *argv[]){
+	char kk;
+	int total, i;
+
+	fin=fopen(argv[1], "r");
+	fout=fopen("out", "w");
+	if (fin==NULL || fout == NULL)
+	{
+		printf("Fitxer out.\n");
+	}
+	else 
+	{
+		fscanf(fin, "%d", &total);
+		fscanf(fin, "%c", &kk);
+		for (i = 0; i<total; i++)
+		{
+			fprintf(fout, "Case #%d: ", i+1);
+			solve();
+		}
+		fclose(fin);
+		fclose(fout);
+	}
+	return 0;
+}
+</source>
+<source file="systems/gcj/the-last-word_alsoba.c.ifdefed" startline="32" endline="55" pcid="352">
+int main(int argc, char *argv[]){
+	char kk;
+	int total, i;
+
+	fin=fopen(argv[1], "r");
+	fout=fopen("out", "w");
+	if (fin==NULL || fout == NULL)
+	{
+		printf("Fitxer out.\n");
+	}
+	else 
+	{
+		fscanf(fin, "%d", &total);
+		fscanf(fin, "%c", &kk);
+		for (i = 0; i<total; i++)
+		{
+			fprintf(fout, "Case #%d: ", i+1);
+			solve();
+		}
+		fclose(fin);
+		fclose(fout);
+	}
+	return 0;
+}
+</source>
+</class>
+
+<class classid="14" nclones="2" nlines="20" similarity="75">
+<source file="systems/gcj/infinite-house-of-pancakes_Charyl.c.ifdefed" startline="8" endline="27" pcid="211">
+int main(){
+	int t,i,j,d,sum,k,min;
+    scanf("%d",&t);
+	for(i=1;i<=t;i++){
+		printf("Case #%d: ",i);
+		scanf("%d",&d);
+		for(j=0;j<d;j++)
+			scanf("%d",&pan[j]);
+		min=2000;
+		for(j=1;j<=1000;j++){
+			sum=0;
+			for(k=0;k<d;k++)
+				sum+=(pan[k]-1)/j;
+			if(sum+j < min)
+				min = sum+j;
+		}
+		printf("%d\n",min);
+	}
+    return 0;
+}
+</source>
+<source file="systems/gcj/infinite-house-of-pancakes_PKu.c.ifdefed" startline="4" endline="26" pcid="484">
+int main()
+{
+    int q,z,n,i,j,ans=0,min;
+    scanf("%d",&q);
+    for(z=1;z<=q;z++)
+    {
+        min=INF;
+        scanf("%d",&n);
+        for(i=0;i<n;i++)
+            scanf("%d",&a[i]);
+        for(i=1;i<=1000;i++)
+        {
+            ans=0;
+            for(j=0;j<n;j++)
+            {
+                ans+=(a[j]-1)/i;
+            }
+            if(ans+i<min)min=ans+i;
+        }
+        printf("Case #%d: %d\n",z,min);
+    }
+    return 0;
+}
+</source>
+</class>
+
+<class classid="15" nclones="2" nlines="9" similarity="70">
+<source file="systems/gcj/stable-neigh-bors_xylo.c.ifdefed" startline="88" endline="97" pcid="214">
+int main(void) {
+	int n_test_cases;
+	scanf("%d", &n_test_cases);
+	for (int i = 0; i < n_test_cases; ++i) {
+		int n, r, o, y, g, b, v;
+		scanf("%d%d%d%d%d%d%d", &n, &r, &o, &y, &g, &b, &v);
+		solve_test_case(i+1, n, r, o, y, g, b, v);
+	}
+	return 0;
+}
+</source>
+<source file="systems/gcj/haircut_xylo.c.ifdefed" startline="47" endline="54" pcid="319">
+int main(void) {
+	int n_cases;
+	scanf("%d", &n_cases);
+	for (int i = 0; i < n_cases; ++i) {
+		solve_testcase(i+1);
+	}
+	return 0;
+}
+</source>
+</class>
+
+<class classid="16" nclones="2" nlines="19" similarity="70">
+<source file="systems/gcj/bff_dooglius.c.ifdefed" startline="58" endline="74" pcid="232">
+static int cycle_test(int start) {
+	bool used[1000] = {0};
+	int curr = start;
+	int ans = 1;
+	while(1){
+		used[curr] = true;
+		int next = bff[curr];
+		if(next == start) {
+			return ans;
+		}
+		if(used[next]){
+			return 1;
+		}
+		curr = bff[curr];
+		ans++;
+	}
+}
+</source>
+<source file="systems/gcj/bff_dooglius.c.ifdefed" startline="76" endline="95" pcid="233">
+static int chain_test(int start, int* end_pair) {
+	bool used[1000] = {0};
+	int curr = start;
+	int prev = -1;
+	int ans = 0;
+	while(1){
+		used[curr] = true;
+		int next = bff[curr];
+		if(next == prev) {
+			*end_pair = curr;
+			return ans;
+		}
+		if(used[next]){
+			return 0;
+		}
+		prev = curr;
+		curr = bff[curr];
+		ans++;
+	}
+}
+</source>
+</class>
+
+<class classid="17" nclones="3" nlines="11" similarity="90">
+<source file="systems/gcj/dijkstra_LevinLMKwong.c.ifdefed" startline="5" endline="14" pcid="242">
+int get_int(){
+	char c;
+	while (c=getchar(),c<'0'||c>'9'){}
+	int result = 0;
+	while (c>='0'&&c<='9'){
+		result = result*10+c-'0';
+		c = getchar();
+	}
+	return result;
+}
+</source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="4" endline="13" pcid="572">
+int get_int(){
+	char c;
+	while (c=getchar(),c<'0'||c>'9'){}
+	int result = 0;
+	while (c>='0'&&c<='9'){
+		result = result*10+c-'0';
+		c = getchar();
+	}
+	return result;
+}
+</source>
+<source file="systems/gcj/dijkstra_LevinLMKwong.c.ifdefed" startline="15" endline="24" pcid="243">
+int get_longlong(){
+	char c;
+	while (c=getchar(),c<'0'||c>'9'){}
+	long long result = 0;
+	while (c>='0'&&c<='9'){
+		result = result*10+c-'0';
+		c = getchar();
+	}
+	return result;
+}
+</source>
+</class>
+
+<class classid="18" nclones="2" nlines="3" similarity="100">
+<source file="systems/gcj/getting-the-digits_kyunglaeya.c.ifdefed" startline="111" endline="113" pcid="278">
+int comp(int *arg1, int *arg2) {
+	return *arg1 - *arg2;
+}
+</source>
+<source file="systems/gcj/fresh-chocolate_HonMing.c.ifdefed" startline="5" endline="8" pcid="641">
+int cmp(int* a, int* b)
+{
+    return *a - *b;
+}
+</source>
+</class>
+
+<class classid="19" nclones="2" nlines="5" similarity="80">
+<source file="systems/gcj/bathroom-stalls_debad.c.ifdefed" startline="39" endline="42" pcid="306">
+llu min(llu N){
+	if(N%2 == 1)return (N-1)/2;
+	return N/2 -1;
+}
+</source>
+<source file="systems/gcj/bathroom-stalls_debad.c.ifdefed" startline="44" endline="47" pcid="307">
+llu max(llu N){
+	if(N%2 == 1)return (N-1)/2;
+	return N/2;
+}
+</source>
+</class>
+
+<class classid="20" nclones="2" nlines="8" similarity="75">
+<source file="systems/gcj/counter-culture_AxiomOfChoice.c.ifdefed" startline="8" endline="17" pcid="314">
+int digs(ll x)
+{
+	int cnt = 0;
+	while(x)
+	{
+		x /= 10;
+		cnt++;
+	}
+	return cnt;
+}
+</source>
+<source file="systems/gcj/counter-culture_kdb.c.ifdefed" startline="4" endline="13" pcid="657">
+int leng(long long rnum)
+{
+	int x=0;
+		while(rnum)
+		{
+         x++;
+         rnum=rnum/10;
+		 }
+    return x;
+}
+</source>
+</class>
+
+<class classid="21" nclones="4" nlines="3" similarity="100">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384">
+int max(int x, int y){return(x>y?x:y);} 
+</source>
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385">
+int min(int x,int y){return(x>y?y:x);}
+</source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422">
+int max(int x, int y) {return (x>y?x:y);}
+</source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423">
+int min(int x, int y) {return (x>y?y:x);}
+</source>
+</class>
+
+<class classid="22" nclones="2" nlines="16" similarity="77">
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="23" endline="43" pcid="431">
+static int split(char *s, int m, char **v, char *r)
+{
+  int n=0;
+  char *x;
+
+  for(x=s;;)
+    {
+      while(*x && strchr(r, *x))
+          x++;
+      if(!*x)
+          break;
+      assert(n<m);
+      v[n++] = x;
+      while(*x && !strchr(r, *x))
+          x++;
+      if(!*x)
+          break;
+      *x++ = 0;
+    }
+  return n;
+}
+</source>
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="46" endline="62" pcid="432">
+static int splitn(char *s, int m, char **v, char *r)
+{
+  int n=0;
+  char *x;
+
+  for(x=s;;)
+    {
+      assert(n<m);
+      v[n++] = x;
+      while(*x && !strchr(r, *x))
+          x++;
+      if(!*x)
+          break;
+      *x++ = 0;
+    }
+  return n;
+}
+</source>
+</class>
+
+<class classid="23" nclones="2" nlines="141" similarity="97">
+<source file="systems/gcj/stable-neigh-bors_PetrosN.c.ifdefed" startline="6" endline="74" pcid="483">
+int main(){
+FILE *fp,*fo;
+fp=fopen("B-small-attempt2.in","r");
+fo=fopen("output.txt","w");
+int i,k,j,lo,testcases,horses,x,y,z,max,color[9],rc,bc,yc,oc,gc,vc,xy,yz,zx,p;
+fscanf(fp,"%d",&testcases);
+char seta[2000],temp;
+for(lo=1; lo<=testcases; lo++){
+    fprintf(fo,"Case #");
+    fprintf(fo,"%d",lo);
+    fprintf(fo,": ");
+
+p=1;
+fscanf(fp,"%d",&horses);
+for(i=1; i<=6; i++){
+    fscanf(fp,"%d",&color[i]);
+}
+
+rc=color[1];
+oc=color[2];
+yc=color[3];
+gc=color[4];
+bc=color[5];
+vc=color[6];
+    x=rc;
+    xy=oc;
+   y=yc;
+   yz=gc;
+   z=bc;
+   zx=vc;
+for(i=1; i<=horses; i++){
+    max=0;
+
+
+
+if (x>=max){max=x;}
+if (xy>=max){max=xy;}
+if (y>=max){max=y;}
+if (yz>=max){max=yz;}
+if (z>=max){max=z;}
+if (zx>=max){max=zx;}
+
+    if (max==0){fprintf(fo,"IMPOSSIBLE"); p=0; break;}
+    else if (zx==max){vc--;seta[i]='V';x=-1; xy=-1; zx=-1; yz=-1; y=yc; z=-1;}
+    else if (z==max){bc--; seta[i]='B'; z=-1; yz=-1; zx =-1; xy=oc; x=rc; y=yc;  }
+    else if (yz==max){gc--;seta[i]='G';x=rc; xy=-1; zx=-1; yz=-1; y=-1; z=-1;}
+    else if (y==max){yc--;seta[i]='Y'; y=-1; yz=-1; xy=-1; zx=vc; x=rc; z=bc; }
+    else if (xy==max){oc--;seta[i]='O';x=-1; xy=-1; zx=-1; yz=-1; y=-1; z=bc;}
+    else if (x==max){rc--;seta[i]='R';x=-1; xy=-1; zx=-1; yz=gc; y=yc; z=bc;}
+
+}
+if (seta[1]==seta[horses]){temp=seta[horses]; seta[horses]=seta[horses-1]; seta[horses-1]=temp;}
+if(p==1){
+for(i=1; i<=horses-1; i++){
+        if (seta[i]==seta[i+1]){ fprintf(fo,"IMPOSSIBLE"); p=0; break;}
+}
+}
+if(p==1){
+for(i=1; i<=horses; i++){
+    fprintf(fo,"%c",seta[i]);
+}
+}
+fprintf(fo,"\n");
+
+    }
+    fclose(fp);
+    fclose(fo);
+    return 0;
+}
+</source>
+<source file="systems/gcj/stable-neigh-bors_papachristoumarios.c.ifdefed" startline="6" endline="76" pcid="583">
+int main(){
+FILE *fp,*fo;
+fp=fopen("input.in","r");
+fo=fopen("output.txt","w");
+int i,k,j,lo,testcases,horses,x,y,z,max,color[9],rc,bc,yc,oc,gc,vc,xy,yz,zx,p;
+fscanf(fp,"%d",&testcases);
+char seta[2000],temp;
+for(lo=1; lo<=testcases; lo++){
+    fprintf(fo,"Case #");
+    fprintf(fo,"%d",lo);
+    fprintf(fo,": ");
+
+p=1;
+fscanf(fp,"%d",&horses);
+for(i=1; i<=6; i++){
+    fscanf(fp,"%d",&color[i]);
+}
+
+rc=color[1];
+oc=color[2];
+yc=color[3];
+gc=color[4];
+bc=color[5];
+vc=color[6];
+    x=rc;
+    xy=oc;
+   y=yc;
+   yz=gc;
+   z=bc;
+   zx=vc;
+for(i=1; i<=horses; i++){
+    max=0;
+
+
+
+if (x>=max){max=x;}
+if (xy>=max){max=xy;}
+if (y>=max){max=y;}
+if (yz>=max){max=yz;}
+if (z>=max){max=z;}
+if (zx>=max){max=zx;}
+
+    if (max==0){ fprintf(fo,"IMPOSSIBLE"); p=0; break;  }
+    else if (zx==max){vc--;seta[i]='V';x=-1; xy=-1; zx=-1; yz=-1; y=yc; z=-1;}
+    else if (z==max){bc--; seta[i]='B'; z=-1; yz=-1; zx =-1; xy=oc; x=rc; y=yc;  }
+    else if (yz==max){gc--;seta[i]='G';x=rc; xy=-1; zx=-1; yz=-1; y=-1; z=-1;}
+    else if (y==max){yc--;seta[i]='Y'; y=-1; yz=-1; xy=-1; zx=vc; x=rc; z=bc; }
+    else if (xy==max){oc--;seta[i]='O';x=-1; xy=-1; zx=-1; yz=-1; y=-1; z=bc;}
+    else if (x==max){rc--;seta[i]='R';x=-1; xy=-1; zx=-1; yz=gc; y=yc; z=bc;}
+
+}
+if (seta[1]==seta[horses]){temp=seta[horses]; seta[horses]=seta[horses-1]; seta[horses-1]=temp;}
+if (p==1){
+for(i=1; i<=horses-1; i++){
+        if (seta[i]==seta[i+1]){ fprintf(fo,"IMPOSSIBLE"); p=0; break;}
+}
+}
+
+if(p==1){
+for(i=1; i<=horses; i++){
+    fprintf(fo,"%c",seta[i]);
+}
+if (seta[1]==seta[horses]){printf("hello");}
+}
+fprintf(fo,"\n");
+
+    }
+    fclose(fp);
+    fclose(fo);
+    return 0;
+}
+</source>
+</class>
+
+<class classid="24" nclones="2" nlines="3" similarity="100">
+<source file="systems/gcj/ample-syrup_piepie01.c.ifdefed" startline="8" endline="10" pcid="595">
+int cmp(const data* a,const data* b){
+	return a->r<b->r;
+}
+</source>
+<source file="systems/gcj/ample-syrup_piepie01.c.ifdefed" startline="11" endline="13" pcid="596">
+int cmp1(const data* a,const data* b){
+	return a->h < b->h;
+}
+</source>
+</class>
+
+</clones>

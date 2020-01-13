@@ -1,0 +1,223 @@
+BEGIN FUNCTION:audioop_tomono
+alloca: i32 
+alloca: i32 
+alloca: i32 
+alloca: i32 
+alloca: i32 
+alloca: i32 
+alloca: i32 
+alloca: i32 
+alloca: i32 
+alloca: i32 
+alloca: i32 
+alloca: i32 
+alloca: i32 
+alloca: i32 
+alloca: i32 
+store: %struct._object* %struct._object** 
+store: %struct._object* %struct._object** 
+store: i32 i32*
+store: i32 i32*
+load: %struct._object**
+call: %struct._object* i8* i8** i32* i32* double* double* i32 (%struct._object*, i8*, ...)*
+icmp: i32 i32
+br: i1 label label
+store: %struct._object* %struct._object**
+br: label
+load: i32*
+icmp: i32 i32
+br: i1 label label
+store: double double*
+br: label
+load: i32*
+icmp: i32 i32
+br: i1 label label
+store: double double*
+br: label
+load: i32*
+icmp: i32 i32
+br: i1 label label
+store: double double*
+br: label
+load: %struct._object**
+call: %struct._object* i8* void (%struct._object*, i8*)*
+store: %struct._object* %struct._object**
+br: label
+br: label 
+br: label 
+load: i32*
+sdiv: i32 i32
+sext: i32
+call: i8* i64 %struct._object* (i8*, i64)*
+store: %struct._object* %struct._object**
+load: %struct._object**
+icmp: %struct._object* %struct._object*
+br: i1 label label
+store: %struct._object* %struct._object**
+br: label
+load: %struct._object**
+call: %struct._object* i8* (%struct._object*)*
+store: i8* i8**
+store: i32 i32*
+br: label
+load: i32*
+load: i32*
+icmp: i32 i32
+br: i1 label label
+load: i32*
+icmp: i32 i32
+br: i1 label label
+load: i8**
+load: i32*
+sext: i32
+getelementptr: i8* i64
+load: i8*
+sext: i8
+store: i32 i32*
+br: label
+load: i32*
+icmp: i32 i32
+br: i1 label label
+load: i8**
+load: i32*
+sext: i32
+getelementptr: i8* i64
+bitcast: i8*
+load: i16*
+sext: i16
+store: i32 i32*
+br: label
+load: i32*
+icmp: i32 i32
+br: i1 label label
+load: i8**
+load: i32*
+sext: i32
+getelementptr: i8* i64
+bitcast: i8*
+load: i32*
+store: i32 i32*
+br: label
+br: label 
+br: label 
+load: i32*
+icmp: i32 i32
+br: i1 label label
+load: i8**
+load: i32*
+sext: i32
+getelementptr: i8* i64
+getelementptr: i8* i64
+load: i8*
+sext: i8
+store: i32 i32*
+br: label
+load: i32*
+icmp: i32 i32
+br: i1 label label
+load: i8**
+load: i32*
+sext: i32
+getelementptr: i8* i64
+getelementptr: i8* i64
+bitcast: i8*
+load: i16*
+sext: i16
+store: i32 i32*
+br: label
+load: i32*
+icmp: i32 i32
+br: i1 label label
+load: i8**
+load: i32*
+sext: i32
+getelementptr: i8* i64
+getelementptr: i8* i64
+bitcast: i8*
+load: i32*
+store: i32 i32*
+br: label
+br: label 
+br: label 
+load: i32*
+sitofp: i32
+load: double*
+fmul: double double
+load: i32*
+sitofp: i32
+load: double*
+fmul: double double
+fadd: double double
+store: double double*
+load: double*
+load: double*
+fcmp: double double
+br: i1 label label
+load: double*
+store: double double*
+br: label
+load: double*
+load: double*
+fsub: double double
+fcmp: double double
+br: i1 label label
+load: double*
+fsub: double double
+store: double double*
+br: label
+br: label 
+load: double*
+fptosi: double
+store: i32 i32*
+load: i32*
+icmp: i32 i32
+br: i1 label label
+load: i32*
+trunc: i32
+load: i8**
+load: i32*
+sdiv: i32 i32
+sext: i32
+getelementptr: i8* i64
+store: i8 i8*
+br: label
+load: i32*
+icmp: i32 i32
+br: i1 label label
+load: i32*
+trunc: i32
+load: i8**
+load: i32*
+sdiv: i32 i32
+sext: i32
+getelementptr: i8* i64
+bitcast: i8*
+store: i16 i16*
+br: label
+load: i32*
+icmp: i32 i32
+br: i1 label label
+load: i32*
+load: i8**
+load: i32*
+sdiv: i32 i32
+sext: i32
+getelementptr: i8* i64
+bitcast: i8*
+store: i32 i32*
+br: label
+br: label 
+br: label 
+br: label
+load: i32*
+mul: i32 i32
+load: i32*
+add: i32 i32
+store: i32 i32*
+br: label
+load: %struct._object**
+store: %struct._object* %struct._object**
+br: label
+load: %struct._object**
+ret: %struct._object*
+END FUNCTION:audioop_tomono

@@ -1,0 +1,1381 @@
+<clones>
+<systeminfo processor="nicad5" system="gcj" granularity="functions-blind" threshold="40%" minlines="1" maxlines="2500"/>
+<cloneinfo npcs="666" npairs="275"/>
+<runinfo ncompares="67831" cputime="69529"/>
+
+<clone nlines="141" similarity="97">
+<source file="systems/gcj/stable-neigh-bors_PetrosN.c.ifdefed" startline="6" endline="74" pcid="483"></source>
+<source file="systems/gcj/stable-neigh-bors_papachristoumarios.c.ifdefed" startline="6" endline="76" pcid="583"></source>
+</clone>
+
+<clone nlines="53" similarity="87">
+<source file="systems/gcj/alphabet-cake_Vishu2421.c.ifdefed" startline="19" endline="89" pcid="635"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="22" endline="101" pcid="424"></source>
+</clone>
+
+<clone nlines="53" similarity="87">
+<source file="systems/gcj/alphabet-cake_Aaby.c.ifdefed" startline="24" endline="99" pcid="85"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="22" endline="101" pcid="424"></source>
+</clone>
+
+<clone nlines="50" similarity="100">
+<source file="systems/gcj/alphabet-cake_Vishu2421.c.ifdefed" startline="19" endline="89" pcid="635"></source>
+<source file="systems/gcj/alphabet-cake_Aaby.c.ifdefed" startline="24" endline="99" pcid="85"></source>
+</clone>
+
+<clone nlines="43" similarity="68">
+<source file="systems/gcj/fashion-show_debad.c.ifdefed" startline="8" endline="53" pcid="43"></source>
+<source file="systems/gcj/fashion-show_debad.c.ifdefed" startline="55" endline="91" pcid="44"></source>
+</clone>
+
+<clone nlines="35" similarity="66">
+<source file="systems/gcj/infinite-house-of-pancakes_sas6137.c.ifdefed" startline="7" endline="52" pcid="566"></source>
+<source file="systems/gcj/standing-ovation_sas6137.c.ifdefed" startline="5" endline="47" pcid="519"></source>
+</clone>
+
+<clone nlines="21" similarity="68">
+<source file="systems/gcj/counter-culture_edusoto.c.ifdefed" startline="54" endline="78" pcid="600"></source>
+<source file="systems/gcj/fractiles_alsoba.c.ifdefed" startline="18" endline="41" pcid="188"></source>
+</clone>
+
+<clone nlines="21" similarity="68">
+<source file="systems/gcj/counter-culture_edusoto.c.ifdefed" startline="54" endline="78" pcid="600"></source>
+<source file="systems/gcj/the-last-word_alsoba.c.ifdefed" startline="32" endline="55" pcid="352"></source>
+</clone>
+
+<clone nlines="19" similarity="70">
+<source file="systems/gcj/bff_dooglius.c.ifdefed" startline="58" endline="74" pcid="232"></source>
+<source file="systems/gcj/bff_dooglius.c.ifdefed" startline="76" endline="95" pcid="233"></source>
+</clone>
+
+<clone nlines="20" similarity="75">
+<source file="systems/gcj/infinite-house-of-pancakes_PKu.c.ifdefed" startline="4" endline="26" pcid="484"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_Charyl.c.ifdefed" startline="8" endline="27" pcid="211"></source>
+</clone>
+
+<clone nlines="20" similarity="100">
+<source file="systems/gcj/the-last-word_alsoba.c.ifdefed" startline="32" endline="55" pcid="352"></source>
+<source file="systems/gcj/fractiles_alsoba.c.ifdefed" startline="18" endline="41" pcid="188"></source>
+</clone>
+
+<clone nlines="20" similarity="60">
+<source file="systems/gcj/rank-and-file_Sempr.c.ifdefed" startline="4" endline="22" pcid="302"></source>
+<source file="systems/gcj/rank-and-file_WhiteShadow.c.ifdefed" startline="8" endline="27" pcid="207"></source>
+</clone>
+
+<clone nlines="19" similarity="63">
+<source file="systems/gcj/standing-ovation_niquefa.diego.c.ifdefed" startline="8" endline="27" pcid="266"></source>
+<source file="systems/gcj/standing-ovation_DeerWay.c.ifdefed" startline="3" endline="25" pcid="472"></source>
+</clone>
+
+<clone nlines="16" similarity="77">
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="23" endline="43" pcid="431"></source>
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="46" endline="62" pcid="432"></source>
+</clone>
+
+<clone nlines="16" similarity="68">
+<source file="systems/gcj/core-training_XeR.c.ifdefed" startline="46" endline="65" pcid="119"></source>
+<source file="systems/gcj/steed-2-cruise-control_XeR.c.ifdefed" startline="36" endline="55" pcid="115"></source>
+</clone>
+
+<clone nlines="16" similarity="93">
+<source file="systems/gcj/close-match_shk10.c.ifdefed" startline="32" endline="45" pcid="56"></source>
+<source file="systems/gcj/close-match_shk10.c.ifdefed" startline="47" endline="60" pcid="57"></source>
+</clone>
+
+<clone nlines="15" similarity="100">
+<source file="systems/gcj/alphabet-cake_Vishu2421.c.ifdefed" startline="91" endline="108" pcid="636"></source>
+<source file="systems/gcj/alphabet-cake_Aaby.c.ifdefed" startline="105" endline="127" pcid="86"></source>
+</clone>
+
+<clone nlines="15" similarity="86">
+<source file="systems/gcj/alphabet-cake_Vishu2421.c.ifdefed" startline="91" endline="108" pcid="636"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="106" endline="123" pcid="425"></source>
+</clone>
+
+<clone nlines="15" similarity="93">
+<source file="systems/gcj/close-match_Backspe.c.ifdefed" startline="10" endline="25" pcid="164"></source>
+<source file="systems/gcj/close-match_Backspe.c.ifdefed" startline="27" endline="42" pcid="165"></source>
+</clone>
+
+<clone nlines="15" similarity="66">
+<source file="systems/gcj/bff_shk10.c.ifdefed" startline="44" endline="58" pcid="532"></source>
+<source file="systems/gcj/bff_hamadu.c.ifdefed" startline="56" endline="70" pcid="280"></source>
+</clone>
+
+<clone nlines="12" similarity="60">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="47" endline="57" pcid="561"></source>
+<source file="systems/gcj/bff_shk10.c.ifdefed" startline="44" endline="58" pcid="532"></source>
+</clone>
+
+<clone nlines="15" similarity="86">
+<source file="systems/gcj/alphabet-cake_Aaby.c.ifdefed" startline="105" endline="127" pcid="86"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="106" endline="123" pcid="425"></source>
+</clone>
+
+<clone nlines="11" similarity="90">
+<source file="systems/gcj/dijkstra_LevinLMKwong.c.ifdefed" startline="5" endline="14" pcid="242"></source>
+<source file="systems/gcj/dijkstra_LevinLMKwong.c.ifdefed" startline="15" endline="24" pcid="243"></source>
+</clone>
+
+<clone nlines="11" similarity="100">
+<source file="systems/gcj/dijkstra_LevinLMKwong.c.ifdefed" startline="5" endline="14" pcid="242"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="4" endline="13" pcid="572"></source>
+</clone>
+
+<clone nlines="11" similarity="90">
+<source file="systems/gcj/dijkstra_LevinLMKwong.c.ifdefed" startline="15" endline="24" pcid="243"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="4" endline="13" pcid="572"></source>
+</clone>
+
+<clone nlines="11" similarity="63">
+<source file="systems/gcj/counting-sheep_aalapshah12297.c.ifdefed" startline="32" endline="44" pcid="421"></source>
+<source file="systems/gcj/revenge-of-the-pancakes_alan790712.c.ifdefed" startline="23" endline="36" pcid="542"></source>
+</clone>
+
+<clone nlines="11" similarity="63">
+<source file="systems/gcj/revenge-of-the-pancakes_hobermallow.c.ifdefed" startline="20" endline="31" pcid="400"></source>
+<source file="systems/gcj/revenge-of-the-pancakes_alan790712.c.ifdefed" startline="23" endline="36" pcid="542"></source>
+</clone>
+
+<clone nlines="10" similarity="72">
+<source file="systems/gcj/senate-evacuation_santosha.c.ifdefed" startline="86" endline="99" pcid="618"></source>
+<source file="systems/gcj/revenge-of-the-pancakes_alan790712.c.ifdefed" startline="23" endline="36" pcid="542"></source>
+</clone>
+
+<clone nlines="10" similarity="63">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="47" endline="57" pcid="561"></source>
+<source file="systems/gcj/revenge-of-the-pancakes_alan790712.c.ifdefed" startline="23" endline="36" pcid="542"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/stable-neigh-bors_Rudolph..c.ifdefed" startline="82" endline="94" pcid="99"></source>
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="118" endline="132" pcid="436"></source>
+</clone>
+
+<clone nlines="9" similarity="60">
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="118" endline="132" pcid="436"></source>
+<source file="systems/gcj/tidy-numbers_trainsick.c.ifdefed" startline="21" endline="28" pcid="202"></source>
+</clone>
+
+<clone nlines="9" similarity="60">
+<source file="systems/gcj/fractiles_stschudi42.c.ifdefed" startline="91" endline="97" pcid="346"></source>
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="118" endline="132" pcid="436"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/parenting-partnering_Rudolph..c.ifdefed" startline="147" endline="159" pcid="83"></source>
+<source file="systems/gcj/close-match_shk10.c.ifdefed" startline="87" endline="97" pcid="60"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/counting-sheep_aalapshah12297.c.ifdefed" startline="32" endline="44" pcid="421"></source>
+<source file="systems/gcj/close-match_shk10.c.ifdefed" startline="87" endline="97" pcid="60"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/stable-neigh-bors_Rudolph..c.ifdefed" startline="82" endline="94" pcid="99"></source>
+<source file="systems/gcj/close-match_shk10.c.ifdefed" startline="87" endline="97" pcid="60"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/senate-evacuation_santosha.c.ifdefed" startline="86" endline="99" pcid="618"></source>
+<source file="systems/gcj/close-match_shk10.c.ifdefed" startline="87" endline="97" pcid="60"></source>
+</clone>
+
+<clone nlines="10" similarity="70">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="47" endline="57" pcid="561"></source>
+<source file="systems/gcj/close-match_shk10.c.ifdefed" startline="87" endline="97" pcid="60"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/counter-culture_AxiomOfChoice.c.ifdefed" startline="55" endline="66" pcid="317"></source>
+<source file="systems/gcj/close-match_akdee.c.ifdefed" startline="85" endline="94" pcid="416"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/bff_dooglius.c.ifdefed" startline="45" endline="54" pcid="231"></source>
+<source file="systems/gcj/counter-culture_AxiomOfChoice.c.ifdefed" startline="55" endline="66" pcid="317"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/counter-culture_AxiomOfChoice.c.ifdefed" startline="55" endline="66" pcid="317"></source>
+<source file="systems/gcj/tidy-numbers_akshay.rajput.c.ifdefed" startline="27" endline="37" pcid="122"></source>
+</clone>
+
+<clone nlines="10" similarity="90">
+<source file="systems/gcj/parenting-partnering_Rudolph..c.ifdefed" startline="147" endline="159" pcid="83"></source>
+<source file="systems/gcj/stable-neigh-bors_Rudolph..c.ifdefed" startline="82" endline="94" pcid="99"></source>
+</clone>
+
+<clone nlines="10" similarity="70">
+<source file="systems/gcj/parenting-partnering_Rudolph..c.ifdefed" startline="147" endline="159" pcid="83"></source>
+<source file="systems/gcj/senate-evacuation_santosha.c.ifdefed" startline="86" endline="99" pcid="618"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/parenting-partnering_Rudolph..c.ifdefed" startline="147" endline="159" pcid="83"></source>
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="47" endline="57" pcid="561"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/revenge-of-the-pancakes_BrainSteel.c.ifdefed" startline="107" endline="118" pcid="33"></source>
+<source file="systems/gcj/revenge-of-the-pancakes_hobermallow.c.ifdefed" startline="20" endline="31" pcid="400"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/fresh-chocolate_hidden1.c.ifdefed" startline="40" endline="50" pcid="359"></source>
+<source file="systems/gcj/senate-evacuation_santosha.c.ifdefed" startline="86" endline="99" pcid="618"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/counting-sheep_aalapshah12297.c.ifdefed" startline="32" endline="44" pcid="421"></source>
+<source file="systems/gcj/senate-evacuation_santosha.c.ifdefed" startline="86" endline="99" pcid="618"></source>
+</clone>
+
+<clone nlines="10" similarity="70">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="47" endline="57" pcid="561"></source>
+<source file="systems/gcj/counting-sheep_aalapshah12297.c.ifdefed" startline="32" endline="44" pcid="421"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/tidy-numbers_akshay.rajput.c.ifdefed" startline="27" endline="37" pcid="122"></source>
+<source file="systems/gcj/close-match_akdee.c.ifdefed" startline="85" endline="94" pcid="416"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/stable-neigh-bors_xylo.c.ifdefed" startline="88" endline="97" pcid="214"></source>
+<source file="systems/gcj/bff_dooglius.c.ifdefed" startline="45" endline="54" pcid="231"></source>
+</clone>
+
+<clone nlines="9" similarity="60">
+<source file="systems/gcj/bff_dooglius.c.ifdefed" startline="45" endline="54" pcid="231"></source>
+<source file="systems/gcj/haircut_xylo.c.ifdefed" startline="47" endline="54" pcid="319"></source>
+</clone>
+
+<clone nlines="9" similarity="70">
+<source file="systems/gcj/stable-neigh-bors_xylo.c.ifdefed" startline="88" endline="97" pcid="214"></source>
+<source file="systems/gcj/haircut_xylo.c.ifdefed" startline="47" endline="54" pcid="319"></source>
+</clone>
+
+<clone nlines="10" similarity="70">
+<source file="systems/gcj/stable-neigh-bors_Rudolph..c.ifdefed" startline="82" endline="94" pcid="99"></source>
+<source file="systems/gcj/senate-evacuation_santosha.c.ifdefed" startline="86" endline="99" pcid="618"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="47" endline="57" pcid="561"></source>
+<source file="systems/gcj/stable-neigh-bors_Rudolph..c.ifdefed" startline="82" endline="94" pcid="99"></source>
+</clone>
+
+<clone nlines="10" similarity="70">
+<source file="systems/gcj/alphabet-cake_Vishu2421.c.ifdefed" startline="4" endline="15" pcid="634"></source>
+<source file="systems/gcj/fashion-show_hikalium.c.ifdefed" startline="15" endline="25" pcid="601"></source>
+</clone>
+
+<clone nlines="10" similarity="70">
+<source file="systems/gcj/alphabet-cake_Aaby.c.ifdefed" startline="6" endline="19" pcid="84"></source>
+<source file="systems/gcj/fashion-show_hikalium.c.ifdefed" startline="15" endline="25" pcid="601"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/revenge-of-the-pancakes_hobermallow.c.ifdefed" startline="20" endline="31" pcid="400"></source>
+<source file="systems/gcj/senate-evacuation_santosha.c.ifdefed" startline="86" endline="99" pcid="618"></source>
+</clone>
+
+<clone nlines="10" similarity="60">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="47" endline="57" pcid="561"></source>
+<source file="systems/gcj/revenge-of-the-pancakes_hobermallow.c.ifdefed" startline="20" endline="31" pcid="400"></source>
+</clone>
+
+<clone nlines="9" similarity="88">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="47" endline="57" pcid="561"></source>
+<source file="systems/gcj/senate-evacuation_santosha.c.ifdefed" startline="86" endline="99" pcid="618"></source>
+</clone>
+
+<clone nlines="9" similarity="100">
+<source file="systems/gcj/alphabet-cake_Vishu2421.c.ifdefed" startline="4" endline="15" pcid="634"></source>
+<source file="systems/gcj/alphabet-cake_Aaby.c.ifdefed" startline="6" endline="19" pcid="84"></source>
+</clone>
+
+<clone nlines="8" similarity="66">
+<source file="systems/gcj/core-training_XeR.c.ifdefed" startline="8" endline="15" pcid="117"></source>
+<source file="systems/gcj/core-training_Asrael.c.ifdefed" startline="6" endline="14" pcid="579"></source>
+</clone>
+
+<clone nlines="9" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="8" endline="14" pcid="235"></source>
+<source file="systems/gcj/haircut_doodhwala.c.ifdefed" startline="85" endline="95" pcid="444"></source>
+</clone>
+
+<clone nlines="9" similarity="66">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="47" endline="57" pcid="561"></source>
+<source file="systems/gcj/tidy-numbers_trainsick.c.ifdefed" startline="21" endline="28" pcid="202"></source>
+</clone>
+
+<clone nlines="8" similarity="62">
+<source file="systems/gcj/haircut_hychen.c.ifdefed" startline="6" endline="13" pcid="457"></source>
+<source file="systems/gcj/fractiles_BrainSteel.c.ifdefed" startline="37" endline="44" pcid="168"></source>
+</clone>
+
+<clone nlines="8" similarity="62">
+<source file="systems/gcj/haircut_hychen.c.ifdefed" startline="6" endline="13" pcid="457"></source>
+<source file="systems/gcj/dijkstra_antalg.c.ifdefed" startline="13" endline="22" pcid="328"></source>
+</clone>
+
+<clone nlines="8" similarity="62">
+<source file="systems/gcj/haircut_doodhwala.c.ifdefed" startline="69" endline="78" pcid="442"></source>
+<source file="systems/gcj/haircut_chiguri.c.ifdefed" startline="17" endline="24" pcid="297"></source>
+</clone>
+
+<clone nlines="8" similarity="75">
+<source file="systems/gcj/counter-culture_AxiomOfChoice.c.ifdefed" startline="8" endline="17" pcid="314"></source>
+<source file="systems/gcj/counter-culture_kdb.c.ifdefed" startline="4" endline="13" pcid="657"></source>
+</clone>
+
+<clone nlines="8" similarity="62">
+<source file="systems/gcj/alphabet-cake_Ioannis70.c.ifdefed" startline="27" endline="34" pcid="584"></source>
+<source file="systems/gcj/alphabet-cake_Ioannis70.c.ifdefed" startline="107" endline="116" pcid="589"></source>
+</clone>
+
+<clone nlines="8" similarity="62">
+<source file="systems/gcj/dijkstra_antalg.c.ifdefed" startline="13" endline="22" pcid="328"></source>
+<source file="systems/gcj/fractiles_BrainSteel.c.ifdefed" startline="37" endline="44" pcid="168"></source>
+</clone>
+
+<clone nlines="8" similarity="62">
+<source file="systems/gcj/dijkstra_antalg.c.ifdefed" startline="13" endline="22" pcid="328"></source>
+<source file="systems/gcj/senate-evacuation_thug.life.c.ifdefed" startline="101" endline="110" pcid="460"></source>
+</clone>
+
+<clone nlines="8" similarity="62">
+<source file="systems/gcj/counter-culture_AxiomOfChoice.c.ifdefed" startline="8" endline="17" pcid="314"></source>
+<source file="systems/gcj/counter-culture_AxiomOfChoice.c.ifdefed" startline="19" endline="28" pcid="315"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/parenting-partnering_tatuyan.c.ifdefed" startline="14" endline="19" pcid="300"></source>
+<source file="systems/gcj/steed-2-cruise-control_tatuyan.c.ifdefed" startline="16" endline="21" pcid="404"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/fractiles_caf.c.ifdefed" startline="44" endline="54" pcid="645"></source>
+<source file="systems/gcj/steed-2-cruise-control_tatuyan.c.ifdefed" startline="16" endline="21" pcid="404"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/ample-syrup_tatuyan.c.ifdefed" startline="17" endline="22" pcid="322"></source>
+<source file="systems/gcj/steed-2-cruise-control_tatuyan.c.ifdefed" startline="16" endline="21" pcid="404"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/dijkstra_caf.c.ifdefed" startline="215" endline="225" pcid="268"></source>
+<source file="systems/gcj/steed-2-cruise-control_tatuyan.c.ifdefed" startline="16" endline="21" pcid="404"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/slides_caf.c.ifdefed" startline="42" endline="52" pcid="388"></source>
+<source file="systems/gcj/steed-2-cruise-control_tatuyan.c.ifdefed" startline="16" endline="21" pcid="404"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/steed-2-cruise-control_tatuyan.c.ifdefed" startline="16" endline="21" pcid="404"></source>
+<source file="systems/gcj/pony-express_tatuyan.c.ifdefed" startline="5" endline="10" pcid="13"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/rank-and-file_caf.c.ifdefed" startline="32" endline="42" pcid="196"></source>
+<source file="systems/gcj/steed-2-cruise-control_tatuyan.c.ifdefed" startline="16" endline="21" pcid="404"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/parenting-partnering_tatuyan.c.ifdefed" startline="14" endline="19" pcid="300"></source>
+<source file="systems/gcj/fractiles_caf.c.ifdefed" startline="44" endline="54" pcid="645"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/parenting-partnering_tatuyan.c.ifdefed" startline="14" endline="19" pcid="300"></source>
+<source file="systems/gcj/ample-syrup_tatuyan.c.ifdefed" startline="17" endline="22" pcid="322"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/parenting-partnering_tatuyan.c.ifdefed" startline="14" endline="19" pcid="300"></source>
+<source file="systems/gcj/dijkstra_caf.c.ifdefed" startline="215" endline="225" pcid="268"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/parenting-partnering_tatuyan.c.ifdefed" startline="14" endline="19" pcid="300"></source>
+<source file="systems/gcj/slides_caf.c.ifdefed" startline="42" endline="52" pcid="388"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/parenting-partnering_tatuyan.c.ifdefed" startline="14" endline="19" pcid="300"></source>
+<source file="systems/gcj/pony-express_tatuyan.c.ifdefed" startline="5" endline="10" pcid="13"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/parenting-partnering_tatuyan.c.ifdefed" startline="14" endline="19" pcid="300"></source>
+<source file="systems/gcj/rank-and-file_caf.c.ifdefed" startline="32" endline="42" pcid="196"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/ample-syrup_tatuyan.c.ifdefed" startline="17" endline="22" pcid="322"></source>
+<source file="systems/gcj/fractiles_caf.c.ifdefed" startline="44" endline="54" pcid="645"></source>
+</clone>
+
+<clone nlines="7" similarity="85">
+<source file="systems/gcj/fractiles_caf.c.ifdefed" startline="44" endline="54" pcid="645"></source>
+<source file="systems/gcj/stable-neigh-bors_ulyr.c.ifdefed" startline="95" endline="101" pcid="149"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/dijkstra_caf.c.ifdefed" startline="215" endline="225" pcid="268"></source>
+<source file="systems/gcj/fractiles_caf.c.ifdefed" startline="44" endline="54" pcid="645"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/slides_caf.c.ifdefed" startline="42" endline="52" pcid="388"></source>
+<source file="systems/gcj/fractiles_caf.c.ifdefed" startline="44" endline="54" pcid="645"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/fractiles_caf.c.ifdefed" startline="44" endline="54" pcid="645"></source>
+<source file="systems/gcj/pony-express_tatuyan.c.ifdefed" startline="5" endline="10" pcid="13"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/fractiles_caf.c.ifdefed" startline="44" endline="54" pcid="645"></source>
+<source file="systems/gcj/rank-and-file_caf.c.ifdefed" startline="32" endline="42" pcid="196"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/pony-express_stubbscroll.c.ifdefed" startline="42" endline="47" pcid="77"></source>
+<source file="systems/gcj/stable-neigh-bors_stubbscroll.c.ifdefed" startline="53" endline="58" pcid="355"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/bff_stubbscroll.c.ifdefed" startline="40" endline="45" pcid="19"></source>
+<source file="systems/gcj/stable-neigh-bors_stubbscroll.c.ifdefed" startline="53" endline="58" pcid="355"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/parenting-partnering_stubbscroll.c.ifdefed" startline="43" endline="48" pcid="648"></source>
+<source file="systems/gcj/stable-neigh-bors_stubbscroll.c.ifdefed" startline="53" endline="58" pcid="355"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/stable-neigh-bors_stubbscroll.c.ifdefed" startline="53" endline="58" pcid="355"></source>
+<source file="systems/gcj/bathroom-stalls_stubbscroll.c.ifdefed" startline="74" endline="79" pcid="72"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="46" endline="51" pcid="273"></source>
+<source file="systems/gcj/stable-neigh-bors_stubbscroll.c.ifdefed" startline="53" endline="58" pcid="355"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/core-training_stubbscroll.c.ifdefed" startline="29" endline="34" pcid="488"></source>
+<source file="systems/gcj/stable-neigh-bors_stubbscroll.c.ifdefed" startline="53" endline="58" pcid="355"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/stable-neigh-bors_stubbscroll.c.ifdefed" startline="53" endline="58" pcid="355"></source>
+<source file="systems/gcj/ample-syrup_stubbscroll.c.ifdefed" startline="32" endline="37" pcid="383"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/pony-express_stubbscroll.c.ifdefed" startline="42" endline="47" pcid="77"></source>
+<source file="systems/gcj/bff_stubbscroll.c.ifdefed" startline="40" endline="45" pcid="19"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/pony-express_stubbscroll.c.ifdefed" startline="42" endline="47" pcid="77"></source>
+<source file="systems/gcj/parenting-partnering_stubbscroll.c.ifdefed" startline="43" endline="48" pcid="648"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/pony-express_stubbscroll.c.ifdefed" startline="42" endline="47" pcid="77"></source>
+<source file="systems/gcj/bathroom-stalls_stubbscroll.c.ifdefed" startline="74" endline="79" pcid="72"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="46" endline="51" pcid="273"></source>
+<source file="systems/gcj/pony-express_stubbscroll.c.ifdefed" startline="42" endline="47" pcid="77"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/pony-express_stubbscroll.c.ifdefed" startline="42" endline="47" pcid="77"></source>
+<source file="systems/gcj/core-training_stubbscroll.c.ifdefed" startline="29" endline="34" pcid="488"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/pony-express_stubbscroll.c.ifdefed" startline="42" endline="47" pcid="77"></source>
+<source file="systems/gcj/ample-syrup_stubbscroll.c.ifdefed" startline="32" endline="37" pcid="383"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/dijkstra_caf.c.ifdefed" startline="215" endline="225" pcid="268"></source>
+<source file="systems/gcj/ample-syrup_tatuyan.c.ifdefed" startline="17" endline="22" pcid="322"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/slides_caf.c.ifdefed" startline="42" endline="52" pcid="388"></source>
+<source file="systems/gcj/ample-syrup_tatuyan.c.ifdefed" startline="17" endline="22" pcid="322"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/ample-syrup_tatuyan.c.ifdefed" startline="17" endline="22" pcid="322"></source>
+<source file="systems/gcj/pony-express_tatuyan.c.ifdefed" startline="5" endline="10" pcid="13"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/ample-syrup_tatuyan.c.ifdefed" startline="17" endline="22" pcid="322"></source>
+<source file="systems/gcj/rank-and-file_caf.c.ifdefed" startline="32" endline="42" pcid="196"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/bff_stubbscroll.c.ifdefed" startline="40" endline="45" pcid="19"></source>
+<source file="systems/gcj/parenting-partnering_stubbscroll.c.ifdefed" startline="43" endline="48" pcid="648"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/bff_stubbscroll.c.ifdefed" startline="40" endline="45" pcid="19"></source>
+<source file="systems/gcj/bathroom-stalls_stubbscroll.c.ifdefed" startline="74" endline="79" pcid="72"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="46" endline="51" pcid="273"></source>
+<source file="systems/gcj/bff_stubbscroll.c.ifdefed" startline="40" endline="45" pcid="19"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/core-training_stubbscroll.c.ifdefed" startline="29" endline="34" pcid="488"></source>
+<source file="systems/gcj/bff_stubbscroll.c.ifdefed" startline="40" endline="45" pcid="19"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/bff_stubbscroll.c.ifdefed" startline="40" endline="45" pcid="19"></source>
+<source file="systems/gcj/ample-syrup_stubbscroll.c.ifdefed" startline="32" endline="37" pcid="383"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/ominous-omino_cjoa.c.ifdefed" startline="12" endline="16" pcid="24"></source>
+<source file="systems/gcj/ominous-omino_cjoa.c.ifdefed" startline="18" endline="22" pcid="25"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/parenting-partnering_stubbscroll.c.ifdefed" startline="43" endline="48" pcid="648"></source>
+<source file="systems/gcj/bathroom-stalls_stubbscroll.c.ifdefed" startline="74" endline="79" pcid="72"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="46" endline="51" pcid="273"></source>
+<source file="systems/gcj/parenting-partnering_stubbscroll.c.ifdefed" startline="43" endline="48" pcid="648"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/core-training_stubbscroll.c.ifdefed" startline="29" endline="34" pcid="488"></source>
+<source file="systems/gcj/parenting-partnering_stubbscroll.c.ifdefed" startline="43" endline="48" pcid="648"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/parenting-partnering_stubbscroll.c.ifdefed" startline="43" endline="48" pcid="648"></source>
+<source file="systems/gcj/ample-syrup_stubbscroll.c.ifdefed" startline="32" endline="37" pcid="383"></source>
+</clone>
+
+<clone nlines="7" similarity="85">
+<source file="systems/gcj/dijkstra_caf.c.ifdefed" startline="215" endline="225" pcid="268"></source>
+<source file="systems/gcj/stable-neigh-bors_ulyr.c.ifdefed" startline="95" endline="101" pcid="149"></source>
+</clone>
+
+<clone nlines="7" similarity="85">
+<source file="systems/gcj/slides_caf.c.ifdefed" startline="42" endline="52" pcid="388"></source>
+<source file="systems/gcj/stable-neigh-bors_ulyr.c.ifdefed" startline="95" endline="101" pcid="149"></source>
+</clone>
+
+<clone nlines="7" similarity="85">
+<source file="systems/gcj/rank-and-file_caf.c.ifdefed" startline="32" endline="42" pcid="196"></source>
+<source file="systems/gcj/stable-neigh-bors_ulyr.c.ifdefed" startline="95" endline="101" pcid="149"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="46" endline="51" pcid="273"></source>
+<source file="systems/gcj/bathroom-stalls_stubbscroll.c.ifdefed" startline="74" endline="79" pcid="72"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/core-training_stubbscroll.c.ifdefed" startline="29" endline="34" pcid="488"></source>
+<source file="systems/gcj/bathroom-stalls_stubbscroll.c.ifdefed" startline="74" endline="79" pcid="72"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/ample-syrup_stubbscroll.c.ifdefed" startline="32" endline="37" pcid="383"></source>
+<source file="systems/gcj/bathroom-stalls_stubbscroll.c.ifdefed" startline="74" endline="79" pcid="72"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="46" endline="51" pcid="273"></source>
+<source file="systems/gcj/core-training_stubbscroll.c.ifdefed" startline="29" endline="34" pcid="488"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="46" endline="51" pcid="273"></source>
+<source file="systems/gcj/ample-syrup_stubbscroll.c.ifdefed" startline="32" endline="37" pcid="383"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/dijkstra_caf.c.ifdefed" startline="215" endline="225" pcid="268"></source>
+<source file="systems/gcj/slides_caf.c.ifdefed" startline="42" endline="52" pcid="388"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/dijkstra_caf.c.ifdefed" startline="215" endline="225" pcid="268"></source>
+<source file="systems/gcj/pony-express_tatuyan.c.ifdefed" startline="5" endline="10" pcid="13"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/dijkstra_caf.c.ifdefed" startline="215" endline="225" pcid="268"></source>
+<source file="systems/gcj/rank-and-file_caf.c.ifdefed" startline="32" endline="42" pcid="196"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/slides_caf.c.ifdefed" startline="42" endline="52" pcid="388"></source>
+<source file="systems/gcj/pony-express_tatuyan.c.ifdefed" startline="5" endline="10" pcid="13"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/slides_caf.c.ifdefed" startline="42" endline="52" pcid="388"></source>
+<source file="systems/gcj/rank-and-file_caf.c.ifdefed" startline="32" endline="42" pcid="196"></source>
+</clone>
+
+<clone nlines="7" similarity="71">
+<source file="systems/gcj/rank-and-file_caf.c.ifdefed" startline="32" endline="42" pcid="196"></source>
+<source file="systems/gcj/pony-express_tatuyan.c.ifdefed" startline="5" endline="10" pcid="13"></source>
+</clone>
+
+<clone nlines="7" similarity="100">
+<source file="systems/gcj/core-training_stubbscroll.c.ifdefed" startline="29" endline="34" pcid="488"></source>
+<source file="systems/gcj/ample-syrup_stubbscroll.c.ifdefed" startline="32" endline="37" pcid="383"></source>
+</clone>
+
+<clone nlines="6" similarity="66">
+<source file="systems/gcj/bff_TinyNight.c.ifdefed" startline="3" endline="8" pcid="562"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="17" endline="20" pcid="574"></source>
+</clone>
+
+<clone nlines="6" similarity="66">
+<source file="systems/gcj/senate-evacuation_hobermallow.c.ifdefed" startline="4" endline="9" pcid="649"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="17" endline="20" pcid="574"></source>
+</clone>
+
+<clone nlines="6" similarity="66">
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="17" endline="20" pcid="574"></source>
+<source file="systems/gcj/fractiles_alsoba.c.ifdefed" startline="5" endline="8" pcid="186"></source>
+</clone>
+
+<clone nlines="6" similarity="66">
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="17" endline="20" pcid="574"></source>
+<source file="systems/gcj/steed-2-cruise-control_yudhik.c.ifdefed" startline="3" endline="6" pcid="310"></source>
+</clone>
+
+<clone nlines="6" similarity="83">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="10" endline="14" pcid="559"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="17" endline="20" pcid="574"></source>
+</clone>
+
+<clone nlines="6" similarity="66">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="5" endline="9" pcid="558"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="17" endline="20" pcid="574"></source>
+</clone>
+
+<clone nlines="6" similarity="66">
+<source file="systems/gcj/bff_TinyNight.c.ifdefed" startline="3" endline="8" pcid="562"></source>
+<source file="systems/gcj/senate-evacuation_hobermallow.c.ifdefed" startline="4" endline="9" pcid="649"></source>
+</clone>
+
+<clone nlines="6" similarity="66">
+<source file="systems/gcj/bff_TinyNight.c.ifdefed" startline="3" endline="8" pcid="562"></source>
+<source file="systems/gcj/fractiles_alsoba.c.ifdefed" startline="5" endline="8" pcid="186"></source>
+</clone>
+
+<clone nlines="6" similarity="66">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="10" endline="14" pcid="559"></source>
+<source file="systems/gcj/bff_TinyNight.c.ifdefed" startline="3" endline="8" pcid="562"></source>
+</clone>
+
+<clone nlines="6" similarity="66">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="5" endline="9" pcid="558"></source>
+<source file="systems/gcj/bff_TinyNight.c.ifdefed" startline="3" endline="8" pcid="562"></source>
+</clone>
+
+<clone nlines="5" similarity="60">
+<source file="systems/gcj/parenting-partnering_Rudolph..c.ifdefed" startline="16" endline="21" pcid="80"></source>
+<source file="systems/gcj/senate-evacuation_santosha.c.ifdefed" startline="15" endline="22" pcid="616"></source>
+</clone>
+
+<clone nlines="5" similarity="100">
+<source file="systems/gcj/senate-evacuation_hobermallow.c.ifdefed" startline="4" endline="9" pcid="649"></source>
+<source file="systems/gcj/fractiles_alsoba.c.ifdefed" startline="5" endline="8" pcid="186"></source>
+</clone>
+
+<clone nlines="5" similarity="60">
+<source file="systems/gcj/senate-evacuation_hobermallow.c.ifdefed" startline="4" endline="9" pcid="649"></source>
+<source file="systems/gcj/steed-2-cruise-control_yudhik.c.ifdefed" startline="3" endline="6" pcid="310"></source>
+</clone>
+
+<clone nlines="5" similarity="80">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="10" endline="14" pcid="559"></source>
+<source file="systems/gcj/senate-evacuation_hobermallow.c.ifdefed" startline="4" endline="9" pcid="649"></source>
+</clone>
+
+<clone nlines="5" similarity="100">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="5" endline="9" pcid="558"></source>
+<source file="systems/gcj/senate-evacuation_hobermallow.c.ifdefed" startline="4" endline="9" pcid="649"></source>
+</clone>
+
+<clone nlines="5" similarity="60">
+<source file="systems/gcj/steed-2-cruise-control_yudhik.c.ifdefed" startline="3" endline="6" pcid="310"></source>
+<source file="systems/gcj/fractiles_alsoba.c.ifdefed" startline="5" endline="8" pcid="186"></source>
+</clone>
+
+<clone nlines="5" similarity="80">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="10" endline="14" pcid="559"></source>
+<source file="systems/gcj/fractiles_alsoba.c.ifdefed" startline="5" endline="8" pcid="186"></source>
+</clone>
+
+<clone nlines="5" similarity="100">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="5" endline="9" pcid="558"></source>
+<source file="systems/gcj/fractiles_alsoba.c.ifdefed" startline="5" endline="8" pcid="186"></source>
+</clone>
+
+<clone nlines="5" similarity="80">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="10" endline="14" pcid="559"></source>
+<source file="systems/gcj/steed-2-cruise-control_yudhik.c.ifdefed" startline="3" endline="6" pcid="310"></source>
+</clone>
+
+<clone nlines="5" similarity="60">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="5" endline="9" pcid="558"></source>
+<source file="systems/gcj/steed-2-cruise-control_yudhik.c.ifdefed" startline="3" endline="6" pcid="310"></source>
+</clone>
+
+<clone nlines="5" similarity="80">
+<source file="systems/gcj/bathroom-stalls_debad.c.ifdefed" startline="39" endline="42" pcid="306"></source>
+<source file="systems/gcj/bathroom-stalls_debad.c.ifdefed" startline="44" endline="47" pcid="307"></source>
+</clone>
+
+<clone nlines="5" similarity="80">
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="5" endline="9" pcid="558"></source>
+<source file="systems/gcj/ominous-omino_saiz.c.ifdefed" startline="10" endline="14" pcid="559"></source>
+</clone>
+
+<clone nlines="4" similarity="60">
+<source file="systems/gcj/ominous-omino_cjoa.c.ifdefed" startline="3" endline="5" pcid="22"></source>
+<source file="systems/gcj/ominous-omino_cjoa.c.ifdefed" startline="7" endline="10" pcid="23"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="4" endline="4" pcid="384"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="19" endline="19" pcid="429"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/parenting-partnering_MechanicalTurd.c.ifdefed" startline="8" endline="8" pcid="203"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="72" endline="75" pcid="129"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+<source file="systems/gcj/bff_Tjandra.c.ifdefed" startline="3" endline="3" pcid="326"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="20" endline="20" pcid="430"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/fresh-chocolate_Saheb.preet.c.ifdefed" startline="67" endline="70" pcid="128"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/getting-the-digits_HonMing.c.ifdefed" startline="5" endline="8" pcid="356"></source>
+<source file="systems/gcj/fresh-chocolate_HonMing.c.ifdefed" startline="5" endline="8" pcid="641"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/getting-the-digits_kyunglaeya.c.ifdefed" startline="111" endline="113" pcid="278"></source>
+<source file="systems/gcj/getting-the-digits_HonMing.c.ifdefed" startline="5" endline="8" pcid="356"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="19" endline="19" pcid="429"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+<source file="systems/gcj/parenting-partnering_MechanicalTurd.c.ifdefed" startline="8" endline="8" pcid="203"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="39" endline="41" pcid="239"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/bathroom-stalls_Noble.Mushtak.c.ifdefed" startline="9" endline="9" pcid="365"></source>
+<source file="systems/gcj/bathroom-stalls_Noble.Mushtak.c.ifdefed" startline="10" endline="10" pcid="366"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/rank-and-file_hobermallow.c.ifdefed" startline="12" endline="15" pcid="492"></source>
+<source file="systems/gcj/senate-evacuation_Yakimo.c.ifdefed" startline="14" endline="17" pcid="221"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/rank-and-file_hobermallow.c.ifdefed" startline="12" endline="15" pcid="492"></source>
+<source file="systems/gcj/stable-neigh-bors_ulyr.c.ifdefed" startline="15" endline="17" pcid="146"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="19" endline="19" pcid="429"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+<source file="systems/gcj/parenting-partnering_MechanicalTurd.c.ifdefed" startline="8" endline="8" pcid="203"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/fresh-chocolate_stubbscroll.c.ifdefed" startline="8" endline="10" pcid="271"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/haircut_eama.c.ifdefed" startline="10" endline="13" pcid="174"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/senate-evacuation_Yakimo.c.ifdefed" startline="14" endline="17" pcid="221"></source>
+<source file="systems/gcj/stable-neigh-bors_ulyr.c.ifdefed" startline="15" endline="17" pcid="146"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/infinite-house-of-pancakes_LevinLMKwong.c.ifdefed" startline="14" endline="16" pcid="573"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="13" endline="13" pcid="422"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/core-training_Functional.c.ifdefed" startline="5" endline="5" pcid="385"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="19" endline="19" pcid="429"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+<source file="systems/gcj/parenting-partnering_MechanicalTurd.c.ifdefed" startline="8" endline="8" pcid="203"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/oversized-pancake-flipper_skazi.c.ifdefed" startline="5" endline="5" pcid="184"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/alphabet-cake_Aps07.c.ifdefed" startline="14" endline="14" pcid="423"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/getting-the-digits_kyunglaeya.c.ifdefed" startline="111" endline="113" pcid="278"></source>
+<source file="systems/gcj/fresh-chocolate_HonMing.c.ifdefed" startline="5" endline="8" pcid="641"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="17" endline="17" pcid="427"></source>
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="18" endline="18" pcid="428"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="20" endline="20" pcid="430"></source>
+<source file="systems/gcj/bff_Tjandra.c.ifdefed" startline="3" endline="3" pcid="326"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+<source file="systems/gcj/bff_Tjandra.c.ifdefed" startline="3" endline="3" pcid="326"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/bff_Tjandra.c.ifdefed" startline="3" endline="3" pcid="326"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/haircut_doodhwala.c.ifdefed" startline="80" endline="83" pcid="443"></source>
+<source file="systems/gcj/haircut_jupiterlover.c.ifdefed" startline="23" endline="26" pcid="497"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="19" endline="19" pcid="429"></source>
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="20" endline="20" pcid="430"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="19" endline="19" pcid="429"></source>
+<source file="systems/gcj/parenting-partnering_MechanicalTurd.c.ifdefed" startline="8" endline="8" pcid="203"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fractiles_stschudi42.c.ifdefed" startline="30" endline="32" pcid="341"></source>
+<source file="systems/gcj/fractiles_stschudi42.c.ifdefed" startline="34" endline="36" pcid="342"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fractiles_stschudi42.c.ifdefed" startline="26" endline="28" pcid="340"></source>
+<source file="systems/gcj/fractiles_stschudi42.c.ifdefed" startline="34" endline="36" pcid="342"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="20" endline="20" pcid="430"></source>
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/stable-neigh-bors_rompel.c.ifdefed" startline="20" endline="20" pcid="430"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/ample-syrup_piepie01.c.ifdefed" startline="8" endline="10" pcid="595"></source>
+<source file="systems/gcj/ample-syrup_piepie01.c.ifdefed" startline="11" endline="13" pcid="596"></source>
+</clone>
+
+<clone nlines="3" similarity="66">
+<source file="systems/gcj/fractiles_stschudi42.c.ifdefed" startline="26" endline="28" pcid="340"></source>
+<source file="systems/gcj/fractiles_stschudi42.c.ifdefed" startline="30" endline="32" pcid="341"></source>
+</clone>
+
+<clone nlines="3" similarity="100">
+<source file="systems/gcj/ample-syrup_sahuang.c.ifdefed" startline="35" endline="37" pcid="238"></source>
+<source file="systems/gcj/fresh-chocolate_hzyfr.c.ifdefed" startline="6" endline="7" pcid="439"></source>
+</clone>
+
+</clones>
